@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DicomContainer.cs" />
+    <Compile Include="MiscDicomFields.cs" />
+    <Compile Include="sPat.cs" />
     <Compile Include="ProtocolEditor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,7 +59,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sAngio.cs" />
+    <Compile Include="sFastImaging.cs" />
     <Compile Include="sKSpace.cs" />
+    <Compile Include="sPhysioImaging.cs" />
+    <Compile Include="sPrepPulses.cs" />
+    <Compile Include="test.cs" />
     <EmbeddedResource Include="ProtocolEditor.resx">
       <DependentUpon>ProtocolEditor.cs</DependentUpon>
     </EmbeddedResource>

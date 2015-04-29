@@ -7,22 +7,66 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection;
+
 
 namespace dcm2prot
 {
     public partial class Form1 : Form
     {
+
+        DicomContainer cDcm;
+
         public Form1()
         {
             InitializeComponent();
 
+            TestingTesting();
+
 //            this.tabGroup.Alignment = TabAlignment.Bottom;
                         
-            initProtocolEntries();
+            InitProtocolEntries();
 
         }
 
-        void initProtocolEntries()
+        void TestingTesting()
+        {
+            test DoThis = new test();
+            for (int i=0; i<10; i++)
+            {
+                DoThis.testArray[i] = i;
+                DoThis.testList.Add(i);
+
+            }
+            
+            PropertyInfo propInfo = DoThis.GetType().GetProperty("testArray");
+            PropertyInfo propInfo2 = DoThis.GetType().GetProperty("testInt");
+            Console.Write("Test 1: ");
+            Console.Write( DoThis.GetType().GetProperty("testInt") != null );
+            
+            Console.WriteLine(propInfo2.PropertyType.IsArray);
+            Console.Write("Test 2: ");
+            Console.WriteLine(propInfo.PropertyType.IsArray);
+
+            string testing = "sPhysioImaging.lPhases                   = 1";
+            string[] testing1 = testing.Split('=');
+            string[] testing2 = testing1[0].Split('.');
+            Console.WriteLine(testing2.Length);
+            string final = testing2[1];
+            for (int i = 0; i < (testing2.Length - 2); i++)
+            {
+                final += "_";
+                final += testing2[i + 2];
+            }
+            Console.WriteLine(final);
+
+
+            
+            Console.WriteLine("Finished");
+
+        }
+
+        void InitProtocolEntries()
         {
             Font textFont = new Font("Arial", 12.0f);
             string txtBoxName;
@@ -32,12 +76,13 @@ namespace dcm2prot
 
             tabPage_Resolution.BackColor = Color.LightGray;
 
-
+            // Set all textboxes
             List<Control> TxtBoxes = new List<Control>();
             FindControls(this, TxtBoxes, "textBox");
 
             foreach (TextBox tbox in TxtBoxes)
             {
+                // Separate "value" textboxes from "labels" by accessible name
                 tbox.Font = textFont;
                 txtBoxName = tbox.AccessibleName;
 
@@ -102,8 +147,7 @@ namespace dcm2prot
                 if (c.HasChildren) FindControls(c, list, name);
             }
         }
-
-        
+                
         private void Form1_DragDrop(object sender, DragEventArgs e)
         {
 
@@ -124,32 +168,34 @@ namespace dcm2prot
 
                 dec = Convert.ToInt32(fileBytes[i]);
 
-                if (dec == 10)
+                if ((dec == 10) || (dec != 10 && dec != 0))
                 {
                     charValue[0] = Convert.ToChar(dec);
                     sb.Append(charValue[0].ToString());
                 }
-                else if (dec != 10 && dec != 0)
-                {
-                    charValue[0] = Convert.ToChar(dec);
-                    sb.Append(charValue[0].ToString());
-                }
+                
             }
 
-            DicomContainer cDcm = new DicomContainer(sb.ToString());
+            // Upon construction of DicomContainer, necessary fields will be sorted.
+            cDcm = new DicomContainer(sb.ToString());
 
-            this.res13.Text = cDcm.cKSpace.lBaseResolution.ToString();
+            FillResolutionTab();
+        }
+
+        void FillResolutionTab()
+        {
+            this.textBox_res13.Text = cDcm.cKSpace.lBaseResolution.ToString();
             Console.WriteLine(cDcm.cKSpace.lBaseResolution.ToString());
-            this.res14.Text = cDcm.cKSpace.dPhaseResolution.ToString();
-            this.res15.Text = cDcm.cKSpace.dSliceResolution.ToString();
+            this.textBox_res14.Text = cDcm.cKSpace.dPhaseResolution.ToString();
+            this.textBox_res15.Text = cDcm.cKSpace.dSliceResolution.ToString();
             this.res16.SelectedIndex = cDcm.cKSpace.ucPhasePartialFourier;
             this.res17.SelectedIndex = cDcm.cKSpace.ucSlicePartialFourier;
-
         }
 
         private void Form1_DragEnter(object sender, DragEventArgs e)
         {
             e.Effect = DragDropEffects.All;
         }
+
     }
 }
