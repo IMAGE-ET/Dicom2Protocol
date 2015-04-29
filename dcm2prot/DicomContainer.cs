@@ -54,7 +54,7 @@ namespace dcm2prot
 
                 getClassAndPropertyAndPropertyValues(line);
 
-                Console.Write(propertyValue + " AND ");
+                Console.Write(propertyName + " AND " + propertyValue + " AND ");
                 Console.WriteLine(iArrayIndex);
 
 
@@ -161,8 +161,11 @@ namespace dcm2prot
 
                 propertyName = str;
                 SetArrayIndex(propertyName);
+                Console.WriteLine("Remove Brackets");
+                Console.WriteLine(propertyName);
                 propertyName = RemoveArrayBrackets(propertyName);
-                propertyName = Regex.Replace(str, " ", string.Empty);
+                Console.WriteLine(propertyName);
+                Console.WriteLine("Done Remove Brackets");
             }
             else
             {
@@ -182,9 +185,11 @@ namespace dcm2prot
                     propertyName += sProperty[i + 2];
                 }
 
-                // Remove all white space.
-                propertyName = Regex.Replace(sProperty[1], " ", string.Empty);
+
             }
+
+            // Remove all white space.
+            propertyName = Regex.Replace(propertyName, " ", string.Empty);
 
         }
 
@@ -218,7 +223,9 @@ namespace dcm2prot
             if ( obj.GetType().GetProperty(propertyName) != null )
             {
                 // Get the property value
-                PropertyInfo propInfo = obj.GetType().GetProperty(propertyName);                
+                PropertyInfo propInfo = obj.GetType().GetProperty(propertyName);
+
+                Console.WriteLine(propInfo.PropertyType.IsArray);
                 
                 // Convert propertyValue to the correct type
                 if ( propInfo.PropertyType == typeof(string) )
@@ -316,10 +323,7 @@ namespace dcm2prot
             // From stackoverflow, finding if an integer is a value of 2
             if (IsPowerOfTwo((ulong) tmp))
                 tmp = Math.Log(tmp,2);
-
-            Console.Write("HEX2DEC " + str + " ");
-            Console.WriteLine(tmp);
-
+            
             return Convert.ToString(tmp);
         }
 
