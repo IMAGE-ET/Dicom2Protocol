@@ -54,6 +54,10 @@ namespace dcm2prot
 
                 getClassAndPropertyAndPropertyValues(line);
 
+                Console.Write(propertyValue + " AND ");
+                Console.WriteLine(iArrayIndex);
+
+
                 switch (className)
                 {
                     case "sProtConsistencyInfo":
@@ -126,6 +130,13 @@ namespace dcm2prot
             }
             
             Console.WriteLine("Done Reading!");
+
+            // Testing MiscDicomFields
+            for (int i = 0; i < cMiscDicomFields.alTE.Length; i++)
+                Console.WriteLine(cMiscDicomFields.alTE[i]);
+            
+
+
         }
 
         public void getClassAndPropertyAndPropertyValues(string line)
@@ -157,9 +168,7 @@ namespace dcm2prot
             {
                 sProperty = str.Split('.');
                 className = sProperty[0];
-
-                Console.WriteLine(sProperty[1]);
-
+                
                 SetArrayIndex(sProperty);
 
                 // Removes all array brackets from every string in array
@@ -219,7 +228,8 @@ namespace dcm2prot
                 else if (propInfo.PropertyType.IsArray)
                 {
                     Array arr = (Array) propInfo.GetValue(obj, null);
-                    arr.SetValue(propertyValue, iArrayIndex);
+                    
+                    arr.SetValue(Convert.ToInt32(propertyValue), iArrayIndex);
                     propInfo.SetValue(obj, arr, null);
                 }
                 else
@@ -258,8 +268,10 @@ namespace dcm2prot
             if ( str.Contains('['))
             {
                 // Gets the FIRST array index it finds. Currently does NOT cover "asCoilSelectMeas"
-                string[] tmp1 = propertyName.Split('[');
-                iArrayIndex = tmp1[1][0];
+                string[] left = str.Split('[');
+                string[] mid = left[1].Split(']');
+
+                iArrayIndex = Int32.Parse(mid[0]);
 
             } else {
                 iArrayIndex = 0;
@@ -280,10 +292,11 @@ namespace dcm2prot
                 if (str[cnt].Contains('['))
                 {
                     // Gets the FIRST array index it finds. Currently does NOT cover "asCoilSelectMeas"
-                    string[] tmp = str[cnt].Split('[');
-                    iArrayIndex = Convert.ToInt32(tmp[1][0]);
+                    string[] left = str[cnt].Split('[');
+                    string[] mid = left[1].Split(']');
+                    iArrayIndex = Int32.Parse(mid[0]);
                     isSet = true;
-
+                    
                 }
                 else
                 {

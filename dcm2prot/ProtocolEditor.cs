@@ -29,42 +29,6 @@ namespace dcm2prot
 
         }
 
-        void TestingTesting()
-        {
-            test DoThis = new test();
-            for (int i=0; i<10; i++)
-            {
-                DoThis.testArray[i] = i;
-                DoThis.testList.Add(i);
-
-            }
-            
-            PropertyInfo propInfo = DoThis.GetType().GetProperty("testArray");
-            PropertyInfo propInfo2 = DoThis.GetType().GetProperty("testInt");
-            Console.Write("Test 1: ");
-            Console.Write( DoThis.GetType().GetProperty("testInt") != null );
-            
-            Console.WriteLine(propInfo2.PropertyType.IsArray);
-            Console.Write("Test 2: ");
-            Console.WriteLine(propInfo.PropertyType.IsArray);
-
-            string testing = "sPhysioImaging.lPhases                   = 1";
-            string[] testing1 = testing.Split('=');
-            string[] testing2 = testing1[0].Split('.');
-            Console.WriteLine(testing2.Length);
-            string final = testing2[1];
-            for (int i = 0; i < (testing2.Length - 2); i++)
-            {
-                final += "_";
-                final += testing2[i + 2];
-            }
-            Console.WriteLine(final);
-
-
-            
-            Console.WriteLine("Finished");
-
-        }
 
         void InitProtocolEntries()
         {
@@ -196,6 +160,47 @@ namespace dcm2prot
         {
             e.Effect = DragDropEffects.All;
         }
+
+
+
+
+        void TestingTesting()
+        {
+            //test DoThis = new test();
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    DoThis.testArray[i] = i;
+            //    DoThis.testList.Add(i);
+
+            //}
+
+            //PropertyInfo propInfo = DoThis.GetType().GetProperty("testArray");
+            //PropertyInfo propInfo2 = DoThis.GetType().GetProperty("testInt");
+            //Console.Write("Test 1: ");
+            //Console.Write(DoThis.GetType().GetProperty("testInt") != null);
+
+            //Console.WriteLine(propInfo2.PropertyType.IsArray);
+            //Console.Write("Test 2: ");
+            //Console.WriteLine(propInfo.PropertyType.IsArray);
+
+            //string testing = "sPhysioImaging.lPhases                   = 1";
+            //string[] testing1 = testing.Split('=');
+            //string[] testing2 = testing1[0].Split('.');
+            //Console.WriteLine(testing2.Length);
+            //string final = testing2[1];
+            //for (int i = 0; i < (testing2.Length - 2); i++)
+            //{
+            //    final += "_";
+            //    final += testing2[i + 2];
+            //}
+            //Console.WriteLine(final);
+
+
+
+            //Console.WriteLine("Finished");
+
+        }
+
 
     }
 }
