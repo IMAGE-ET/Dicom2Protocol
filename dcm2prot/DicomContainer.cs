@@ -228,7 +228,9 @@ namespace dcm2prot
                 else if (propInfo.PropertyType.IsArray)
                 {
                     Array arr = (Array) propInfo.GetValue(obj, null);
-                    
+
+                    Console.WriteLine("Trying to write Array");                    
+
                     arr.SetValue(Convert.ToInt32(propertyValue), iArrayIndex);
                     propInfo.SetValue(obj, arr, null);
                 }
@@ -309,12 +311,22 @@ namespace dcm2prot
 
         public string hex2dec(string str)
         {
-            int tmp = Convert.ToInt32(str, 16);
+            double tmp = Convert.ToDouble(Convert.ToInt32(str, 16));
 
-            if ( (tmp%2) == 0 )
-                tmp = tmp / 2;
+            // From stackoverflow, finding if an integer is a value of 2
+            if (IsPowerOfTwo((ulong) tmp))
+                tmp = Math.Log(tmp,2);
+
+            Console.Write("HEX2DEC " + str + " ");
+            Console.WriteLine(tmp);
 
             return Convert.ToString(tmp);
+        }
+
+        public bool IsPowerOfTwo(ulong x)
+        {
+            // Probably bit division of some sort
+            return (x & (x - 1)) == 0;
         }
            
     }
