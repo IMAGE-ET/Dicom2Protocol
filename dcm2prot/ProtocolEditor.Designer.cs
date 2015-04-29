@@ -543,9 +543,12 @@
             this.res17.AccessibleName = "res16";
             this.res17.FormattingEnabled = true;
             this.res17.Items.AddRange(new object[] {
+            "Half",
+            "5/8",
             "6/8",
             "7/8",
-            "Off"});
+            "Off",
+            "Auto"});
             this.res17.Location = new System.Drawing.Point(144, 239);
             this.res17.Name = "res17";
             this.res17.Size = new System.Drawing.Size(110, 21);
@@ -623,9 +626,12 @@
             this.res16.AccessibleName = "res16";
             this.res16.FormattingEnabled = true;
             this.res16.Items.AddRange(new object[] {
+            "Half",
+            "5/8",
             "6/8",
             "7/8",
-            "Off"});
+            "Off",
+            "Auto"});
             this.res16.Location = new System.Drawing.Point(144, 206);
             this.res16.Name = "res16";
             this.res16.Size = new System.Drawing.Size(110, 21);

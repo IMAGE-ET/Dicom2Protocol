@@ -154,8 +154,8 @@ namespace dcm2prot
             this.textBox_res15.Text = cDcm.cKSpace.dSliceResolution.ToString();
             // Currently if 0x10, value = 8, but you actually want a DIFFERENT selected value index!
             // Want to change to log base 2 for 8?
-//           this.res16.SelectedIndex = cDcm.cKSpace.ucPhasePartialFourier;
-//           this.res17.SelectedIndex = cDcm.cKSpace.ucSlicePartialFourier;
+           this.res16.SelectedIndex = cDcm.cKSpace.ucPhasePartialFourier;
+           this.res17.SelectedIndex = cDcm.cKSpace.ucSlicePartialFourier;
         }
 
         private void Form1_DragEnter(object sender, DragEventArgs e)
