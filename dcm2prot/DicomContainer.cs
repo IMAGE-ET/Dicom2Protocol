@@ -19,6 +19,11 @@ namespace dcm2prot
 
         public MiscDicomFields cMiscDicomFields;
         public sKSpace cKSpace;
+        public sPat cPat;
+        public sPhysioImaging cPhysioImaging;
+        public sPrepPulses cPrepPulses;
+        public sFastImaging cFastImaging;
+        public sAngio cAngio;
         
 
         public DicomContainer(string input)
@@ -28,6 +33,10 @@ namespace dcm2prot
             // Initialize classes
             cKSpace = new sKSpace();
             cMiscDicomFields = new MiscDicomFields();
+            cPat = new sPat();
+            cPhysioImaging = new sPhysioImaging();
+            cPrepPulses = new sPrepPulses();
+            cAngio = new sAngio();
 
             parseKSpace();
         }
@@ -53,10 +62,6 @@ namespace dcm2prot
                 check = tmp.Split('=');
 
                 getClassAndPropertyAndPropertyValues(line);
-
-                Console.Write(propertyName + " AND " + propertyValue + " AND ");
-                Console.WriteLine(iArrayIndex);
-
 
                 switch (className)
                 {
@@ -131,12 +136,6 @@ namespace dcm2prot
             
             Console.WriteLine("Done Reading!");
 
-            // Testing MiscDicomFields
-            for (int i = 0; i < cMiscDicomFields.alTE.Length; i++)
-                Console.WriteLine(cMiscDicomFields.alTE[i]);
-            
-
-
         }
 
         public void getClassAndPropertyAndPropertyValues(string line)
@@ -161,11 +160,7 @@ namespace dcm2prot
 
                 propertyName = str;
                 SetArrayIndex(propertyName);
-                Console.WriteLine("Remove Brackets");
-                Console.WriteLine(propertyName);
                 propertyName = RemoveArrayBrackets(propertyName);
-                Console.WriteLine(propertyName);
-                Console.WriteLine("Done Remove Brackets");
             }
             else
             {
@@ -225,8 +220,6 @@ namespace dcm2prot
                 // Get the property value
                 PropertyInfo propInfo = obj.GetType().GetProperty(propertyName);
 
-                Console.WriteLine(propInfo.PropertyType.IsArray);
-                
                 // Convert propertyValue to the correct type
                 if ( propInfo.PropertyType == typeof(string) )
                 {
@@ -235,8 +228,6 @@ namespace dcm2prot
                 else if (propInfo.PropertyType.IsArray)
                 {
                     Array arr = (Array) propInfo.GetValue(obj, null);
-
-                    Console.WriteLine("Trying to write Array");                    
 
                     arr.SetValue(Convert.ToInt32(propertyValue), iArrayIndex);
                     propInfo.SetValue(obj, arr, null);

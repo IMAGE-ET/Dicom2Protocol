@@ -146,16 +146,43 @@ namespace dcm2prot
             FillResolutionTab();
         }
 
+        void FillRoutineTab()
+        {
+
+
+
+        }
+
         void FillResolutionTab()
         {
             this.textBox_res13.Text = cDcm.cKSpace.lBaseResolution.ToString();
-            Console.WriteLine(cDcm.cKSpace.lBaseResolution.ToString());
             this.textBox_res14.Text = cDcm.cKSpace.dPhaseResolution.ToString();
             this.textBox_res15.Text = cDcm.cKSpace.dSliceResolution.ToString();
-            // Currently if 0x10, value = 8, but you actually want a DIFFERENT selected value index!
-            // Want to change to log base 2 for 8?
-           this.res16.SelectedIndex = cDcm.cKSpace.ucPhasePartialFourier;
-           this.res17.SelectedIndex = cDcm.cKSpace.ucSlicePartialFourier;
+            this.comboBox_res16.SelectedIndex = cDcm.cKSpace.ucPhasePartialFourier;
+            this.comboBox_res17.SelectedIndex = cDcm.cKSpace.ucSlicePartialFourier;
+
+            // PAT Tab
+            this.comboBox_res21.SelectedIndex = cDcm.cPat.ucPATMode;
+            if ( ( cDcm.cPat.ucPATMode ) > 0 )
+            {
+                this.textBox_res22.Text = cDcm.cPat.lAccelFactPE.ToString();
+                
+                this.textBox_res26.Text = cDcm.cPat.lAccelFact3D.ToString();
+                this.comboBox_res28.SelectedIndex = cDcm.cPat.ucRefScanMode;
+
+
+            }
+            
+        }
+
+
+        void FillSequenceTab()
+        {
+            this.comboBox_seq15.SelectedIndex = cDcm.cKSpace.ucAveragingMode;
+            this.comboBox_seq16.SelectedIndex = cDcm.cKSpace.ucMultiSliceMode;
+            this.comboBox_res17.SelectedIndex = cDcm.cKSpace.unReordering;
+            
+
         }
 
         private void Form1_DragEnter(object sender, DragEventArgs e)
