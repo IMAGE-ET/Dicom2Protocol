@@ -227,6 +227,60 @@ namespace dcm2prot
 
         }
 
+        private void routPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox63_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tabPage_Contrast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox84_TextChanged(object sender, EventArgs e)
+        {
+                
+        }
+
+        private void textBox77_TextChanged(object sender, EventArgs e)
+        {
+                
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox67_TextChanged(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }
