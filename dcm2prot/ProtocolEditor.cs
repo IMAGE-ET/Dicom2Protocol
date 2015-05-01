@@ -282,5 +282,11 @@ namespace dcm2prot
 
         }
 
+        private void textBox112_TextChanged(object sender, EventArgs e)
+
+        {
+
+        }
+
     }
 }

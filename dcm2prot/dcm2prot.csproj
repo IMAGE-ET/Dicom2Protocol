@@ -64,6 +64,7 @@
     <Compile Include="sKSpace.cs" />
     <Compile Include="sPhysioImaging.cs" />
     <Compile Include="sPrepPulses.cs" />
+    <Compile Include="sSliceArray.cs" />
     <Compile Include="test.cs" />
     <EmbeddedResource Include="ProtocolEditor.resx">
       <DependentUpon>ProtocolEditor.cs</DependentUpon>
