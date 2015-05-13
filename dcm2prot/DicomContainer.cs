@@ -24,6 +24,7 @@ namespace dcm2prot
         public sPrepPulses cPrepPulses;
         public sFastImaging cFastImaging;
         public sAngio cAngio;
+        public sSliceArray cSliceArray;
         
 
         public DicomContainer(string input)
@@ -31,11 +32,13 @@ namespace dcm2prot
             xprot = input;
 
             // Initialize classes
-            cKSpace = new sKSpace();
             cMiscDicomFields = new MiscDicomFields();
+            cKSpace = new sKSpace();
+            cFastImaging = new sFastImaging();
             cPat = new sPat();
             cPhysioImaging = new sPhysioImaging();
             cPrepPulses = new sPrepPulses();
+            cSliceArray = new sSliceArray();
             cAngio = new sAngio();
 
             parseKSpace();

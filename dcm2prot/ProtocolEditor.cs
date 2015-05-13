@@ -162,13 +162,13 @@ namespace dcm2prot
             this.comboBox_res17.SelectedIndex = cDcm.cKSpace.ucSlicePartialFourier;
 
             // PAT Tab
-            this.comboBox_res21.SelectedIndex = cDcm.cPat.ucPATMode;
+            this.comboBox_res20.SelectedIndex = cDcm.cPat.ucPATMode;
             if ( ( cDcm.cPat.ucPATMode ) > 0 )
             {
-                this.textBox_res22.Text = cDcm.cPat.lAccelFactPE.ToString();
+                this.textBox_res21.Text = cDcm.cPat.lAccelFactPE.ToString();
                 
-                this.textBox_res26.Text = cDcm.cPat.lAccelFact3D.ToString();
-                this.comboBox_res28.SelectedIndex = cDcm.cPat.ucRefScanMode;
+                this.textBox_res23.Text = cDcm.cPat.lAccelFact3D.ToString();
+                this.comboBox_res27.SelectedIndex = cDcm.cPat.ucRefScanMode;
 
 
             }
@@ -278,12 +278,6 @@ namespace dcm2prot
         }
 
         private void textBox67_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox112_TextChanged(object sender, EventArgs e)
-
         {
 
         }
