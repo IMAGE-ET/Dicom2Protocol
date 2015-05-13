@@ -50,8 +50,8 @@ namespace dcm2prot
             StringBuilder sb = new StringBuilder();
             string line = "testing testing 123";
             string tmp;
-            string[] check;
 
+            // Get to beginning.
             while (! line.Contains("### ASCCONV BEGIN ###"))
             {
                 line = strReader.ReadLine();
@@ -62,7 +62,7 @@ namespace dcm2prot
             while ((!line.Contains("### ASCCONV END ###")) || (strReader.Peek() == -1))
             {
                 tmp = line;
-                check = tmp.Split('=');
+
 
                 getClassAndPropertyAndPropertyValues(line);
 
@@ -112,6 +112,7 @@ namespace dcm2prot
                     case "sDistortionCorrFilter":
                         break;
                     case "sPat":
+                        setDcmPropertyValue(cPat);
                         break;
                     case "sMDS":
                         break;
@@ -126,7 +127,7 @@ namespace dcm2prot
                     case "sParametricMapping":
                         break;
                     case null:
-                        setDcmPropertyValue(cMiscDicomFields);
+                        // setDcmPropertyValue(cMiscDicomFields);
                         break;
                     default:
                         break;
@@ -148,7 +149,10 @@ namespace dcm2prot
 
             setClassAndProperty(parts[0]);
             setPropertyValue(parts[1]);
-            
+
+            //Console.WriteLine(line);
+            //Console.WriteLine(propertyName);
+            //Console.WriteLine(propertyValue);
         }
 
         public void setClassAndProperty(string str)
@@ -194,6 +198,15 @@ namespace dcm2prot
         public void setPropertyValue(string str)
         {
             string val = Regex.Replace(str, " ", string.Empty);
+            // REGEXP to only have certain values here....
+
+            Match match = Regex.Match(val, @"([A-Za-z0-9\-]+)",
+                 RegexOptions.IgnoreCase);
+            if (match.Success)
+            {
+                // Finally, we get the Group value and display it.
+                val = match.Groups[1].Value;
+            }
 
             if (val.Contains("\""))
             {

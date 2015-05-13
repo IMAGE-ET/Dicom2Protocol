@@ -57,6 +57,8 @@
             this.shapeContainer6 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.routPanel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.comboBox_rout15 = new System.Windows.Forms.ComboBox();
             this.comboBox_rout14 = new System.Windows.Forms.ComboBox();
             this.textBox42 = new System.Windows.Forms.TextBox();
@@ -76,11 +78,12 @@
             this.comboBox_rout10 = new System.Windows.Forms.ComboBox();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.textBox_rout13 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox_routL11 = new System.Windows.Forms.TextBox();
             this.textBox_rout12 = new System.Windows.Forms.TextBox();
             this.textBox29 = new System.Windows.Forms.TextBox();
             this.textBox_rout11 = new System.Windows.Forms.TextBox();
             this.shapeContainer4 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape18 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage_Contrast = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
@@ -455,7 +458,7 @@
             this.tabPage_Routine.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Routine.Name = "tabPage_Routine";
             this.tabPage_Routine.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Routine.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_Routine.Size = new System.Drawing.Size(690, 336);
             this.tabPage_Routine.TabIndex = 0;
             this.tabPage_Routine.Text = "Routine";
             this.tabPage_Routine.UseVisualStyleBackColor = true;
@@ -486,11 +489,10 @@
             this.panel1.Controls.Add(this.textBox41);
             this.panel1.Controls.Add(this.textBox_rout21);
             this.panel1.Controls.Add(this.shapeContainer6);
-            this.panel1.Location = new System.Drawing.Point(337, 6);
+            this.panel1.Location = new System.Drawing.Point(347, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(313, 316);
+            this.panel1.Size = new System.Drawing.Size(327, 316);
             this.panel1.TabIndex = 16;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // textBox63
             // 
@@ -498,10 +500,9 @@
             this.textBox63.Location = new System.Drawing.Point(263, 13);
             this.textBox63.Name = "textBox63";
             this.textBox63.ReadOnly = true;
-            this.textBox63.Size = new System.Drawing.Size(31, 22);
+            this.textBox63.Size = new System.Drawing.Size(31, 20);
             this.textBox63.TabIndex = 43;
             this.textBox63.Text = "mm";
-            this.textBox63.TextChanged += new System.EventHandler(this.textBox63_TextChanged);
             // 
             // textBox52
             // 
@@ -509,7 +510,7 @@
             this.textBox52.Location = new System.Drawing.Point(263, 138);
             this.textBox52.Name = "textBox52";
             this.textBox52.ReadOnly = true;
-            this.textBox52.Size = new System.Drawing.Size(31, 22);
+            this.textBox52.Size = new System.Drawing.Size(31, 20);
             this.textBox52.TabIndex = 42;
             this.textBox52.Text = "ms";
             // 
@@ -519,7 +520,7 @@
             this.textBox9.Location = new System.Drawing.Point(263, 107);
             this.textBox9.Name = "textBox9";
             this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(31, 22);
+            this.textBox9.Size = new System.Drawing.Size(31, 20);
             this.textBox9.TabIndex = 41;
             this.textBox9.Text = "ms";
             // 
@@ -528,7 +529,7 @@
             this.textBox50.AccessibleName = "Value";
             this.textBox50.Location = new System.Drawing.Point(175, 163);
             this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(79, 22);
+            this.textBox50.Size = new System.Drawing.Size(79, 20);
             this.textBox50.TabIndex = 40;
             // 
             // textBox48
@@ -536,7 +537,7 @@
             this.textBox48.AccessibleName = "Value";
             this.textBox48.Location = new System.Drawing.Point(175, 132);
             this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(79, 22);
+            this.textBox48.Size = new System.Drawing.Size(79, 20);
             this.textBox48.TabIndex = 39;
             // 
             // textBox35
@@ -544,7 +545,7 @@
             this.textBox35.AccessibleName = "Value";
             this.textBox35.Location = new System.Drawing.Point(175, 101);
             this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(79, 22);
+            this.textBox35.Size = new System.Drawing.Size(79, 20);
             this.textBox35.TabIndex = 38;
             // 
             // textBox_rout20
@@ -552,7 +553,7 @@
             this.textBox_rout20.AccessibleName = "Value";
             this.textBox_rout20.Location = new System.Drawing.Point(175, 8);
             this.textBox_rout20.Name = "textBox_rout20";
-            this.textBox_rout20.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout20.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout20.TabIndex = 37;
             // 
             // textBox8
@@ -561,10 +562,9 @@
             this.textBox8.Location = new System.Drawing.Point(263, 45);
             this.textBox8.Name = "textBox8";
             this.textBox8.ReadOnly = true;
-            this.textBox8.Size = new System.Drawing.Size(31, 22);
+            this.textBox8.Size = new System.Drawing.Size(31, 20);
             this.textBox8.TabIndex = 34;
             this.textBox8.Text = "%";
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // textBox10
             // 
@@ -572,7 +572,7 @@
             this.textBox10.Location = new System.Drawing.Point(263, 76);
             this.textBox10.Name = "textBox10";
             this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(31, 22);
+            this.textBox10.Size = new System.Drawing.Size(31, 20);
             this.textBox10.TabIndex = 31;
             this.textBox10.Text = "mm";
             // 
@@ -582,7 +582,7 @@
             this.textBox13.Location = new System.Drawing.Point(6, 256);
             this.textBox13.Name = "textBox13";
             this.textBox13.ReadOnly = true;
-            this.textBox13.Size = new System.Drawing.Size(127, 22);
+            this.textBox13.Size = new System.Drawing.Size(127, 20);
             this.textBox13.TabIndex = 27;
             this.textBox13.Text = "Coil elements";
             // 
@@ -591,7 +591,7 @@
             this.textBox16.AccessibleName = "Value";
             this.textBox16.Location = new System.Drawing.Point(139, 256);
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(115, 22);
+            this.textBox16.Size = new System.Drawing.Size(115, 20);
             this.textBox16.TabIndex = 26;
             // 
             // textBox19
@@ -600,7 +600,7 @@
             this.textBox19.Location = new System.Drawing.Point(6, 225);
             this.textBox19.Name = "textBox19";
             this.textBox19.ReadOnly = true;
-            this.textBox19.Size = new System.Drawing.Size(127, 22);
+            this.textBox19.Size = new System.Drawing.Size(127, 20);
             this.textBox19.TabIndex = 25;
             this.textBox19.Text = "Filter";
             // 
@@ -609,7 +609,7 @@
             this.textBox21.AccessibleName = "Value";
             this.textBox21.Location = new System.Drawing.Point(139, 225);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(115, 22);
+            this.textBox21.Size = new System.Drawing.Size(115, 20);
             this.textBox21.TabIndex = 24;
             // 
             // textBox23
@@ -618,7 +618,7 @@
             this.textBox23.Location = new System.Drawing.Point(6, 194);
             this.textBox23.Name = "textBox23";
             this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(163, 22);
+            this.textBox23.Size = new System.Drawing.Size(163, 20);
             this.textBox23.TabIndex = 23;
             this.textBox23.Text = "Concatenations";
             // 
@@ -627,7 +627,7 @@
             this.textBox24.AccessibleName = "Value";
             this.textBox24.Location = new System.Drawing.Point(175, 194);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(79, 22);
+            this.textBox24.Size = new System.Drawing.Size(79, 20);
             this.textBox24.TabIndex = 22;
             // 
             // textBox25
@@ -636,7 +636,7 @@
             this.textBox25.Location = new System.Drawing.Point(6, 163);
             this.textBox25.Name = "textBox25";
             this.textBox25.ReadOnly = true;
-            this.textBox25.Size = new System.Drawing.Size(163, 22);
+            this.textBox25.Size = new System.Drawing.Size(163, 20);
             this.textBox25.TabIndex = 21;
             this.textBox25.Text = "Averages";
             // 
@@ -646,7 +646,7 @@
             this.textBox26.Location = new System.Drawing.Point(6, 132);
             this.textBox26.Name = "textBox26";
             this.textBox26.ReadOnly = true;
-            this.textBox26.Size = new System.Drawing.Size(163, 22);
+            this.textBox26.Size = new System.Drawing.Size(163, 20);
             this.textBox26.TabIndex = 20;
             this.textBox26.Text = "TE";
             // 
@@ -656,7 +656,7 @@
             this.textBox28.Location = new System.Drawing.Point(6, 70);
             this.textBox28.Name = "textBox28";
             this.textBox28.ReadOnly = true;
-            this.textBox28.Size = new System.Drawing.Size(163, 22);
+            this.textBox28.Size = new System.Drawing.Size(163, 20);
             this.textBox28.TabIndex = 19;
             this.textBox28.Text = "Slice thickness";
             // 
@@ -666,7 +666,7 @@
             this.textBox30.Location = new System.Drawing.Point(6, 8);
             this.textBox30.Name = "textBox30";
             this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(163, 22);
+            this.textBox30.Size = new System.Drawing.Size(163, 20);
             this.textBox30.TabIndex = 7;
             this.textBox30.Text = "FOV read";
             // 
@@ -676,7 +676,7 @@
             this.textBox37.Location = new System.Drawing.Point(6, 39);
             this.textBox37.Name = "textBox37";
             this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(163, 22);
+            this.textBox37.Size = new System.Drawing.Size(163, 20);
             this.textBox37.TabIndex = 8;
             this.textBox37.Text = "FoV phase";
             // 
@@ -685,7 +685,7 @@
             this.textBox39.AccessibleName = "Value";
             this.textBox39.Location = new System.Drawing.Point(175, 70);
             this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(79, 22);
+            this.textBox39.Size = new System.Drawing.Size(79, 20);
             this.textBox39.TabIndex = 3;
             // 
             // textBox41
@@ -694,7 +694,7 @@
             this.textBox41.Location = new System.Drawing.Point(6, 101);
             this.textBox41.Name = "textBox41";
             this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(163, 22);
+            this.textBox41.Size = new System.Drawing.Size(163, 20);
             this.textBox41.TabIndex = 9;
             this.textBox41.Text = "TR";
             // 
@@ -703,7 +703,7 @@
             this.textBox_rout21.AccessibleName = "Value";
             this.textBox_rout21.Location = new System.Drawing.Point(175, 39);
             this.textBox_rout21.Name = "textBox_rout21";
-            this.textBox_rout21.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout21.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout21.TabIndex = 2;
             // 
             // shapeContainer6
@@ -713,7 +713,7 @@
             this.shapeContainer6.Name = "shapeContainer6";
             this.shapeContainer6.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape6});
-            this.shapeContainer6.Size = new System.Drawing.Size(313, 316);
+            this.shapeContainer6.Size = new System.Drawing.Size(327, 316);
             this.shapeContainer6.TabIndex = 17;
             this.shapeContainer6.TabStop = false;
             // 
@@ -728,6 +728,8 @@
             // 
             // routPanel1
             // 
+            this.routPanel1.Controls.Add(this.button2);
+            this.routPanel1.Controls.Add(this.button1);
             this.routPanel1.Controls.Add(this.comboBox_rout15);
             this.routPanel1.Controls.Add(this.comboBox_rout14);
             this.routPanel1.Controls.Add(this.textBox42);
@@ -747,16 +749,39 @@
             this.routPanel1.Controls.Add(this.comboBox_rout10);
             this.routPanel1.Controls.Add(this.textBox22);
             this.routPanel1.Controls.Add(this.textBox_rout13);
-            this.routPanel1.Controls.Add(this.textBox27);
+            this.routPanel1.Controls.Add(this.textBox_routL11);
             this.routPanel1.Controls.Add(this.textBox_rout12);
             this.routPanel1.Controls.Add(this.textBox29);
             this.routPanel1.Controls.Add(this.textBox_rout11);
             this.routPanel1.Controls.Add(this.shapeContainer4);
             this.routPanel1.Location = new System.Drawing.Point(8, 6);
             this.routPanel1.Name = "routPanel1";
-            this.routPanel1.Size = new System.Drawing.Size(316, 316);
+            this.routPanel1.Size = new System.Drawing.Size(333, 316);
             this.routPanel1.TabIndex = 15;
-            this.routPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.routPanel1_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Enabled = false;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(228, 6);
+            this.button2.Margin = new System.Windows.Forms.Padding(0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(22, 22);
+            this.button2.TabIndex = 38;
+            this.button2.Text = "-";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Enabled = false;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(208, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(22, 22);
+            this.button1.TabIndex = 37;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // comboBox_rout15
             // 
@@ -768,7 +793,7 @@
             "H >> F"});
             this.comboBox_rout15.Location = new System.Drawing.Point(175, 163);
             this.comboBox_rout15.Name = "comboBox_rout15";
-            this.comboBox_rout15.Size = new System.Drawing.Size(79, 24);
+            this.comboBox_rout15.Size = new System.Drawing.Size(79, 21);
             this.comboBox_rout15.TabIndex = 36;
             this.comboBox_rout15.Text = "A >> P";
             // 
@@ -782,37 +807,37 @@
             "Transversal"});
             this.comboBox_rout14.Location = new System.Drawing.Point(144, 132);
             this.comboBox_rout14.Name = "comboBox_rout14";
-            this.comboBox_rout14.Size = new System.Drawing.Size(110, 24);
+            this.comboBox_rout14.Size = new System.Drawing.Size(110, 21);
             this.comboBox_rout14.TabIndex = 35;
             this.comboBox_rout14.Text = "Transversal";
             // 
             // textBox42
             // 
             this.textBox42.AccessibleName = "Units";
-            this.textBox42.Location = new System.Drawing.Point(262, 76);
+            this.textBox42.Location = new System.Drawing.Point(276, 76);
             this.textBox42.Name = "textBox42";
             this.textBox42.ReadOnly = true;
-            this.textBox42.Size = new System.Drawing.Size(31, 22);
+            this.textBox42.Size = new System.Drawing.Size(31, 20);
             this.textBox42.TabIndex = 34;
             this.textBox42.Text = "%";
             // 
             // textBox44
             // 
             this.textBox44.AccessibleName = "Units";
-            this.textBox44.Location = new System.Drawing.Point(262, 262);
+            this.textBox44.Location = new System.Drawing.Point(276, 262);
             this.textBox44.Name = "textBox44";
             this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(31, 22);
+            this.textBox44.Size = new System.Drawing.Size(31, 20);
             this.textBox44.TabIndex = 33;
             this.textBox44.Text = "%";
             // 
             // textBox45
             // 
             this.textBox45.AccessibleName = "Units";
-            this.textBox45.Location = new System.Drawing.Point(262, 231);
+            this.textBox45.Location = new System.Drawing.Point(276, 231);
             this.textBox45.Name = "textBox45";
             this.textBox45.ReadOnly = true;
-            this.textBox45.Size = new System.Drawing.Size(31, 22);
+            this.textBox45.Size = new System.Drawing.Size(31, 20);
             this.textBox45.TabIndex = 31;
             this.textBox45.Text = "%";
             // 
@@ -822,7 +847,7 @@
             this.textBox40.Location = new System.Drawing.Point(6, 287);
             this.textBox40.Name = "textBox40";
             this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(163, 22);
+            this.textBox40.Size = new System.Drawing.Size(163, 20);
             this.textBox40.TabIndex = 29;
             this.textBox40.Text = "Slices per slab";
             // 
@@ -831,7 +856,7 @@
             this.textBox_rout19.AccessibleName = "Value";
             this.textBox_rout19.Location = new System.Drawing.Point(175, 287);
             this.textBox_rout19.Name = "textBox_rout19";
-            this.textBox_rout19.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout19.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout19.TabIndex = 28;
             // 
             // textBox38
@@ -840,7 +865,7 @@
             this.textBox38.Location = new System.Drawing.Point(6, 256);
             this.textBox38.Name = "textBox38";
             this.textBox38.ReadOnly = true;
-            this.textBox38.Size = new System.Drawing.Size(163, 22);
+            this.textBox38.Size = new System.Drawing.Size(163, 20);
             this.textBox38.TabIndex = 27;
             this.textBox38.Text = "Slice oversampling";
             // 
@@ -849,7 +874,7 @@
             this.textBox_rout18.AccessibleName = "Value";
             this.textBox_rout18.Location = new System.Drawing.Point(175, 256);
             this.textBox_rout18.Name = "textBox_rout18";
-            this.textBox_rout18.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout18.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout18.TabIndex = 26;
             // 
             // textBox36
@@ -858,7 +883,7 @@
             this.textBox36.Location = new System.Drawing.Point(6, 225);
             this.textBox36.Name = "textBox36";
             this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(163, 22);
+            this.textBox36.Size = new System.Drawing.Size(163, 20);
             this.textBox36.TabIndex = 25;
             this.textBox36.Text = "Phase oversampling";
             // 
@@ -867,7 +892,7 @@
             this.textBox_rout17.AccessibleName = "Value";
             this.textBox_rout17.Location = new System.Drawing.Point(175, 225);
             this.textBox_rout17.Name = "textBox_rout17";
-            this.textBox_rout17.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout17.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout17.TabIndex = 24;
             // 
             // textBox34
@@ -876,7 +901,7 @@
             this.textBox34.Location = new System.Drawing.Point(6, 194);
             this.textBox34.Name = "textBox34";
             this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(163, 22);
+            this.textBox34.Size = new System.Drawing.Size(163, 20);
             this.textBox34.TabIndex = 23;
             this.textBox34.Text = "AutoAlign";
             // 
@@ -885,7 +910,7 @@
             this.textBox_rout16.AccessibleName = "Value";
             this.textBox_rout16.Location = new System.Drawing.Point(175, 194);
             this.textBox_rout16.Name = "textBox_rout16";
-            this.textBox_rout16.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout16.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout16.TabIndex = 22;
             // 
             // textBox31
@@ -894,7 +919,7 @@
             this.textBox31.Location = new System.Drawing.Point(6, 163);
             this.textBox31.Name = "textBox31";
             this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(163, 22);
+            this.textBox31.Size = new System.Drawing.Size(163, 20);
             this.textBox31.TabIndex = 21;
             this.textBox31.Text = "Phase enc. dir.";
             // 
@@ -904,7 +929,7 @@
             this.textBox33.Location = new System.Drawing.Point(6, 132);
             this.textBox33.Name = "textBox33";
             this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(132, 22);
+            this.textBox33.Size = new System.Drawing.Size(132, 20);
             this.textBox33.TabIndex = 20;
             this.textBox33.Text = "Orientation";
             // 
@@ -914,7 +939,7 @@
             this.textBox32.Location = new System.Drawing.Point(6, 70);
             this.textBox32.Name = "textBox32";
             this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(163, 22);
+            this.textBox32.Size = new System.Drawing.Size(163, 20);
             this.textBox32.TabIndex = 19;
             this.textBox32.Text = "Dist. factor";
             // 
@@ -926,7 +951,7 @@
             "1"});
             this.comboBox_rout10.Location = new System.Drawing.Point(175, 7);
             this.comboBox_rout10.Name = "comboBox_rout10";
-            this.comboBox_rout10.Size = new System.Drawing.Size(50, 24);
+            this.comboBox_rout10.Size = new System.Drawing.Size(34, 21);
             this.comboBox_rout10.TabIndex = 18;
             this.comboBox_rout10.Text = "1";
             // 
@@ -936,7 +961,7 @@
             this.textBox22.Location = new System.Drawing.Point(6, 8);
             this.textBox22.Name = "textBox22";
             this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(163, 22);
+            this.textBox22.Size = new System.Drawing.Size(163, 20);
             this.textBox22.TabIndex = 7;
             this.textBox22.Text = "Slab group";
             // 
@@ -945,25 +970,25 @@
             this.textBox_rout13.AccessibleName = "Value";
             this.textBox_rout13.Location = new System.Drawing.Point(144, 101);
             this.textBox_rout13.Name = "textBox_rout13";
-            this.textBox_rout13.Size = new System.Drawing.Size(110, 22);
+            this.textBox_rout13.Size = new System.Drawing.Size(110, 20);
             this.textBox_rout13.TabIndex = 4;
             // 
-            // textBox27
+            // textBox_routL11
             // 
-            this.textBox27.AccessibleName = "txtLabel";
-            this.textBox27.Location = new System.Drawing.Point(6, 39);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
-            this.textBox27.Size = new System.Drawing.Size(163, 22);
-            this.textBox27.TabIndex = 8;
-            this.textBox27.Text = "Slabs";
+            this.textBox_routL11.AccessibleName = "txtLabel";
+            this.textBox_routL11.Location = new System.Drawing.Point(6, 39);
+            this.textBox_routL11.Name = "textBox_routL11";
+            this.textBox_routL11.ReadOnly = true;
+            this.textBox_routL11.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL11.TabIndex = 8;
+            this.textBox_routL11.Text = "Slabs";
             // 
             // textBox_rout12
             // 
             this.textBox_rout12.AccessibleName = "Value";
             this.textBox_rout12.Location = new System.Drawing.Point(175, 70);
             this.textBox_rout12.Name = "textBox_rout12";
-            this.textBox_rout12.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout12.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout12.TabIndex = 3;
             // 
             // textBox29
@@ -972,7 +997,7 @@
             this.textBox29.Location = new System.Drawing.Point(6, 101);
             this.textBox29.Name = "textBox29";
             this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(132, 22);
+            this.textBox29.Size = new System.Drawing.Size(132, 20);
             this.textBox29.TabIndex = 9;
             this.textBox29.Text = "Position";
             // 
@@ -981,7 +1006,7 @@
             this.textBox_rout11.AccessibleName = "Value";
             this.textBox_rout11.Location = new System.Drawing.Point(175, 39);
             this.textBox_rout11.Name = "textBox_rout11";
-            this.textBox_rout11.Size = new System.Drawing.Size(79, 22);
+            this.textBox_rout11.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout11.TabIndex = 2;
             // 
             // shapeContainer4
@@ -990,17 +1015,26 @@
             this.shapeContainer4.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer4.Name = "shapeContainer4";
             this.shapeContainer4.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape18,
             this.lineShape4});
-            this.shapeContainer4.Size = new System.Drawing.Size(316, 316);
+            this.shapeContainer4.Size = new System.Drawing.Size(333, 316);
             this.shapeContainer4.TabIndex = 17;
             this.shapeContainer4.TabStop = false;
+            // 
+            // lineShape18
+            // 
+            this.lineShape18.Name = "lineShape18";
+            this.lineShape18.X1 = 254;
+            this.lineShape18.X2 = 267;
+            this.lineShape18.Y1 = 20;
+            this.lineShape18.Y2 = 20;
             // 
             // lineShape4
             // 
             this.lineShape4.AccessibleName = "lineSeparator";
             this.lineShape4.Name = "lineShape1";
-            this.lineShape4.X1 = 257;
-            this.lineShape4.X2 = 258;
+            this.lineShape4.X1 = 267;
+            this.lineShape4.X2 = 268;
             this.lineShape4.Y1 = 20;
             this.lineShape4.Y2 = 286;
             // 
@@ -1010,11 +1044,10 @@
             this.tabPage_Contrast.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Contrast.Name = "tabPage_Contrast";
             this.tabPage_Contrast.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Contrast.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_Contrast.Size = new System.Drawing.Size(690, 336);
             this.tabPage_Contrast.TabIndex = 1;
             this.tabPage_Contrast.Text = "Contrast";
             this.tabPage_Contrast.UseVisualStyleBackColor = true;
-            this.tabPage_Contrast.Click += new System.EventHandler(this.tabPage_Contrast_Click);
             // 
             // tabControl3
             // 
@@ -1038,7 +1071,6 @@
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "Contrast";
             this.tabPage7.UseVisualStyleBackColor = true;
-            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
             // 
             // panel3
             // 
@@ -1051,14 +1083,13 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(313, 266);
             this.panel3.TabIndex = 44;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(239, 202);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 44;
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -1073,7 +1104,7 @@
             "Water excit fast"});
             this.comboBox2.Location = new System.Drawing.Point(175, 8);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(79, 24);
+            this.comboBox2.Size = new System.Drawing.Size(79, 21);
             this.comboBox2.TabIndex = 43;
             this.comboBox2.Text = "Non-sel. IR";
             // 
@@ -1083,7 +1114,7 @@
             this.textBox86.Location = new System.Drawing.Point(5, 199);
             this.textBox86.Name = "textBox86";
             this.textBox86.ReadOnly = true;
-            this.textBox86.Size = new System.Drawing.Size(163, 22);
+            this.textBox86.Size = new System.Drawing.Size(163, 20);
             this.textBox86.TabIndex = 21;
             this.textBox86.Text = "Restore magn.";
             // 
@@ -1093,7 +1124,7 @@
             this.textBox91.Location = new System.Drawing.Point(6, 8);
             this.textBox91.Name = "textBox91";
             this.textBox91.ReadOnly = true;
-            this.textBox91.Size = new System.Drawing.Size(163, 22);
+            this.textBox91.Size = new System.Drawing.Size(163, 20);
             this.textBox91.TabIndex = 9;
             this.textBox91.Text = "Fat suppr.";
             // 
@@ -1146,7 +1177,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(239, 104);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 44;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -1160,7 +1191,7 @@
             "Transversal"});
             this.comboBox1.Location = new System.Drawing.Point(144, 132);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(110, 24);
+            this.comboBox1.Size = new System.Drawing.Size(110, 21);
             this.comboBox1.TabIndex = 43;
             this.comboBox1.Text = "Non-sel. IR";
             // 
@@ -1170,7 +1201,7 @@
             this.textBox12.Location = new System.Drawing.Point(263, 44);
             this.textBox12.Name = "textBox12";
             this.textBox12.ReadOnly = true;
-            this.textBox12.Size = new System.Drawing.Size(31, 22);
+            this.textBox12.Size = new System.Drawing.Size(31, 20);
             this.textBox12.TabIndex = 42;
             this.textBox12.Text = "ms";
             // 
@@ -1180,7 +1211,7 @@
             this.textBox46.Location = new System.Drawing.Point(263, 13);
             this.textBox46.Name = "textBox46";
             this.textBox46.ReadOnly = true;
-            this.textBox46.Size = new System.Drawing.Size(31, 22);
+            this.textBox46.Size = new System.Drawing.Size(31, 20);
             this.textBox46.TabIndex = 41;
             this.textBox46.Text = "ms";
             // 
@@ -1189,7 +1220,7 @@
             this.textBox64.AccessibleName = "Value";
             this.textBox64.Location = new System.Drawing.Point(175, 163);
             this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(79, 22);
+            this.textBox64.Size = new System.Drawing.Size(79, 20);
             this.textBox64.TabIndex = 40;
             // 
             // textBox69
@@ -1197,7 +1228,7 @@
             this.textBox69.AccessibleName = "Value";
             this.textBox69.Location = new System.Drawing.Point(175, 8);
             this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(79, 22);
+            this.textBox69.Size = new System.Drawing.Size(79, 20);
             this.textBox69.TabIndex = 37;
             // 
             // textBox71
@@ -1206,7 +1237,7 @@
             this.textBox71.Location = new System.Drawing.Point(263, 168);
             this.textBox71.Name = "textBox71";
             this.textBox71.ReadOnly = true;
-            this.textBox71.Size = new System.Drawing.Size(31, 22);
+            this.textBox71.Size = new System.Drawing.Size(31, 20);
             this.textBox71.TabIndex = 31;
             this.textBox71.Text = "ms";
             // 
@@ -1216,7 +1247,7 @@
             this.textBox74.Location = new System.Drawing.Point(6, 225);
             this.textBox74.Name = "textBox74";
             this.textBox74.ReadOnly = true;
-            this.textBox74.Size = new System.Drawing.Size(162, 22);
+            this.textBox74.Size = new System.Drawing.Size(162, 20);
             this.textBox74.TabIndex = 25;
             this.textBox74.Text = "Flip Angle";
             // 
@@ -1225,9 +1256,8 @@
             this.textBox77.AccessibleName = "Value";
             this.textBox77.Location = new System.Drawing.Point(175, 225);
             this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(79, 22);
+            this.textBox77.Size = new System.Drawing.Size(79, 20);
             this.textBox77.TabIndex = 22;
-            this.textBox77.TextChanged += new System.EventHandler(this.textBox77_TextChanged);
             // 
             // textBox78
             // 
@@ -1235,7 +1265,7 @@
             this.textBox78.Location = new System.Drawing.Point(6, 163);
             this.textBox78.Name = "textBox78";
             this.textBox78.ReadOnly = true;
-            this.textBox78.Size = new System.Drawing.Size(163, 22);
+            this.textBox78.Size = new System.Drawing.Size(163, 20);
             this.textBox78.TabIndex = 21;
             this.textBox78.Text = "TI";
             // 
@@ -1245,7 +1275,7 @@
             this.textBox79.Location = new System.Drawing.Point(6, 39);
             this.textBox79.Name = "textBox79";
             this.textBox79.ReadOnly = true;
-            this.textBox79.Size = new System.Drawing.Size(163, 22);
+            this.textBox79.Size = new System.Drawing.Size(163, 20);
             this.textBox79.TabIndex = 20;
             this.textBox79.Text = "TE";
             // 
@@ -1255,7 +1285,7 @@
             this.textBox80.Location = new System.Drawing.Point(6, 132);
             this.textBox80.Name = "textBox80";
             this.textBox80.ReadOnly = true;
-            this.textBox80.Size = new System.Drawing.Size(127, 22);
+            this.textBox80.Size = new System.Drawing.Size(127, 20);
             this.textBox80.TabIndex = 19;
             this.textBox80.Text = "Magn. preparation";
             // 
@@ -1265,7 +1295,7 @@
             this.textBox82.Location = new System.Drawing.Point(5, 101);
             this.textBox82.Name = "textBox82";
             this.textBox82.ReadOnly = true;
-            this.textBox82.Size = new System.Drawing.Size(163, 22);
+            this.textBox82.Size = new System.Drawing.Size(163, 20);
             this.textBox82.TabIndex = 8;
             this.textBox82.Text = "MTC";
             // 
@@ -1274,7 +1304,7 @@
             this.textBox83.AccessibleName = "Value";
             this.textBox83.Location = new System.Drawing.Point(175, 70);
             this.textBox83.Name = "textBox83";
-            this.textBox83.Size = new System.Drawing.Size(79, 22);
+            this.textBox83.Size = new System.Drawing.Size(79, 20);
             this.textBox83.TabIndex = 3;
             // 
             // textBox84
@@ -1283,17 +1313,16 @@
             this.textBox84.Location = new System.Drawing.Point(6, 8);
             this.textBox84.Name = "textBox84";
             this.textBox84.ReadOnly = true;
-            this.textBox84.Size = new System.Drawing.Size(163, 22);
+            this.textBox84.Size = new System.Drawing.Size(163, 20);
             this.textBox84.TabIndex = 9;
             this.textBox84.Text = "TR";
-            this.textBox84.TextChanged += new System.EventHandler(this.textBox84_TextChanged);
             // 
             // textBox85
             // 
             this.textBox85.AccessibleName = "Value";
             this.textBox85.Location = new System.Drawing.Point(175, 39);
             this.textBox85.Name = "textBox85";
-            this.textBox85.Size = new System.Drawing.Size(79, 22);
+            this.textBox85.Size = new System.Drawing.Size(79, 20);
             this.textBox85.TabIndex = 2;
             // 
             // shapeContainer7
@@ -1327,7 +1356,6 @@
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "Dynamic";
             this.tabPage8.UseVisualStyleBackColor = true;
-            this.tabPage8.Click += new System.EventHandler(this.tabPage8_Click);
             // 
             // panel5
             // 
@@ -1346,9 +1374,8 @@
             this.textBox67.AccessibleName = "Value";
             this.textBox67.Location = new System.Drawing.Point(175, 39);
             this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(79, 22);
+            this.textBox67.Size = new System.Drawing.Size(79, 20);
             this.textBox67.TabIndex = 47;
-            this.textBox67.TextChanged += new System.EventHandler(this.textBox67_TextChanged);
             // 
             // comboBox3
             // 
@@ -1361,7 +1388,7 @@
             "Each slice and measurement"});
             this.comboBox3.Location = new System.Drawing.Point(175, 225);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(79, 24);
+            this.comboBox3.Size = new System.Drawing.Size(79, 21);
             this.comboBox3.TabIndex = 46;
             this.comboBox3.Text = "Magnitude";
             // 
@@ -1371,7 +1398,7 @@
             this.textBox70.Location = new System.Drawing.Point(6, 225);
             this.textBox70.Name = "textBox70";
             this.textBox70.ReadOnly = true;
-            this.textBox70.Size = new System.Drawing.Size(162, 22);
+            this.textBox70.Size = new System.Drawing.Size(162, 20);
             this.textBox70.TabIndex = 25;
             this.textBox70.Text = "Multiple series";
             // 
@@ -1381,7 +1408,7 @@
             this.textBox72.Location = new System.Drawing.Point(6, 39);
             this.textBox72.Name = "textBox72";
             this.textBox72.ReadOnly = true;
-            this.textBox72.Size = new System.Drawing.Size(163, 22);
+            this.textBox72.Size = new System.Drawing.Size(163, 20);
             this.textBox72.TabIndex = 20;
             this.textBox72.Text = "Measurements";
             // 
@@ -1424,7 +1451,7 @@
             this.textBox11.AccessibleName = "Value";
             this.textBox11.Location = new System.Drawing.Point(165, 8);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(89, 22);
+            this.textBox11.Size = new System.Drawing.Size(89, 20);
             this.textBox11.TabIndex = 47;
             // 
             // comboBox5
@@ -1438,7 +1465,7 @@
             "Water excit fast"});
             this.comboBox5.Location = new System.Drawing.Point(165, 225);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(89, 24);
+            this.comboBox5.Size = new System.Drawing.Size(89, 21);
             this.comboBox5.TabIndex = 46;
             this.comboBox5.Text = "Magnitude";
             // 
@@ -1451,7 +1478,7 @@
             "Long term"});
             this.comboBox4.Location = new System.Drawing.Point(165, 39);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(89, 24);
+            this.comboBox4.Size = new System.Drawing.Size(89, 21);
             this.comboBox4.TabIndex = 45;
             this.comboBox4.Text = "Short term";
             // 
@@ -1461,7 +1488,7 @@
             this.textBox76.Location = new System.Drawing.Point(6, 225);
             this.textBox76.Name = "textBox76";
             this.textBox76.ReadOnly = true;
-            this.textBox76.Size = new System.Drawing.Size(152, 22);
+            this.textBox76.Size = new System.Drawing.Size(152, 20);
             this.textBox76.TabIndex = 25;
             this.textBox76.Text = "Reconstruction";
             // 
@@ -1471,7 +1498,7 @@
             this.textBox88.Location = new System.Drawing.Point(6, 39);
             this.textBox88.Name = "textBox88";
             this.textBox88.ReadOnly = true;
-            this.textBox88.Size = new System.Drawing.Size(153, 22);
+            this.textBox88.Size = new System.Drawing.Size(153, 20);
             this.textBox88.TabIndex = 20;
             this.textBox88.Text = "Averaging mode";
             // 
@@ -1481,7 +1508,7 @@
             this.textBox93.Location = new System.Drawing.Point(6, 8);
             this.textBox93.Name = "textBox93";
             this.textBox93.ReadOnly = true;
-            this.textBox93.Size = new System.Drawing.Size(153, 22);
+            this.textBox93.Size = new System.Drawing.Size(153, 20);
             this.textBox93.TabIndex = 9;
             this.textBox93.Text = "Averages";
             // 
@@ -1556,7 +1583,7 @@
             this.checkBox11.AutoSize = true;
             this.checkBox11.Location = new System.Drawing.Point(279, 242);
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(18, 17);
+            this.checkBox11.Size = new System.Drawing.Size(15, 14);
             this.checkBox11.TabIndex = 53;
             this.checkBox11.UseVisualStyleBackColor = true;
             // 
@@ -1566,7 +1593,7 @@
             this.textBox90.Location = new System.Drawing.Point(46, 239);
             this.textBox90.Name = "textBox90";
             this.textBox90.ReadOnly = true;
-            this.textBox90.Size = new System.Drawing.Size(163, 22);
+            this.textBox90.Size = new System.Drawing.Size(163, 20);
             this.textBox90.TabIndex = 52;
             this.textBox90.Text = "Interpolation";
             // 
@@ -1579,7 +1606,7 @@
             "Radial"});
             this.comboBox15.Location = new System.Drawing.Point(186, 8);
             this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(110, 24);
+            this.comboBox15.Size = new System.Drawing.Size(110, 21);
             this.comboBox15.TabIndex = 18;
             this.comboBox15.Text = "Cartesian";
             // 
@@ -1589,7 +1616,7 @@
             this.textBox87.Location = new System.Drawing.Point(46, 8);
             this.textBox87.Name = "textBox87";
             this.textBox87.ReadOnly = true;
-            this.textBox87.Size = new System.Drawing.Size(132, 22);
+            this.textBox87.Size = new System.Drawing.Size(132, 20);
             this.textBox87.TabIndex = 7;
             this.textBox87.Text = "Trajectory";
             // 
@@ -1597,7 +1624,7 @@
             // 
             this.shapeContainer18.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer18.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer18.Name = "shapeContainer3";
+            this.shapeContainer18.Name = "shapeContainer18";
             this.shapeContainer18.Size = new System.Drawing.Size(305, 271);
             this.shapeContainer18.TabIndex = 17;
             this.shapeContainer18.TabStop = false;
@@ -1637,7 +1664,7 @@
             this.textBox5.Location = new System.Drawing.Point(264, 173);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(31, 22);
+            this.textBox5.Size = new System.Drawing.Size(31, 20);
             this.textBox5.TabIndex = 28;
             this.textBox5.Text = "%";
             // 
@@ -1654,7 +1681,7 @@
             "Auto"});
             this.comboBox_res17.Location = new System.Drawing.Point(144, 239);
             this.comboBox_res17.Name = "comboBox_res17";
-            this.comboBox_res17.Size = new System.Drawing.Size(110, 24);
+            this.comboBox_res17.Size = new System.Drawing.Size(110, 21);
             this.comboBox_res17.TabIndex = 27;
             this.comboBox_res17.Text = "Off";
             // 
@@ -1663,7 +1690,7 @@
             this.textBox66.AccessibleName = "txtLabel";
             this.textBox66.Location = new System.Drawing.Point(6, 239);
             this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(132, 22);
+            this.textBox66.Size = new System.Drawing.Size(132, 20);
             this.textBox66.TabIndex = 26;
             this.textBox66.Text = "Slice partial Fourier";
             // 
@@ -1672,7 +1699,7 @@
             this.textBox65.AccessibleName = "txtLabel";
             this.textBox65.Location = new System.Drawing.Point(6, 173);
             this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(132, 22);
+            this.textBox65.Size = new System.Drawing.Size(132, 20);
             this.textBox65.TabIndex = 25;
             this.textBox65.Text = "Slice Resolution";
             // 
@@ -1681,7 +1708,7 @@
             this.textBox_res15.AccessibleName = "Value";
             this.textBox_res15.Location = new System.Drawing.Point(144, 173);
             this.textBox_res15.Name = "textBox_res15";
-            this.textBox_res15.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res15.Size = new System.Drawing.Size(110, 20);
             this.textBox_res15.TabIndex = 23;
             // 
             // textBox_res14
@@ -1689,7 +1716,7 @@
             this.textBox_res14.AccessibleName = "Value";
             this.textBox_res14.Location = new System.Drawing.Point(144, 140);
             this.textBox_res14.Name = "textBox_res14";
-            this.textBox_res14.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res14.Size = new System.Drawing.Size(110, 20);
             this.textBox_res14.TabIndex = 22;
             // 
             // textBox_res13
@@ -1697,7 +1724,7 @@
             this.textBox_res13.AccessibleName = "Value";
             this.textBox_res13.Location = new System.Drawing.Point(144, 107);
             this.textBox_res13.Name = "textBox_res13";
-            this.textBox_res13.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res13.Size = new System.Drawing.Size(110, 20);
             this.textBox_res13.TabIndex = 21;
             // 
             // textBox_res12
@@ -1705,7 +1732,7 @@
             this.textBox_res12.AccessibleName = "Value";
             this.textBox_res12.Location = new System.Drawing.Point(144, 74);
             this.textBox_res12.Name = "textBox_res12";
-            this.textBox_res12.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res12.Size = new System.Drawing.Size(110, 20);
             this.textBox_res12.TabIndex = 20;
             // 
             // textBox_res11
@@ -1713,7 +1740,7 @@
             this.textBox_res11.AccessibleName = "Value";
             this.textBox_res11.Location = new System.Drawing.Point(144, 41);
             this.textBox_res11.Name = "textBox_res11";
-            this.textBox_res11.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res11.Size = new System.Drawing.Size(110, 20);
             this.textBox_res11.TabIndex = 19;
             // 
             // textBox_res10
@@ -1721,7 +1748,7 @@
             this.textBox_res10.AccessibleName = "Value";
             this.textBox_res10.Location = new System.Drawing.Point(144, 8);
             this.textBox_res10.Name = "textBox_res10";
-            this.textBox_res10.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res10.Size = new System.Drawing.Size(110, 20);
             this.textBox_res10.TabIndex = 18;
             // 
             // comboBox_res16
@@ -1737,7 +1764,7 @@
             "Auto"});
             this.comboBox_res16.Location = new System.Drawing.Point(144, 206);
             this.comboBox_res16.Name = "comboBox_res16";
-            this.comboBox_res16.Size = new System.Drawing.Size(110, 24);
+            this.comboBox_res16.Size = new System.Drawing.Size(110, 21);
             this.comboBox_res16.TabIndex = 16;
             this.comboBox_res16.Text = "Off";
             // 
@@ -1747,7 +1774,7 @@
             this.textBox57.Location = new System.Drawing.Point(6, 8);
             this.textBox57.Name = "textBox57";
             this.textBox57.ReadOnly = true;
-            this.textBox57.Size = new System.Drawing.Size(132, 22);
+            this.textBox57.Size = new System.Drawing.Size(132, 20);
             this.textBox57.TabIndex = 7;
             this.textBox57.Text = "FoV read";
             // 
@@ -1757,7 +1784,7 @@
             this.textBox1.Location = new System.Drawing.Point(264, 8);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(31, 22);
+            this.textBox1.Size = new System.Drawing.Size(31, 20);
             this.textBox1.TabIndex = 12;
             this.textBox1.Text = "mm";
             // 
@@ -1766,7 +1793,7 @@
             this.textBox59.AccessibleName = "txtLabel";
             this.textBox59.Location = new System.Drawing.Point(6, 74);
             this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(132, 22);
+            this.textBox59.Size = new System.Drawing.Size(132, 20);
             this.textBox59.TabIndex = 15;
             this.textBox59.Text = "Slice Thickness";
             // 
@@ -1776,7 +1803,7 @@
             this.textBox4.Location = new System.Drawing.Point(264, 74);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(31, 22);
+            this.textBox4.Size = new System.Drawing.Size(31, 20);
             this.textBox4.TabIndex = 13;
             this.textBox4.Text = "mm";
             // 
@@ -1786,7 +1813,7 @@
             this.textBox3.Location = new System.Drawing.Point(264, 140);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(31, 22);
+            this.textBox3.Size = new System.Drawing.Size(31, 20);
             this.textBox3.TabIndex = 14;
             this.textBox3.Text = "%";
             // 
@@ -1795,7 +1822,7 @@
             this.textBox58.AccessibleName = "txtLabel";
             this.textBox58.Location = new System.Drawing.Point(6, 41);
             this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(132, 22);
+            this.textBox58.Size = new System.Drawing.Size(132, 20);
             this.textBox58.TabIndex = 8;
             this.textBox58.Text = "FoV phase";
             // 
@@ -1805,7 +1832,7 @@
             this.textBox2.Location = new System.Drawing.Point(264, 41);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(31, 22);
+            this.textBox2.Size = new System.Drawing.Size(31, 20);
             this.textBox2.TabIndex = 13;
             this.textBox2.Text = "%";
             // 
@@ -1814,7 +1841,7 @@
             this.textBox60.AccessibleName = "txtLabel";
             this.textBox60.Location = new System.Drawing.Point(6, 107);
             this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(132, 22);
+            this.textBox60.Size = new System.Drawing.Size(132, 20);
             this.textBox60.TabIndex = 9;
             this.textBox60.Text = "Base resolution";
             // 
@@ -1823,7 +1850,7 @@
             this.textBox62.AccessibleName = "txtLabel";
             this.textBox62.Location = new System.Drawing.Point(6, 206);
             this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(132, 22);
+            this.textBox62.Size = new System.Drawing.Size(132, 20);
             this.textBox62.TabIndex = 11;
             this.textBox62.Text = "Phase partial Fourier";
             // 
@@ -1832,7 +1859,7 @@
             this.textBox61.AccessibleName = "txtLabel";
             this.textBox61.Location = new System.Drawing.Point(6, 140);
             this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(132, 22);
+            this.textBox61.Size = new System.Drawing.Size(132, 20);
             this.textBox61.TabIndex = 10;
             this.textBox61.Text = "Phase resolution";
             // 
@@ -1879,7 +1906,7 @@
             "T-PAT"});
             this.comboBox_res27.Location = new System.Drawing.Point(186, 42);
             this.comboBox_res27.Name = "comboBox_res27";
-            this.comboBox_res27.Size = new System.Drawing.Size(110, 24);
+            this.comboBox_res27.Size = new System.Drawing.Size(110, 21);
             this.comboBox_res27.TabIndex = 19;
             this.comboBox_res27.Text = "Integrated";
             // 
@@ -1894,7 +1921,7 @@
             "Triple"});
             this.comboBox_res26.Location = new System.Drawing.Point(186, 8);
             this.comboBox_res26.Name = "comboBox_res26";
-            this.comboBox_res26.Size = new System.Drawing.Size(110, 24);
+            this.comboBox_res26.Size = new System.Drawing.Size(110, 21);
             this.comboBox_res26.TabIndex = 18;
             this.comboBox_res26.Text = "Auto (Triple)";
             // 
@@ -1904,7 +1931,7 @@
             this.textBox7.Location = new System.Drawing.Point(46, 8);
             this.textBox7.Name = "textBox7";
             this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(132, 22);
+            this.textBox7.Size = new System.Drawing.Size(132, 20);
             this.textBox7.TabIndex = 7;
             this.textBox7.Text = "Matrix Coil Mode";
             // 
@@ -1913,7 +1940,7 @@
             this.textBox15.AccessibleName = "txtLabel";
             this.textBox15.Location = new System.Drawing.Point(46, 43);
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(132, 22);
+            this.textBox15.Size = new System.Drawing.Size(132, 20);
             this.textBox15.TabIndex = 8;
             this.textBox15.Text = "Reference scan mode";
             // 
@@ -1922,7 +1949,7 @@
             this.textBox17.AccessibleName = "resValue";
             this.textBox17.Location = new System.Drawing.Point(186, 78);
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(110, 22);
+            this.textBox17.Size = new System.Drawing.Size(110, 20);
             this.textBox17.TabIndex = 3;
             // 
             // shapeContainer3
@@ -1962,7 +1989,7 @@
             "mSENSE"});
             this.comboBox_res20.Location = new System.Drawing.Point(144, 8);
             this.comboBox_res20.Name = "comboBox_res20";
-            this.comboBox_res20.Size = new System.Drawing.Size(110, 24);
+            this.comboBox_res20.Size = new System.Drawing.Size(110, 21);
             this.comboBox_res20.TabIndex = 18;
             this.comboBox_res20.Text = "Off";
             // 
@@ -1972,7 +1999,7 @@
             this.textBox6.Location = new System.Drawing.Point(4, 8);
             this.textBox6.Name = "textBox6";
             this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(132, 22);
+            this.textBox6.Size = new System.Drawing.Size(132, 20);
             this.textBox6.TabIndex = 7;
             this.textBox6.Text = "PAT mode";
             // 
@@ -1981,7 +2008,7 @@
             this.textBox_res25.AccessibleName = "resValue";
             this.textBox_res25.Location = new System.Drawing.Point(144, 183);
             this.textBox_res25.Name = "textBox_res25";
-            this.textBox_res25.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res25.Size = new System.Drawing.Size(110, 20);
             this.textBox_res25.TabIndex = 6;
             // 
             // textBox_res24
@@ -1989,7 +2016,7 @@
             this.textBox_res24.AccessibleName = "resValue";
             this.textBox_res24.Location = new System.Drawing.Point(144, 148);
             this.textBox_res24.Name = "textBox_res24";
-            this.textBox_res24.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res24.Size = new System.Drawing.Size(110, 20);
             this.textBox_res24.TabIndex = 5;
             // 
             // textBox_res23
@@ -1997,7 +2024,7 @@
             this.textBox_res23.AccessibleName = "resValue";
             this.textBox_res23.Location = new System.Drawing.Point(144, 113);
             this.textBox_res23.Name = "textBox_res23";
-            this.textBox_res23.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res23.Size = new System.Drawing.Size(110, 20);
             this.textBox_res23.TabIndex = 4;
             // 
             // textBox14
@@ -2005,7 +2032,7 @@
             this.textBox14.AccessibleName = "txtLabel";
             this.textBox14.Location = new System.Drawing.Point(4, 43);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(132, 22);
+            this.textBox14.Size = new System.Drawing.Size(132, 20);
             this.textBox14.TabIndex = 8;
             this.textBox14.Text = "Accel. factor PE";
             // 
@@ -2014,7 +2041,7 @@
             this.textBox_res22.AccessibleName = "resValue";
             this.textBox_res22.Location = new System.Drawing.Point(144, 78);
             this.textBox_res22.Name = "textBox_res22";
-            this.textBox_res22.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res22.Size = new System.Drawing.Size(110, 20);
             this.textBox_res22.TabIndex = 3;
             // 
             // textBox18
@@ -2022,7 +2049,7 @@
             this.textBox18.AccessibleName = "txtLabel";
             this.textBox18.Location = new System.Drawing.Point(6, 113);
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(132, 22);
+            this.textBox18.Size = new System.Drawing.Size(132, 20);
             this.textBox18.TabIndex = 9;
             this.textBox18.Text = "Ref. lines PE";
             // 
@@ -2031,7 +2058,7 @@
             this.textBox_res21.AccessibleName = "resValue";
             this.textBox_res21.Location = new System.Drawing.Point(144, 43);
             this.textBox_res21.Name = "textBox_res21";
-            this.textBox_res21.Size = new System.Drawing.Size(110, 22);
+            this.textBox_res21.Size = new System.Drawing.Size(110, 20);
             this.textBox_res21.TabIndex = 2;
             // 
             // textBox20
@@ -2039,7 +2066,7 @@
             this.textBox20.AccessibleName = "txtLabel";
             this.textBox20.Location = new System.Drawing.Point(6, 183);
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(132, 22);
+            this.textBox20.Size = new System.Drawing.Size(132, 20);
             this.textBox20.TabIndex = 11;
             this.textBox20.Text = "Accel. factor 3D";
             // 
@@ -2089,7 +2116,7 @@
             this.checkBox9.AutoSize = true;
             this.checkBox9.Location = new System.Drawing.Point(239, 11);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(18, 17);
+            this.checkBox9.Size = new System.Drawing.Size(15, 14);
             this.checkBox9.TabIndex = 51;
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
@@ -2098,7 +2125,7 @@
             this.checkBox8.AutoSize = true;
             this.checkBox8.Location = new System.Drawing.Point(239, 62);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(18, 17);
+            this.checkBox8.Size = new System.Drawing.Size(15, 14);
             this.checkBox8.TabIndex = 50;
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
@@ -2108,7 +2135,7 @@
             this.textBox68.Location = new System.Drawing.Point(6, 189);
             this.textBox68.Name = "textBox68";
             this.textBox68.ReadOnly = true;
-            this.textBox68.Size = new System.Drawing.Size(163, 22);
+            this.textBox68.Size = new System.Drawing.Size(163, 20);
             this.textBox68.TabIndex = 49;
             this.textBox68.Text = "Elliptical filter";
             // 
@@ -2117,7 +2144,7 @@
             this.checkBox7.AutoSize = true;
             this.checkBox7.Location = new System.Drawing.Point(239, 189);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(18, 17);
+            this.checkBox7.Size = new System.Drawing.Size(15, 14);
             this.checkBox7.TabIndex = 48;
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
@@ -2126,7 +2153,7 @@
             this.checkBox6.AutoSize = true;
             this.checkBox6.Location = new System.Drawing.Point(239, 164);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(18, 17);
+            this.checkBox6.Size = new System.Drawing.Size(15, 14);
             this.checkBox6.TabIndex = 47;
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
@@ -2138,7 +2165,7 @@
             "Off"});
             this.comboBox7.Location = new System.Drawing.Point(175, 225);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(79, 24);
+            this.comboBox7.Size = new System.Drawing.Size(79, 21);
             this.comboBox7.TabIndex = 46;
             this.comboBox7.Text = "Off";
             // 
@@ -2147,7 +2174,7 @@
             this.checkBox4.AutoSize = true;
             this.checkBox4.Location = new System.Drawing.Point(239, 113);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(18, 17);
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
             this.checkBox4.TabIndex = 44;
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -2157,7 +2184,7 @@
             this.textBox102.Location = new System.Drawing.Point(6, 225);
             this.textBox102.Name = "textBox102";
             this.textBox102.ReadOnly = true;
-            this.textBox102.Size = new System.Drawing.Size(162, 22);
+            this.textBox102.Size = new System.Drawing.Size(162, 20);
             this.textBox102.TabIndex = 25;
             this.textBox102.Text = "POCS";
             // 
@@ -2167,7 +2194,7 @@
             this.textBox104.Location = new System.Drawing.Point(6, 161);
             this.textBox104.Name = "textBox104";
             this.textBox104.ReadOnly = true;
-            this.textBox104.Size = new System.Drawing.Size(163, 22);
+            this.textBox104.Size = new System.Drawing.Size(163, 20);
             this.textBox104.TabIndex = 21;
             this.textBox104.Text = "Raw filter";
             // 
@@ -2177,7 +2204,7 @@
             this.textBox105.Location = new System.Drawing.Point(5, 59);
             this.textBox105.Name = "textBox105";
             this.textBox105.ReadOnly = true;
-            this.textBox105.Size = new System.Drawing.Size(163, 22);
+            this.textBox105.Size = new System.Drawing.Size(163, 20);
             this.textBox105.TabIndex = 20;
             this.textBox105.Text = "Normalize";
             // 
@@ -2187,7 +2214,7 @@
             this.textBox107.Location = new System.Drawing.Point(5, 110);
             this.textBox107.Name = "textBox107";
             this.textBox107.ReadOnly = true;
-            this.textBox107.Size = new System.Drawing.Size(163, 22);
+            this.textBox107.Size = new System.Drawing.Size(163, 20);
             this.textBox107.TabIndex = 8;
             this.textBox107.Text = "B1 filter";
             // 
@@ -2197,7 +2224,7 @@
             this.textBox109.Location = new System.Drawing.Point(6, 8);
             this.textBox109.Name = "textBox109";
             this.textBox109.ReadOnly = true;
-            this.textBox109.Size = new System.Drawing.Size(163, 22);
+            this.textBox109.Size = new System.Drawing.Size(163, 20);
             this.textBox109.TabIndex = 9;
             this.textBox109.Text = "Prescan Normalize";
             // 
@@ -2231,7 +2258,7 @@
             this.checkBox10.AutoSize = true;
             this.checkBox10.Location = new System.Drawing.Point(239, 11);
             this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(18, 17);
+            this.checkBox10.Size = new System.Drawing.Size(15, 14);
             this.checkBox10.TabIndex = 46;
             this.checkBox10.UseVisualStyleBackColor = true;
             // 
@@ -2240,7 +2267,7 @@
             this.checkBox5.AutoSize = true;
             this.checkBox5.Location = new System.Drawing.Point(239, 192);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(18, 17);
+            this.checkBox5.Size = new System.Drawing.Size(15, 14);
             this.checkBox5.TabIndex = 45;
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
@@ -2249,7 +2276,7 @@
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(239, 138);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 44;
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
@@ -2261,7 +2288,7 @@
             "2D"});
             this.comboBox6.Location = new System.Drawing.Point(175, 161);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(79, 24);
+            this.comboBox6.Size = new System.Drawing.Size(79, 21);
             this.comboBox6.TabIndex = 43;
             this.comboBox6.Text = "2D";
             // 
@@ -2271,7 +2298,7 @@
             this.textBox89.Location = new System.Drawing.Point(7, 189);
             this.textBox89.Name = "textBox89";
             this.textBox89.ReadOnly = true;
-            this.textBox89.Size = new System.Drawing.Size(162, 22);
+            this.textBox89.Size = new System.Drawing.Size(162, 20);
             this.textBox89.TabIndex = 25;
             this.textBox89.Text = "Unfiltered images";
             // 
@@ -2281,7 +2308,7 @@
             this.textBox92.Location = new System.Drawing.Point(6, 161);
             this.textBox92.Name = "textBox92";
             this.textBox92.ReadOnly = true;
-            this.textBox92.Size = new System.Drawing.Size(163, 22);
+            this.textBox92.Size = new System.Drawing.Size(163, 20);
             this.textBox92.TabIndex = 21;
             this.textBox92.Text = "Mode";
             // 
@@ -2291,7 +2318,7 @@
             this.textBox96.Location = new System.Drawing.Point(6, 135);
             this.textBox96.Name = "textBox96";
             this.textBox96.ReadOnly = true;
-            this.textBox96.Size = new System.Drawing.Size(163, 22);
+            this.textBox96.Size = new System.Drawing.Size(163, 20);
             this.textBox96.TabIndex = 8;
             this.textBox96.Text = "Distortion Corr.";
             // 
@@ -2301,7 +2328,7 @@
             this.textBox98.Location = new System.Drawing.Point(6, 8);
             this.textBox98.Name = "textBox98";
             this.textBox98.ReadOnly = true;
-            this.textBox98.Size = new System.Drawing.Size(163, 22);
+            this.textBox98.Size = new System.Drawing.Size(163, 20);
             this.textBox98.TabIndex = 9;
             this.textBox98.Text = "Image Filter";
             // 
@@ -2320,7 +2347,7 @@
             this.tabPage_Geometry.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Geometry.Name = "tabPage_Geometry";
             this.tabPage_Geometry.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Geometry.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_Geometry.Size = new System.Drawing.Size(690, 336);
             this.tabPage_Geometry.TabIndex = 7;
             this.tabPage_Geometry.Text = "Geometry";
             this.tabPage_Geometry.UseVisualStyleBackColor = true;
@@ -2382,7 +2409,7 @@
             this.textBox75.Location = new System.Drawing.Point(6, 195);
             this.textBox75.Name = "textBox75";
             this.textBox75.ReadOnly = true;
-            this.textBox75.Size = new System.Drawing.Size(132, 22);
+            this.textBox75.Size = new System.Drawing.Size(132, 20);
             this.textBox75.TabIndex = 45;
             this.textBox75.Text = "Series";
             // 
@@ -2398,7 +2425,7 @@
             "Apex To Base"});
             this.comboBox12.Location = new System.Drawing.Point(144, 195);
             this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(110, 24);
+            this.comboBox12.Size = new System.Drawing.Size(110, 21);
             this.comboBox12.TabIndex = 44;
             this.comboBox12.Text = "Interleaved";
             // 
@@ -2412,7 +2439,7 @@
             "Transversal"});
             this.comboBox11.Location = new System.Drawing.Point(144, 163);
             this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(110, 24);
+            this.comboBox11.Size = new System.Drawing.Size(110, 21);
             this.comboBox11.TabIndex = 37;
             this.comboBox11.Text = "Transversal";
             // 
@@ -2422,7 +2449,7 @@
             this.textBox73.Location = new System.Drawing.Point(263, 13);
             this.textBox73.Name = "textBox73";
             this.textBox73.ReadOnly = true;
-            this.textBox73.Size = new System.Drawing.Size(31, 22);
+            this.textBox73.Size = new System.Drawing.Size(31, 20);
             this.textBox73.TabIndex = 43;
             this.textBox73.Text = "mm";
             // 
@@ -2432,7 +2459,7 @@
             this.textBox81.Location = new System.Drawing.Point(263, 107);
             this.textBox81.Name = "textBox81";
             this.textBox81.ReadOnly = true;
-            this.textBox81.Size = new System.Drawing.Size(31, 22);
+            this.textBox81.Size = new System.Drawing.Size(31, 20);
             this.textBox81.TabIndex = 41;
             this.textBox81.Text = "ms";
             // 
@@ -2441,7 +2468,7 @@
             this.textBox94.AccessibleName = "Value";
             this.textBox94.Location = new System.Drawing.Point(175, 101);
             this.textBox94.Name = "textBox94";
-            this.textBox94.Size = new System.Drawing.Size(79, 22);
+            this.textBox94.Size = new System.Drawing.Size(79, 20);
             this.textBox94.TabIndex = 38;
             // 
             // textBox95
@@ -2449,7 +2476,7 @@
             this.textBox95.AccessibleName = "Value";
             this.textBox95.Location = new System.Drawing.Point(175, 8);
             this.textBox95.Name = "textBox95";
-            this.textBox95.Size = new System.Drawing.Size(79, 22);
+            this.textBox95.Size = new System.Drawing.Size(79, 20);
             this.textBox95.TabIndex = 37;
             // 
             // textBox97
@@ -2458,7 +2485,7 @@
             this.textBox97.Location = new System.Drawing.Point(263, 45);
             this.textBox97.Name = "textBox97";
             this.textBox97.ReadOnly = true;
-            this.textBox97.Size = new System.Drawing.Size(31, 22);
+            this.textBox97.Size = new System.Drawing.Size(31, 20);
             this.textBox97.TabIndex = 34;
             this.textBox97.Text = "%";
             // 
@@ -2468,7 +2495,7 @@
             this.textBox99.Location = new System.Drawing.Point(263, 76);
             this.textBox99.Name = "textBox99";
             this.textBox99.ReadOnly = true;
-            this.textBox99.Size = new System.Drawing.Size(31, 22);
+            this.textBox99.Size = new System.Drawing.Size(31, 20);
             this.textBox99.TabIndex = 31;
             this.textBox99.Text = "mm";
             // 
@@ -2478,7 +2505,7 @@
             this.textBox108.Location = new System.Drawing.Point(6, 227);
             this.textBox108.Name = "textBox108";
             this.textBox108.ReadOnly = true;
-            this.textBox108.Size = new System.Drawing.Size(163, 22);
+            this.textBox108.Size = new System.Drawing.Size(163, 20);
             this.textBox108.TabIndex = 23;
             this.textBox108.Text = "Concatenations";
             // 
@@ -2487,7 +2514,7 @@
             this.textBox110.AccessibleName = "Value";
             this.textBox110.Location = new System.Drawing.Point(175, 227);
             this.textBox110.Name = "textBox110";
-            this.textBox110.Size = new System.Drawing.Size(79, 22);
+            this.textBox110.Size = new System.Drawing.Size(79, 20);
             this.textBox110.TabIndex = 22;
             // 
             // textBox111
@@ -2496,7 +2523,7 @@
             this.textBox111.Location = new System.Drawing.Point(6, 163);
             this.textBox111.Name = "textBox111";
             this.textBox111.ReadOnly = true;
-            this.textBox111.Size = new System.Drawing.Size(132, 22);
+            this.textBox111.Size = new System.Drawing.Size(132, 20);
             this.textBox111.TabIndex = 21;
             this.textBox111.Text = "Multi-slice mode";
             // 
@@ -2506,7 +2533,7 @@
             this.textBox113.Location = new System.Drawing.Point(6, 70);
             this.textBox113.Name = "textBox113";
             this.textBox113.ReadOnly = true;
-            this.textBox113.Size = new System.Drawing.Size(163, 22);
+            this.textBox113.Size = new System.Drawing.Size(163, 20);
             this.textBox113.TabIndex = 19;
             this.textBox113.Text = "Slice thickness";
             // 
@@ -2516,7 +2543,7 @@
             this.textBox114.Location = new System.Drawing.Point(6, 8);
             this.textBox114.Name = "textBox114";
             this.textBox114.ReadOnly = true;
-            this.textBox114.Size = new System.Drawing.Size(163, 22);
+            this.textBox114.Size = new System.Drawing.Size(163, 20);
             this.textBox114.TabIndex = 7;
             this.textBox114.Text = "FOV read";
             // 
@@ -2526,7 +2553,7 @@
             this.textBox115.Location = new System.Drawing.Point(6, 39);
             this.textBox115.Name = "textBox115";
             this.textBox115.ReadOnly = true;
-            this.textBox115.Size = new System.Drawing.Size(163, 22);
+            this.textBox115.Size = new System.Drawing.Size(163, 20);
             this.textBox115.TabIndex = 8;
             this.textBox115.Text = "FoV phase";
             // 
@@ -2535,7 +2562,7 @@
             this.textBox116.AccessibleName = "Value";
             this.textBox116.Location = new System.Drawing.Point(175, 70);
             this.textBox116.Name = "textBox116";
-            this.textBox116.Size = new System.Drawing.Size(79, 22);
+            this.textBox116.Size = new System.Drawing.Size(79, 20);
             this.textBox116.TabIndex = 3;
             // 
             // textBox117
@@ -2544,7 +2571,7 @@
             this.textBox117.Location = new System.Drawing.Point(6, 101);
             this.textBox117.Name = "textBox117";
             this.textBox117.ReadOnly = true;
-            this.textBox117.Size = new System.Drawing.Size(163, 22);
+            this.textBox117.Size = new System.Drawing.Size(163, 20);
             this.textBox117.TabIndex = 9;
             this.textBox117.Text = "TR";
             // 
@@ -2553,7 +2580,7 @@
             this.textBox118.AccessibleName = "Value";
             this.textBox118.Location = new System.Drawing.Point(175, 39);
             this.textBox118.Name = "textBox118";
-            this.textBox118.Size = new System.Drawing.Size(79, 22);
+            this.textBox118.Size = new System.Drawing.Size(79, 20);
             this.textBox118.TabIndex = 2;
             // 
             // shapeContainer13
@@ -2615,7 +2642,7 @@
             "H >> F"});
             this.comboBox8.Location = new System.Drawing.Point(175, 153);
             this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(79, 24);
+            this.comboBox8.Size = new System.Drawing.Size(79, 21);
             this.comboBox8.TabIndex = 36;
             this.comboBox8.Text = "A >> P";
             // 
@@ -2629,7 +2656,7 @@
             "Transversal"});
             this.comboBox9.Location = new System.Drawing.Point(144, 124);
             this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(110, 24);
+            this.comboBox9.Size = new System.Drawing.Size(110, 21);
             this.comboBox9.TabIndex = 35;
             this.comboBox9.Text = "Transversal";
             // 
@@ -2639,7 +2666,7 @@
             this.textBox119.Location = new System.Drawing.Point(262, 76);
             this.textBox119.Name = "textBox119";
             this.textBox119.ReadOnly = true;
-            this.textBox119.Size = new System.Drawing.Size(31, 22);
+            this.textBox119.Size = new System.Drawing.Size(31, 20);
             this.textBox119.TabIndex = 34;
             this.textBox119.Text = "%";
             // 
@@ -2649,7 +2676,7 @@
             this.textBox120.Location = new System.Drawing.Point(262, 225);
             this.textBox120.Name = "textBox120";
             this.textBox120.ReadOnly = true;
-            this.textBox120.Size = new System.Drawing.Size(31, 22);
+            this.textBox120.Size = new System.Drawing.Size(31, 20);
             this.textBox120.TabIndex = 33;
             this.textBox120.Text = "%";
             // 
@@ -2659,7 +2686,7 @@
             this.textBox121.Location = new System.Drawing.Point(262, 194);
             this.textBox121.Name = "textBox121";
             this.textBox121.ReadOnly = true;
-            this.textBox121.Size = new System.Drawing.Size(31, 22);
+            this.textBox121.Size = new System.Drawing.Size(31, 20);
             this.textBox121.TabIndex = 31;
             this.textBox121.Text = "%";
             // 
@@ -2669,7 +2696,7 @@
             this.textBox122.Location = new System.Drawing.Point(6, 240);
             this.textBox122.Name = "textBox122";
             this.textBox122.ReadOnly = true;
-            this.textBox122.Size = new System.Drawing.Size(163, 22);
+            this.textBox122.Size = new System.Drawing.Size(163, 20);
             this.textBox122.TabIndex = 29;
             this.textBox122.Text = "Slices per slab";
             // 
@@ -2678,7 +2705,7 @@
             this.textBox123.AccessibleName = "Value";
             this.textBox123.Location = new System.Drawing.Point(175, 240);
             this.textBox123.Name = "textBox123";
-            this.textBox123.Size = new System.Drawing.Size(79, 22);
+            this.textBox123.Size = new System.Drawing.Size(79, 20);
             this.textBox123.TabIndex = 28;
             // 
             // textBox124
@@ -2687,7 +2714,7 @@
             this.textBox124.Location = new System.Drawing.Point(6, 211);
             this.textBox124.Name = "textBox124";
             this.textBox124.ReadOnly = true;
-            this.textBox124.Size = new System.Drawing.Size(163, 22);
+            this.textBox124.Size = new System.Drawing.Size(163, 20);
             this.textBox124.TabIndex = 27;
             this.textBox124.Text = "Slice oversampling";
             // 
@@ -2696,7 +2723,7 @@
             this.textBox125.AccessibleName = "Value";
             this.textBox125.Location = new System.Drawing.Point(175, 211);
             this.textBox125.Name = "textBox125";
-            this.textBox125.Size = new System.Drawing.Size(79, 22);
+            this.textBox125.Size = new System.Drawing.Size(79, 20);
             this.textBox125.TabIndex = 26;
             // 
             // textBox126
@@ -2705,7 +2732,7 @@
             this.textBox126.Location = new System.Drawing.Point(6, 182);
             this.textBox126.Name = "textBox126";
             this.textBox126.ReadOnly = true;
-            this.textBox126.Size = new System.Drawing.Size(163, 22);
+            this.textBox126.Size = new System.Drawing.Size(163, 20);
             this.textBox126.TabIndex = 25;
             this.textBox126.Text = "Phase oversampling";
             // 
@@ -2714,7 +2741,7 @@
             this.textBox127.AccessibleName = "Value";
             this.textBox127.Location = new System.Drawing.Point(175, 182);
             this.textBox127.Name = "textBox127";
-            this.textBox127.Size = new System.Drawing.Size(79, 22);
+            this.textBox127.Size = new System.Drawing.Size(79, 20);
             this.textBox127.TabIndex = 24;
             // 
             // textBox130
@@ -2723,7 +2750,7 @@
             this.textBox130.Location = new System.Drawing.Point(6, 153);
             this.textBox130.Name = "textBox130";
             this.textBox130.ReadOnly = true;
-            this.textBox130.Size = new System.Drawing.Size(163, 22);
+            this.textBox130.Size = new System.Drawing.Size(163, 20);
             this.textBox130.TabIndex = 21;
             this.textBox130.Text = "Phase enc. dir.";
             // 
@@ -2733,7 +2760,7 @@
             this.textBox131.Location = new System.Drawing.Point(6, 124);
             this.textBox131.Name = "textBox131";
             this.textBox131.ReadOnly = true;
-            this.textBox131.Size = new System.Drawing.Size(132, 22);
+            this.textBox131.Size = new System.Drawing.Size(132, 20);
             this.textBox131.TabIndex = 20;
             this.textBox131.Text = "Orientation";
             // 
@@ -2743,7 +2770,7 @@
             this.textBox132.Location = new System.Drawing.Point(6, 66);
             this.textBox132.Name = "textBox132";
             this.textBox132.ReadOnly = true;
-            this.textBox132.Size = new System.Drawing.Size(163, 22);
+            this.textBox132.Size = new System.Drawing.Size(163, 20);
             this.textBox132.TabIndex = 19;
             this.textBox132.Text = "Dist. factor";
             // 
@@ -2755,7 +2782,7 @@
             "1"});
             this.comboBox10.Location = new System.Drawing.Point(175, 7);
             this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(50, 24);
+            this.comboBox10.Size = new System.Drawing.Size(50, 21);
             this.comboBox10.TabIndex = 18;
             this.comboBox10.Text = "1";
             // 
@@ -2765,7 +2792,7 @@
             this.textBox137.Location = new System.Drawing.Point(6, 8);
             this.textBox137.Name = "textBox137";
             this.textBox137.ReadOnly = true;
-            this.textBox137.Size = new System.Drawing.Size(163, 22);
+            this.textBox137.Size = new System.Drawing.Size(163, 20);
             this.textBox137.TabIndex = 7;
             this.textBox137.Text = "Slab group";
             // 
@@ -2774,7 +2801,7 @@
             this.textBox138.AccessibleName = "Value";
             this.textBox138.Location = new System.Drawing.Point(144, 95);
             this.textBox138.Name = "textBox138";
-            this.textBox138.Size = new System.Drawing.Size(110, 22);
+            this.textBox138.Size = new System.Drawing.Size(110, 20);
             this.textBox138.TabIndex = 4;
             // 
             // textBox139
@@ -2783,7 +2810,7 @@
             this.textBox139.Location = new System.Drawing.Point(6, 37);
             this.textBox139.Name = "textBox139";
             this.textBox139.ReadOnly = true;
-            this.textBox139.Size = new System.Drawing.Size(163, 22);
+            this.textBox139.Size = new System.Drawing.Size(163, 20);
             this.textBox139.TabIndex = 8;
             this.textBox139.Text = "Slabs";
             // 
@@ -2792,7 +2819,7 @@
             this.textBox140.AccessibleName = "Value";
             this.textBox140.Location = new System.Drawing.Point(175, 66);
             this.textBox140.Name = "textBox140";
-            this.textBox140.Size = new System.Drawing.Size(79, 22);
+            this.textBox140.Size = new System.Drawing.Size(79, 20);
             this.textBox140.TabIndex = 3;
             // 
             // textBox141
@@ -2801,7 +2828,7 @@
             this.textBox141.Location = new System.Drawing.Point(6, 95);
             this.textBox141.Name = "textBox141";
             this.textBox141.ReadOnly = true;
-            this.textBox141.Size = new System.Drawing.Size(132, 22);
+            this.textBox141.Size = new System.Drawing.Size(132, 20);
             this.textBox141.TabIndex = 9;
             this.textBox141.Text = "Position";
             // 
@@ -2810,7 +2837,7 @@
             this.textBox142.AccessibleName = "Value";
             this.textBox142.Location = new System.Drawing.Point(175, 37);
             this.textBox142.Name = "textBox142";
-            this.textBox142.Size = new System.Drawing.Size(79, 22);
+            this.textBox142.Size = new System.Drawing.Size(79, 20);
             this.textBox142.TabIndex = 2;
             // 
             // shapeContainer16
@@ -2933,7 +2960,7 @@
             this.checkBox16.AutoSize = true;
             this.checkBox16.Location = new System.Drawing.Point(239, 11);
             this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(18, 17);
+            this.checkBox16.Size = new System.Drawing.Size(15, 14);
             this.checkBox16.TabIndex = 46;
             this.checkBox16.UseVisualStyleBackColor = true;
             // 
@@ -2942,7 +2969,7 @@
             this.checkBox17.AutoSize = true;
             this.checkBox17.Location = new System.Drawing.Point(239, 192);
             this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(18, 17);
+            this.checkBox17.Size = new System.Drawing.Size(15, 14);
             this.checkBox17.TabIndex = 45;
             this.checkBox17.UseVisualStyleBackColor = true;
             // 
@@ -2951,7 +2978,7 @@
             this.checkBox18.AutoSize = true;
             this.checkBox18.Location = new System.Drawing.Point(239, 138);
             this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(18, 17);
+            this.checkBox18.Size = new System.Drawing.Size(15, 14);
             this.checkBox18.TabIndex = 44;
             this.checkBox18.UseVisualStyleBackColor = true;
             // 
@@ -2963,7 +2990,7 @@
             "2D"});
             this.comboBox14.Location = new System.Drawing.Point(175, 161);
             this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(79, 24);
+            this.comboBox14.Size = new System.Drawing.Size(79, 21);
             this.comboBox14.TabIndex = 43;
             this.comboBox14.Text = "2D";
             // 
@@ -2973,7 +3000,7 @@
             this.textBox133.Location = new System.Drawing.Point(7, 189);
             this.textBox133.Name = "textBox133";
             this.textBox133.ReadOnly = true;
-            this.textBox133.Size = new System.Drawing.Size(162, 22);
+            this.textBox133.Size = new System.Drawing.Size(162, 20);
             this.textBox133.TabIndex = 25;
             this.textBox133.Text = "Unfiltered images";
             // 
@@ -2983,7 +3010,7 @@
             this.textBox134.Location = new System.Drawing.Point(6, 161);
             this.textBox134.Name = "textBox134";
             this.textBox134.ReadOnly = true;
-            this.textBox134.Size = new System.Drawing.Size(163, 22);
+            this.textBox134.Size = new System.Drawing.Size(163, 20);
             this.textBox134.TabIndex = 21;
             this.textBox134.Text = "Mode";
             // 
@@ -2993,7 +3020,7 @@
             this.textBox135.Location = new System.Drawing.Point(6, 135);
             this.textBox135.Name = "textBox135";
             this.textBox135.ReadOnly = true;
-            this.textBox135.Size = new System.Drawing.Size(163, 22);
+            this.textBox135.Size = new System.Drawing.Size(163, 20);
             this.textBox135.TabIndex = 8;
             this.textBox135.Text = "Distortion Corr.";
             // 
@@ -3003,7 +3030,7 @@
             this.textBox136.Location = new System.Drawing.Point(6, 8);
             this.textBox136.Name = "textBox136";
             this.textBox136.ReadOnly = true;
-            this.textBox136.Size = new System.Drawing.Size(163, 22);
+            this.textBox136.Size = new System.Drawing.Size(163, 20);
             this.textBox136.TabIndex = 9;
             this.textBox136.Text = "Image Filter";
             // 
@@ -3042,7 +3069,7 @@
             this.tabPage_System.Location = new System.Drawing.Point(4, 29);
             this.tabPage_System.Name = "tabPage_System";
             this.tabPage_System.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_System.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_System.Size = new System.Drawing.Size(690, 336);
             this.tabPage_System.TabIndex = 3;
             this.tabPage_System.Text = "System";
             this.tabPage_System.UseVisualStyleBackColor = true;
@@ -3053,7 +3080,7 @@
             this.tabPage_Physio.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Physio.Name = "tabPage_Physio";
             this.tabPage_Physio.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Physio.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_Physio.Size = new System.Drawing.Size(690, 336);
             this.tabPage_Physio.TabIndex = 4;
             this.tabPage_Physio.Text = "Physio";
             this.tabPage_Physio.UseVisualStyleBackColor = true;
@@ -3099,7 +3126,7 @@
             this.checkBox12.AutoSize = true;
             this.checkBox12.Location = new System.Drawing.Point(279, 242);
             this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(18, 17);
+            this.checkBox12.Size = new System.Drawing.Size(15, 14);
             this.checkBox12.TabIndex = 53;
             this.checkBox12.UseVisualStyleBackColor = true;
             // 
@@ -3109,7 +3136,7 @@
             this.textBox100.Location = new System.Drawing.Point(46, 239);
             this.textBox100.Name = "textBox100";
             this.textBox100.ReadOnly = true;
-            this.textBox100.Size = new System.Drawing.Size(163, 22);
+            this.textBox100.Size = new System.Drawing.Size(163, 20);
             this.textBox100.TabIndex = 52;
             this.textBox100.Text = "Interpolation";
             // 
@@ -3122,7 +3149,7 @@
             "Radial"});
             this.comboBox13.Location = new System.Drawing.Point(186, 8);
             this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(110, 24);
+            this.comboBox13.Size = new System.Drawing.Size(110, 21);
             this.comboBox13.TabIndex = 18;
             this.comboBox13.Text = "Cartesian";
             // 
@@ -3132,7 +3159,7 @@
             this.textBox101.Location = new System.Drawing.Point(46, 8);
             this.textBox101.Name = "textBox101";
             this.textBox101.ReadOnly = true;
-            this.textBox101.Size = new System.Drawing.Size(132, 22);
+            this.textBox101.Size = new System.Drawing.Size(132, 20);
             this.textBox101.TabIndex = 7;
             this.textBox101.Text = "Trajectory";
             // 
@@ -3140,7 +3167,7 @@
             // 
             this.shapeContainer19.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer19.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer19.Name = "shapeContainer3";
+            this.shapeContainer19.Name = "shapeContainer19";
             this.shapeContainer19.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape3});
             this.shapeContainer19.Size = new System.Drawing.Size(305, 271);
@@ -3189,7 +3216,7 @@
             this.textBox103.Location = new System.Drawing.Point(264, 173);
             this.textBox103.Name = "textBox103";
             this.textBox103.ReadOnly = true;
-            this.textBox103.Size = new System.Drawing.Size(31, 22);
+            this.textBox103.Size = new System.Drawing.Size(31, 20);
             this.textBox103.TabIndex = 28;
             this.textBox103.Text = "%";
             // 
@@ -3204,7 +3231,7 @@
             "Ext./Trigger"});
             this.comboBox16.Location = new System.Drawing.Point(121, 8);
             this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(114, 24);
+            this.comboBox16.Size = new System.Drawing.Size(114, 21);
             this.comboBox16.TabIndex = 27;
             this.comboBox16.Text = "Off";
             // 
@@ -3213,7 +3240,7 @@
             this.textBox106.AccessibleName = "txtLabel";
             this.textBox106.Location = new System.Drawing.Point(6, 239);
             this.textBox106.Name = "textBox106";
-            this.textBox106.Size = new System.Drawing.Size(132, 22);
+            this.textBox106.Size = new System.Drawing.Size(132, 20);
             this.textBox106.TabIndex = 26;
             this.textBox106.Text = "Segments";
             // 
@@ -3222,7 +3249,7 @@
             this.textBox112.AccessibleName = "txtLabel";
             this.textBox112.Location = new System.Drawing.Point(6, 173);
             this.textBox112.Name = "textBox112";
-            this.textBox112.Size = new System.Drawing.Size(132, 22);
+            this.textBox112.Size = new System.Drawing.Size(132, 20);
             this.textBox112.TabIndex = 25;
             this.textBox112.Text = "TR";
             // 
@@ -3231,7 +3258,7 @@
             this.textBox128.AccessibleName = "Value";
             this.textBox128.Location = new System.Drawing.Point(144, 173);
             this.textBox128.Name = "textBox128";
-            this.textBox128.Size = new System.Drawing.Size(110, 22);
+            this.textBox128.Size = new System.Drawing.Size(110, 20);
             this.textBox128.TabIndex = 23;
             // 
             // textBox129
@@ -3239,7 +3266,7 @@
             this.textBox129.AccessibleName = "Value";
             this.textBox129.Location = new System.Drawing.Point(144, 140);
             this.textBox129.Name = "textBox129";
-            this.textBox129.Size = new System.Drawing.Size(110, 22);
+            this.textBox129.Size = new System.Drawing.Size(110, 20);
             this.textBox129.TabIndex = 22;
             // 
             // textBox143
@@ -3247,7 +3274,7 @@
             this.textBox143.AccessibleName = "Value";
             this.textBox143.Location = new System.Drawing.Point(144, 107);
             this.textBox143.Name = "textBox143";
-            this.textBox143.Size = new System.Drawing.Size(110, 22);
+            this.textBox143.Size = new System.Drawing.Size(110, 20);
             this.textBox143.TabIndex = 21;
             // 
             // textBox144
@@ -3255,7 +3282,7 @@
             this.textBox144.AccessibleName = "Value";
             this.textBox144.Location = new System.Drawing.Point(144, 74);
             this.textBox144.Name = "textBox144";
-            this.textBox144.Size = new System.Drawing.Size(110, 22);
+            this.textBox144.Size = new System.Drawing.Size(110, 20);
             this.textBox144.TabIndex = 20;
             // 
             // comboBox17
@@ -3271,7 +3298,7 @@
             "Auto"});
             this.comboBox17.Location = new System.Drawing.Point(144, 206);
             this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(110, 24);
+            this.comboBox17.Size = new System.Drawing.Size(110, 21);
             this.comboBox17.TabIndex = 16;
             this.comboBox17.Text = "Off";
             // 
@@ -3281,7 +3308,7 @@
             this.textBox147.Location = new System.Drawing.Point(6, 8);
             this.textBox147.Name = "textBox147";
             this.textBox147.ReadOnly = true;
-            this.textBox147.Size = new System.Drawing.Size(109, 22);
+            this.textBox147.Size = new System.Drawing.Size(109, 20);
             this.textBox147.TabIndex = 7;
             this.textBox147.Text = "1st SIgnal/Mode";
             // 
@@ -3291,7 +3318,7 @@
             this.textBox148.Location = new System.Drawing.Point(264, 8);
             this.textBox148.Name = "textBox148";
             this.textBox148.ReadOnly = true;
-            this.textBox148.Size = new System.Drawing.Size(31, 22);
+            this.textBox148.Size = new System.Drawing.Size(31, 20);
             this.textBox148.TabIndex = 12;
             this.textBox148.Text = "mm";
             // 
@@ -3300,7 +3327,7 @@
             this.textBox149.AccessibleName = "txtLabel";
             this.textBox149.Location = new System.Drawing.Point(6, 74);
             this.textBox149.Name = "textBox149";
-            this.textBox149.Size = new System.Drawing.Size(132, 22);
+            this.textBox149.Size = new System.Drawing.Size(132, 20);
             this.textBox149.TabIndex = 15;
             this.textBox149.Text = "Acquisition Window";
             // 
@@ -3310,7 +3337,7 @@
             this.textBox150.Location = new System.Drawing.Point(264, 74);
             this.textBox150.Name = "textBox150";
             this.textBox150.ReadOnly = true;
-            this.textBox150.Size = new System.Drawing.Size(31, 22);
+            this.textBox150.Size = new System.Drawing.Size(31, 20);
             this.textBox150.TabIndex = 13;
             this.textBox150.Text = "mm";
             // 
@@ -3320,7 +3347,7 @@
             this.textBox151.Location = new System.Drawing.Point(264, 140);
             this.textBox151.Name = "textBox151";
             this.textBox151.ReadOnly = true;
-            this.textBox151.Size = new System.Drawing.Size(31, 22);
+            this.textBox151.Size = new System.Drawing.Size(31, 20);
             this.textBox151.TabIndex = 14;
             this.textBox151.Text = "%";
             // 
@@ -3329,7 +3356,7 @@
             this.textBox152.AccessibleName = "txtLabel";
             this.textBox152.Location = new System.Drawing.Point(6, 41);
             this.textBox152.Name = "textBox152";
-            this.textBox152.Size = new System.Drawing.Size(132, 22);
+            this.textBox152.Size = new System.Drawing.Size(132, 20);
             this.textBox152.TabIndex = 8;
             this.textBox152.Text = "Average Cycle";
             // 
@@ -3339,7 +3366,7 @@
             this.textBox153.Location = new System.Drawing.Point(264, 41);
             this.textBox153.Name = "textBox153";
             this.textBox153.ReadOnly = true;
-            this.textBox153.Size = new System.Drawing.Size(31, 22);
+            this.textBox153.Size = new System.Drawing.Size(31, 20);
             this.textBox153.TabIndex = 13;
             this.textBox153.Text = "%";
             // 
@@ -3348,7 +3375,7 @@
             this.textBox154.AccessibleName = "txtLabel";
             this.textBox154.Location = new System.Drawing.Point(6, 107);
             this.textBox154.Name = "textBox154";
-            this.textBox154.Size = new System.Drawing.Size(132, 22);
+            this.textBox154.Size = new System.Drawing.Size(132, 20);
             this.textBox154.TabIndex = 9;
             this.textBox154.Text = "Trigger Pulse";
             // 
@@ -3357,7 +3384,7 @@
             this.textBox155.AccessibleName = "txtLabel";
             this.textBox155.Location = new System.Drawing.Point(6, 206);
             this.textBox155.Name = "textBox155";
-            this.textBox155.Size = new System.Drawing.Size(132, 22);
+            this.textBox155.Size = new System.Drawing.Size(132, 20);
             this.textBox155.TabIndex = 11;
             this.textBox155.Text = "Concatenations";
             // 
@@ -3366,7 +3393,7 @@
             this.textBox156.AccessibleName = "txtLabel";
             this.textBox156.Location = new System.Drawing.Point(6, 140);
             this.textBox156.Name = "textBox156";
-            this.textBox156.Size = new System.Drawing.Size(132, 22);
+            this.textBox156.Size = new System.Drawing.Size(132, 20);
             this.textBox156.TabIndex = 10;
             this.textBox156.Text = "Trigger Delay";
             // 
@@ -3374,7 +3401,7 @@
             // 
             this.shapeContainer20.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer20.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer20.Name = "shapeContainer2";
+            this.shapeContainer20.Name = "shapeContainer20";
             this.shapeContainer20.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
             this.shapeContainer20.Size = new System.Drawing.Size(316, 271);
@@ -3423,7 +3450,7 @@
             "T-PAT"});
             this.comboBox18.Location = new System.Drawing.Point(186, 42);
             this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(110, 24);
+            this.comboBox18.Size = new System.Drawing.Size(110, 21);
             this.comboBox18.TabIndex = 19;
             this.comboBox18.Text = "Integrated";
             // 
@@ -3438,7 +3465,7 @@
             "Triple"});
             this.comboBox19.Location = new System.Drawing.Point(186, 8);
             this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(110, 24);
+            this.comboBox19.Size = new System.Drawing.Size(110, 21);
             this.comboBox19.TabIndex = 18;
             this.comboBox19.Text = "Auto (Triple)";
             // 
@@ -3448,7 +3475,7 @@
             this.textBox157.Location = new System.Drawing.Point(46, 8);
             this.textBox157.Name = "textBox157";
             this.textBox157.ReadOnly = true;
-            this.textBox157.Size = new System.Drawing.Size(132, 22);
+            this.textBox157.Size = new System.Drawing.Size(132, 20);
             this.textBox157.TabIndex = 7;
             this.textBox157.Text = "Matrix Coil Mode";
             // 
@@ -3457,7 +3484,7 @@
             this.textBox158.AccessibleName = "txtLabel";
             this.textBox158.Location = new System.Drawing.Point(46, 43);
             this.textBox158.Name = "textBox158";
-            this.textBox158.Size = new System.Drawing.Size(132, 22);
+            this.textBox158.Size = new System.Drawing.Size(132, 20);
             this.textBox158.TabIndex = 8;
             this.textBox158.Text = "Reference scan mode";
             // 
@@ -3466,14 +3493,14 @@
             this.textBox159.AccessibleName = "resValue";
             this.textBox159.Location = new System.Drawing.Point(186, 78);
             this.textBox159.Name = "textBox159";
-            this.textBox159.Size = new System.Drawing.Size(110, 22);
+            this.textBox159.Size = new System.Drawing.Size(110, 20);
             this.textBox159.TabIndex = 3;
             // 
             // shapeContainer21
             // 
             this.shapeContainer21.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer21.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer21.Name = "shapeContainer3";
+            this.shapeContainer21.Name = "shapeContainer21";
             this.shapeContainer21.Size = new System.Drawing.Size(336, 271);
             this.shapeContainer21.TabIndex = 17;
             this.shapeContainer21.TabStop = false;
@@ -3506,7 +3533,7 @@
             "mSENSE"});
             this.comboBox20.Location = new System.Drawing.Point(144, 8);
             this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(110, 24);
+            this.comboBox20.Size = new System.Drawing.Size(110, 21);
             this.comboBox20.TabIndex = 18;
             this.comboBox20.Text = "Off";
             // 
@@ -3516,7 +3543,7 @@
             this.textBox160.Location = new System.Drawing.Point(4, 8);
             this.textBox160.Name = "textBox160";
             this.textBox160.ReadOnly = true;
-            this.textBox160.Size = new System.Drawing.Size(132, 22);
+            this.textBox160.Size = new System.Drawing.Size(132, 20);
             this.textBox160.TabIndex = 7;
             this.textBox160.Text = "PAT mode";
             // 
@@ -3525,7 +3552,7 @@
             this.textBox161.AccessibleName = "resValue";
             this.textBox161.Location = new System.Drawing.Point(144, 183);
             this.textBox161.Name = "textBox161";
-            this.textBox161.Size = new System.Drawing.Size(110, 22);
+            this.textBox161.Size = new System.Drawing.Size(110, 20);
             this.textBox161.TabIndex = 6;
             // 
             // textBox162
@@ -3533,7 +3560,7 @@
             this.textBox162.AccessibleName = "resValue";
             this.textBox162.Location = new System.Drawing.Point(144, 148);
             this.textBox162.Name = "textBox162";
-            this.textBox162.Size = new System.Drawing.Size(110, 22);
+            this.textBox162.Size = new System.Drawing.Size(110, 20);
             this.textBox162.TabIndex = 5;
             // 
             // textBox163
@@ -3541,7 +3568,7 @@
             this.textBox163.AccessibleName = "resValue";
             this.textBox163.Location = new System.Drawing.Point(144, 113);
             this.textBox163.Name = "textBox163";
-            this.textBox163.Size = new System.Drawing.Size(110, 22);
+            this.textBox163.Size = new System.Drawing.Size(110, 20);
             this.textBox163.TabIndex = 4;
             // 
             // textBox164
@@ -3549,7 +3576,7 @@
             this.textBox164.AccessibleName = "txtLabel";
             this.textBox164.Location = new System.Drawing.Point(4, 43);
             this.textBox164.Name = "textBox164";
-            this.textBox164.Size = new System.Drawing.Size(132, 22);
+            this.textBox164.Size = new System.Drawing.Size(132, 20);
             this.textBox164.TabIndex = 8;
             this.textBox164.Text = "Accel. factor PE";
             // 
@@ -3558,7 +3585,7 @@
             this.textBox165.AccessibleName = "resValue";
             this.textBox165.Location = new System.Drawing.Point(144, 78);
             this.textBox165.Name = "textBox165";
-            this.textBox165.Size = new System.Drawing.Size(110, 22);
+            this.textBox165.Size = new System.Drawing.Size(110, 20);
             this.textBox165.TabIndex = 3;
             // 
             // textBox166
@@ -3566,7 +3593,7 @@
             this.textBox166.AccessibleName = "txtLabel";
             this.textBox166.Location = new System.Drawing.Point(6, 113);
             this.textBox166.Name = "textBox166";
-            this.textBox166.Size = new System.Drawing.Size(132, 22);
+            this.textBox166.Size = new System.Drawing.Size(132, 20);
             this.textBox166.TabIndex = 9;
             this.textBox166.Text = "Ref. lines PE";
             // 
@@ -3575,7 +3602,7 @@
             this.textBox167.AccessibleName = "resValue";
             this.textBox167.Location = new System.Drawing.Point(144, 43);
             this.textBox167.Name = "textBox167";
-            this.textBox167.Size = new System.Drawing.Size(110, 22);
+            this.textBox167.Size = new System.Drawing.Size(110, 20);
             this.textBox167.TabIndex = 2;
             // 
             // textBox168
@@ -3583,7 +3610,7 @@
             this.textBox168.AccessibleName = "txtLabel";
             this.textBox168.Location = new System.Drawing.Point(6, 183);
             this.textBox168.Name = "textBox168";
-            this.textBox168.Size = new System.Drawing.Size(132, 22);
+            this.textBox168.Size = new System.Drawing.Size(132, 20);
             this.textBox168.TabIndex = 11;
             this.textBox168.Text = "Accel. factor 3D";
             // 
@@ -3591,7 +3618,7 @@
             // 
             this.shapeContainer22.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer22.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer22.Name = "shapeContainer1";
+            this.shapeContainer22.Name = "shapeContainer22";
             this.shapeContainer22.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2});
             this.shapeContainer22.Size = new System.Drawing.Size(296, 271);
@@ -3644,7 +3671,7 @@
             this.checkBox13.AutoSize = true;
             this.checkBox13.Location = new System.Drawing.Point(239, 11);
             this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(18, 17);
+            this.checkBox13.Size = new System.Drawing.Size(15, 14);
             this.checkBox13.TabIndex = 51;
             this.checkBox13.UseVisualStyleBackColor = true;
             // 
@@ -3653,7 +3680,7 @@
             this.checkBox14.AutoSize = true;
             this.checkBox14.Location = new System.Drawing.Point(239, 62);
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(18, 17);
+            this.checkBox14.Size = new System.Drawing.Size(15, 14);
             this.checkBox14.TabIndex = 50;
             this.checkBox14.UseVisualStyleBackColor = true;
             // 
@@ -3663,7 +3690,7 @@
             this.textBox169.Location = new System.Drawing.Point(6, 189);
             this.textBox169.Name = "textBox169";
             this.textBox169.ReadOnly = true;
-            this.textBox169.Size = new System.Drawing.Size(163, 22);
+            this.textBox169.Size = new System.Drawing.Size(163, 20);
             this.textBox169.TabIndex = 49;
             this.textBox169.Text = "Elliptical filter";
             // 
@@ -3672,7 +3699,7 @@
             this.checkBox15.AutoSize = true;
             this.checkBox15.Location = new System.Drawing.Point(239, 189);
             this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(18, 17);
+            this.checkBox15.Size = new System.Drawing.Size(15, 14);
             this.checkBox15.TabIndex = 48;
             this.checkBox15.UseVisualStyleBackColor = true;
             // 
@@ -3681,7 +3708,7 @@
             this.checkBox19.AutoSize = true;
             this.checkBox19.Location = new System.Drawing.Point(239, 164);
             this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(18, 17);
+            this.checkBox19.Size = new System.Drawing.Size(15, 14);
             this.checkBox19.TabIndex = 47;
             this.checkBox19.UseVisualStyleBackColor = true;
             // 
@@ -3693,7 +3720,7 @@
             "Off"});
             this.comboBox21.Location = new System.Drawing.Point(175, 225);
             this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(79, 24);
+            this.comboBox21.Size = new System.Drawing.Size(79, 21);
             this.comboBox21.TabIndex = 46;
             this.comboBox21.Text = "Off";
             // 
@@ -3702,7 +3729,7 @@
             this.checkBox20.AutoSize = true;
             this.checkBox20.Location = new System.Drawing.Point(239, 113);
             this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(18, 17);
+            this.checkBox20.Size = new System.Drawing.Size(15, 14);
             this.checkBox20.TabIndex = 44;
             this.checkBox20.UseVisualStyleBackColor = true;
             // 
@@ -3712,7 +3739,7 @@
             this.textBox170.Location = new System.Drawing.Point(6, 225);
             this.textBox170.Name = "textBox170";
             this.textBox170.ReadOnly = true;
-            this.textBox170.Size = new System.Drawing.Size(162, 22);
+            this.textBox170.Size = new System.Drawing.Size(162, 20);
             this.textBox170.TabIndex = 25;
             this.textBox170.Text = "POCS";
             // 
@@ -3722,7 +3749,7 @@
             this.textBox171.Location = new System.Drawing.Point(6, 161);
             this.textBox171.Name = "textBox171";
             this.textBox171.ReadOnly = true;
-            this.textBox171.Size = new System.Drawing.Size(163, 22);
+            this.textBox171.Size = new System.Drawing.Size(163, 20);
             this.textBox171.TabIndex = 21;
             this.textBox171.Text = "Raw filter";
             // 
@@ -3732,7 +3759,7 @@
             this.textBox172.Location = new System.Drawing.Point(5, 59);
             this.textBox172.Name = "textBox172";
             this.textBox172.ReadOnly = true;
-            this.textBox172.Size = new System.Drawing.Size(163, 22);
+            this.textBox172.Size = new System.Drawing.Size(163, 20);
             this.textBox172.TabIndex = 20;
             this.textBox172.Text = "Normalize";
             // 
@@ -3742,7 +3769,7 @@
             this.textBox173.Location = new System.Drawing.Point(5, 110);
             this.textBox173.Name = "textBox173";
             this.textBox173.ReadOnly = true;
-            this.textBox173.Size = new System.Drawing.Size(163, 22);
+            this.textBox173.Size = new System.Drawing.Size(163, 20);
             this.textBox173.TabIndex = 8;
             this.textBox173.Text = "B1 filter";
             // 
@@ -3752,7 +3779,7 @@
             this.textBox174.Location = new System.Drawing.Point(6, 8);
             this.textBox174.Name = "textBox174";
             this.textBox174.ReadOnly = true;
-            this.textBox174.Size = new System.Drawing.Size(163, 22);
+            this.textBox174.Size = new System.Drawing.Size(163, 20);
             this.textBox174.TabIndex = 9;
             this.textBox174.Text = "Prescan Normalize";
             // 
@@ -3760,7 +3787,7 @@
             // 
             this.shapeContainer23.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer23.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer23.Name = "shapeContainer12";
+            this.shapeContainer23.Name = "shapeContainer23";
             this.shapeContainer23.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape12});
             this.shapeContainer23.Size = new System.Drawing.Size(313, 266);
@@ -3797,7 +3824,7 @@
             this.checkBox21.AutoSize = true;
             this.checkBox21.Location = new System.Drawing.Point(239, 11);
             this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(18, 17);
+            this.checkBox21.Size = new System.Drawing.Size(15, 14);
             this.checkBox21.TabIndex = 46;
             this.checkBox21.UseVisualStyleBackColor = true;
             // 
@@ -3806,7 +3833,7 @@
             this.checkBox22.AutoSize = true;
             this.checkBox22.Location = new System.Drawing.Point(239, 192);
             this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(18, 17);
+            this.checkBox22.Size = new System.Drawing.Size(15, 14);
             this.checkBox22.TabIndex = 45;
             this.checkBox22.UseVisualStyleBackColor = true;
             // 
@@ -3815,7 +3842,7 @@
             this.checkBox23.AutoSize = true;
             this.checkBox23.Location = new System.Drawing.Point(239, 138);
             this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(18, 17);
+            this.checkBox23.Size = new System.Drawing.Size(15, 14);
             this.checkBox23.TabIndex = 44;
             this.checkBox23.UseVisualStyleBackColor = true;
             // 
@@ -3827,7 +3854,7 @@
             "2D"});
             this.comboBox22.Location = new System.Drawing.Point(175, 161);
             this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(79, 24);
+            this.comboBox22.Size = new System.Drawing.Size(79, 21);
             this.comboBox22.TabIndex = 43;
             this.comboBox22.Text = "2D";
             // 
@@ -3837,7 +3864,7 @@
             this.textBox175.Location = new System.Drawing.Point(7, 189);
             this.textBox175.Name = "textBox175";
             this.textBox175.ReadOnly = true;
-            this.textBox175.Size = new System.Drawing.Size(162, 22);
+            this.textBox175.Size = new System.Drawing.Size(162, 20);
             this.textBox175.TabIndex = 25;
             this.textBox175.Text = "Unfiltered images";
             // 
@@ -3847,7 +3874,7 @@
             this.textBox176.Location = new System.Drawing.Point(6, 161);
             this.textBox176.Name = "textBox176";
             this.textBox176.ReadOnly = true;
-            this.textBox176.Size = new System.Drawing.Size(163, 22);
+            this.textBox176.Size = new System.Drawing.Size(163, 20);
             this.textBox176.TabIndex = 21;
             this.textBox176.Text = "Mode";
             // 
@@ -3857,7 +3884,7 @@
             this.textBox177.Location = new System.Drawing.Point(6, 135);
             this.textBox177.Name = "textBox177";
             this.textBox177.ReadOnly = true;
-            this.textBox177.Size = new System.Drawing.Size(163, 22);
+            this.textBox177.Size = new System.Drawing.Size(163, 20);
             this.textBox177.TabIndex = 8;
             this.textBox177.Text = "Distortion Corr.";
             // 
@@ -3867,7 +3894,7 @@
             this.textBox178.Location = new System.Drawing.Point(6, 8);
             this.textBox178.Name = "textBox178";
             this.textBox178.ReadOnly = true;
-            this.textBox178.Size = new System.Drawing.Size(163, 22);
+            this.textBox178.Size = new System.Drawing.Size(163, 20);
             this.textBox178.TabIndex = 9;
             this.textBox178.Text = "Image Filter";
             // 
@@ -3875,7 +3902,7 @@
             // 
             this.shapeContainer24.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer24.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer24.Name = "shapeContainer11";
+            this.shapeContainer24.Name = "shapeContainer24";
             this.shapeContainer24.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape11});
             this.shapeContainer24.Size = new System.Drawing.Size(313, 266);
@@ -3896,7 +3923,7 @@
             this.tabPage_Inline.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Inline.Name = "tabPage_Inline";
             this.tabPage_Inline.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Inline.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_Inline.Size = new System.Drawing.Size(690, 336);
             this.tabPage_Inline.TabIndex = 5;
             this.tabPage_Inline.Text = "Inline";
             this.tabPage_Inline.UseVisualStyleBackColor = true;
@@ -3907,7 +3934,7 @@
             this.tabPage_Sequence.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Sequence.Name = "tabPage_Sequence";
             this.tabPage_Sequence.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Sequence.Size = new System.Drawing.Size(661, 335);
+            this.tabPage_Sequence.Size = new System.Drawing.Size(690, 336);
             this.tabPage_Sequence.TabIndex = 6;
             this.tabPage_Sequence.Text = "Sequence";
             this.tabPage_Sequence.UseVisualStyleBackColor = true;
@@ -3968,7 +3995,7 @@
             "Interleaved"});
             this.comboBox_seq16.Location = new System.Drawing.Point(144, 173);
             this.comboBox_seq16.Name = "comboBox_seq16";
-            this.comboBox_seq16.Size = new System.Drawing.Size(108, 24);
+            this.comboBox_seq16.Size = new System.Drawing.Size(108, 21);
             this.comboBox_seq16.TabIndex = 28;
             this.comboBox_seq16.Text = "Sequential";
             // 
@@ -3977,7 +4004,7 @@
             this.textBox47.AccessibleName = "txtLabel";
             this.textBox47.Location = new System.Drawing.Point(6, 107);
             this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(132, 22);
+            this.textBox47.Size = new System.Drawing.Size(132, 20);
             this.textBox47.TabIndex = 27;
             // 
             // checkBox_seq13
@@ -3985,7 +4012,7 @@
             this.checkBox_seq13.AutoSize = true;
             this.checkBox_seq13.Location = new System.Drawing.Point(237, 81);
             this.checkBox_seq13.Name = "checkBox_seq13";
-            this.checkBox_seq13.Size = new System.Drawing.Size(18, 17);
+            this.checkBox_seq13.Size = new System.Drawing.Size(15, 14);
             this.checkBox_seq13.TabIndex = 26;
             this.checkBox_seq13.UseVisualStyleBackColor = true;
             // 
@@ -3998,7 +4025,7 @@
             "Long term"});
             this.comboBox_seq15.Location = new System.Drawing.Point(144, 140);
             this.comboBox_seq15.Name = "comboBox_seq15";
-            this.comboBox_seq15.Size = new System.Drawing.Size(108, 24);
+            this.comboBox_seq15.Size = new System.Drawing.Size(108, 21);
             this.comboBox_seq15.TabIndex = 25;
             this.comboBox_seq15.Text = "Short term";
             // 
@@ -4011,7 +4038,7 @@
             "Allowed"});
             this.comboBox_seq18.Location = new System.Drawing.Point(174, 239);
             this.comboBox_seq18.Name = "comboBox_seq18";
-            this.comboBox_seq18.Size = new System.Drawing.Size(80, 24);
+            this.comboBox_seq18.Size = new System.Drawing.Size(80, 21);
             this.comboBox_seq18.TabIndex = 24;
             this.comboBox_seq18.Text = "Off";
             // 
@@ -4024,7 +4051,7 @@
             "Centric"});
             this.comboBox_seq17.Location = new System.Drawing.Point(174, 206);
             this.comboBox_seq17.Name = "comboBox_seq17";
-            this.comboBox_seq17.Size = new System.Drawing.Size(80, 24);
+            this.comboBox_seq17.Size = new System.Drawing.Size(80, 21);
             this.comboBox_seq17.TabIndex = 23;
             this.comboBox_seq17.Text = "Linear";
             // 
@@ -4033,7 +4060,7 @@
             this.checkBox_seq10.AutoSize = true;
             this.checkBox_seq10.Location = new System.Drawing.Point(237, 11);
             this.checkBox_seq10.Name = "checkBox_seq10";
-            this.checkBox_seq10.Size = new System.Drawing.Size(18, 17);
+            this.checkBox_seq10.Size = new System.Drawing.Size(15, 14);
             this.checkBox_seq10.TabIndex = 22;
             this.checkBox_seq10.UseVisualStyleBackColor = true;
             // 
@@ -4042,7 +4069,7 @@
             this.textBox56.AccessibleName = "txtLabel";
             this.textBox56.Location = new System.Drawing.Point(6, 239);
             this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(161, 22);
+            this.textBox56.Size = new System.Drawing.Size(161, 20);
             this.textBox56.TabIndex = 21;
             this.textBox56.Text = "Asymmetric echo";
             // 
@@ -4051,7 +4078,7 @@
             this.textBox55.AccessibleName = "txtLabel";
             this.textBox55.Location = new System.Drawing.Point(6, 206);
             this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(161, 22);
+            this.textBox55.Size = new System.Drawing.Size(161, 20);
             this.textBox55.TabIndex = 20;
             this.textBox55.Text = "Reordering";
             // 
@@ -4060,7 +4087,7 @@
             this.textBox54.AccessibleName = "txtLabel";
             this.textBox54.Location = new System.Drawing.Point(6, 173);
             this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(132, 22);
+            this.textBox54.Size = new System.Drawing.Size(132, 20);
             this.textBox54.TabIndex = 19;
             this.textBox54.Text = "Multie-slice mode";
             // 
@@ -4073,7 +4100,7 @@
             "3D"});
             this.comboBox_seq12.Location = new System.Drawing.Point(174, 41);
             this.comboBox_seq12.Name = "comboBox_seq12";
-            this.comboBox_seq12.Size = new System.Drawing.Size(80, 24);
+            this.comboBox_seq12.Size = new System.Drawing.Size(80, 21);
             this.comboBox_seq12.TabIndex = 18;
             this.comboBox_seq12.Text = "2D";
             // 
@@ -4083,7 +4110,7 @@
             this.textBox43.Location = new System.Drawing.Point(4, 8);
             this.textBox43.Name = "textBox43";
             this.textBox43.ReadOnly = true;
-            this.textBox43.Size = new System.Drawing.Size(161, 22);
+            this.textBox43.Size = new System.Drawing.Size(161, 20);
             this.textBox43.TabIndex = 7;
             this.textBox43.Text = "Introduction";
             // 
@@ -4092,7 +4119,7 @@
             this.textBox_seq14.AccessibleName = "resValue";
             this.textBox_seq14.Location = new System.Drawing.Point(144, 107);
             this.textBox_seq14.Name = "textBox_seq14";
-            this.textBox_seq14.Size = new System.Drawing.Size(110, 22);
+            this.textBox_seq14.Size = new System.Drawing.Size(110, 20);
             this.textBox_seq14.TabIndex = 4;
             // 
             // textBox49
@@ -4100,7 +4127,7 @@
             this.textBox49.AccessibleName = "txtLabel";
             this.textBox49.Location = new System.Drawing.Point(4, 41);
             this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(161, 22);
+            this.textBox49.Size = new System.Drawing.Size(161, 20);
             this.textBox49.TabIndex = 8;
             this.textBox49.Text = "Dimension";
             // 
@@ -4109,7 +4136,7 @@
             this.textBox51.AccessibleName = "txtLabel";
             this.textBox51.Location = new System.Drawing.Point(6, 74);
             this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(161, 22);
+            this.textBox51.Size = new System.Drawing.Size(161, 20);
             this.textBox51.TabIndex = 9;
             this.textBox51.Text = "Elliptical scanning";
             // 
@@ -4118,7 +4145,7 @@
             this.textBox53.AccessibleName = "txtLabel";
             this.textBox53.Location = new System.Drawing.Point(6, 140);
             this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(132, 22);
+            this.textBox53.Size = new System.Drawing.Size(132, 20);
             this.textBox53.TabIndex = 11;
             this.textBox53.Text = "Averaging mode";
             // 
@@ -4446,7 +4473,7 @@
         private System.Windows.Forms.ComboBox comboBox_rout10;
         private System.Windows.Forms.TextBox textBox22;
         private System.Windows.Forms.TextBox textBox_rout13;
-        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox_routL11;
         private System.Windows.Forms.TextBox textBox_rout12;
         private System.Windows.Forms.TextBox textBox29;
         private System.Windows.Forms.TextBox textBox_rout11;
@@ -4599,6 +4626,9 @@
         private System.Windows.Forms.TextBox textBox177;
         private System.Windows.Forms.TextBox textBox178;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer24;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape18;
     }
 }
 

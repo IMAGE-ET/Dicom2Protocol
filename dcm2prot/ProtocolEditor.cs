@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Reflection;
+using System.Text.RegularExpressions;
+
 
 
 namespace dcm2prot
@@ -35,8 +37,7 @@ namespace dcm2prot
             Font textFont = new Font("Arial", 12.0f);
             string txtBoxName;
 
-            Console.WriteLine(textBox22.Controls.Count);
-            Console.WriteLine(routPanel1.Controls.Count);
+//            Console.WriteLine(textBox22.Controls.Count);
 
             tabPage_Resolution.BackColor = Color.LightGray;
 
@@ -143,12 +144,25 @@ namespace dcm2prot
             // Upon construction of DicomContainer, necessary fields will be sorted.
             cDcm = new DicomContainer(sb.ToString());
 
+
+
+            FillRoutineTab();
             FillResolutionTab();
         }
 
         void FillRoutineTab()
         {
+            if (cDcm.cKSpace.ucDimension == 2)
+            {
 
+
+            }
+            else
+            {
+                this.textBox_routL11.Text = "Slices";
+                this.textBox_rout18.Visible = false;
+                this.textBox_rout19.Visible = false;
+            }
 
 
         }
@@ -169,8 +183,7 @@ namespace dcm2prot
                 
                 this.textBox_res23.Text = cDcm.cPat.lAccelFact3D.ToString();
                 this.comboBox_res27.SelectedIndex = cDcm.cPat.ucRefScanMode;
-
-
+                
             }
             
         }
@@ -192,6 +205,8 @@ namespace dcm2prot
         
         void TestingTesting()
         {
+            Console.WriteLine("Testing testing");
+
             //test DoThis = new test();
             //for (int i = 0; i < 10; i++)
             //{
@@ -224,61 +239,6 @@ namespace dcm2prot
 
 
             //Console.WriteLine("Finished");
-
-        }
-
-        private void routPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox63_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox8_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tabPage_Contrast_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox84_TextChanged(object sender, EventArgs e)
-        {
-                
-        }
-
-        private void textBox77_TextChanged(object sender, EventArgs e)
-        {
-                
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tabPage7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox67_TextChanged(object sender, EventArgs e)
-        {
 
         }
 
