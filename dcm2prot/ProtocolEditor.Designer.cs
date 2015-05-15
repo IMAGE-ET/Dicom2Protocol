@@ -34,24 +34,24 @@
             this.textBox63 = new System.Windows.Forms.TextBox();
             this.textBox52 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox50 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox_rout25 = new System.Windows.Forms.TextBox();
+            this.textBox_rout24 = new System.Windows.Forms.TextBox();
+            this.textBox_rout23 = new System.Windows.Forms.TextBox();
             this.textBox_rout20 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox_rout28 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox_rout27 = new System.Windows.Forms.TextBox();
             this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox_rout26 = new System.Windows.Forms.TextBox();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox_routL20 = new System.Windows.Forms.TextBox();
             this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox_rout22 = new System.Windows.Forms.TextBox();
             this.textBox41 = new System.Windows.Forms.TextBox();
             this.textBox_rout21 = new System.Windows.Forms.TextBox();
             this.shapeContainer6 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
@@ -62,25 +62,25 @@
             this.comboBox_rout15 = new System.Windows.Forms.ComboBox();
             this.comboBox_rout14 = new System.Windows.Forms.ComboBox();
             this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox_routU18 = new System.Windows.Forms.TextBox();
             this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox_routL19 = new System.Windows.Forms.TextBox();
             this.textBox_rout19 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox_routL18 = new System.Windows.Forms.TextBox();
             this.textBox_rout18 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox_routL17 = new System.Windows.Forms.TextBox();
             this.textBox_rout17 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox_routL16 = new System.Windows.Forms.TextBox();
             this.textBox_rout16 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox_routL15 = new System.Windows.Forms.TextBox();
+            this.textBox_routL14 = new System.Windows.Forms.TextBox();
+            this.textBox_routL12 = new System.Windows.Forms.TextBox();
             this.comboBox_rout10 = new System.Windows.Forms.ComboBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox_routL10 = new System.Windows.Forms.TextBox();
             this.textBox_rout13 = new System.Windows.Forms.TextBox();
             this.textBox_routL11 = new System.Windows.Forms.TextBox();
             this.textBox_rout12 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox_routL13 = new System.Windows.Forms.TextBox();
             this.textBox_rout11 = new System.Windows.Forms.TextBox();
             this.shapeContainer4 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape18 = new Microsoft.VisualBasic.PowerPacks.LineShape();
@@ -217,8 +217,8 @@
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.textBox73 = new System.Windows.Forms.TextBox();
             this.textBox81 = new System.Windows.Forms.TextBox();
-            this.textBox94 = new System.Windows.Forms.TextBox();
-            this.textBox95 = new System.Windows.Forms.TextBox();
+            this.textBox_geo23 = new System.Windows.Forms.TextBox();
+            this.textBox_geo20 = new System.Windows.Forms.TextBox();
             this.textBox97 = new System.Windows.Forms.TextBox();
             this.textBox99 = new System.Windows.Forms.TextBox();
             this.textBox108 = new System.Windows.Forms.TextBox();
@@ -227,9 +227,9 @@
             this.textBox113 = new System.Windows.Forms.TextBox();
             this.textBox114 = new System.Windows.Forms.TextBox();
             this.textBox115 = new System.Windows.Forms.TextBox();
-            this.textBox116 = new System.Windows.Forms.TextBox();
+            this.textBox_geo22 = new System.Windows.Forms.TextBox();
             this.textBox117 = new System.Windows.Forms.TextBox();
-            this.textBox118 = new System.Windows.Forms.TextBox();
+            this.textBox_geo21 = new System.Windows.Forms.TextBox();
             this.shapeContainer13 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape13 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panel11 = new System.Windows.Forms.Panel();
@@ -265,14 +265,6 @@
             this.lineShape15 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage11 = new System.Windows.Forms.TabPage();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.textBox133 = new System.Windows.Forms.TextBox();
-            this.textBox134 = new System.Windows.Forms.TextBox();
-            this.textBox135 = new System.Windows.Forms.TextBox();
-            this.textBox136 = new System.Windows.Forms.TextBox();
             this.shapeContainer17 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape17 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage12 = new System.Windows.Forms.TabPage();
@@ -280,13 +272,6 @@
             this.tabPage_Physio = new System.Windows.Forms.TabPage();
             this.tabControl5 = new System.Windows.Forms.TabControl();
             this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.textBox100 = new System.Windows.Forms.TextBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.textBox101 = new System.Windows.Forms.TextBox();
-            this.shapeContainer19 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panel15 = new System.Windows.Forms.Panel();
             this.textBox103 = new System.Windows.Forms.TextBox();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
@@ -298,7 +283,6 @@
             this.textBox144 = new System.Windows.Forms.TextBox();
             this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.textBox147 = new System.Windows.Forms.TextBox();
-            this.textBox148 = new System.Windows.Forms.TextBox();
             this.textBox149 = new System.Windows.Forms.TextBox();
             this.textBox150 = new System.Windows.Forms.TextBox();
             this.textBox151 = new System.Windows.Forms.TextBox();
@@ -311,50 +295,26 @@
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
-            this.textBox157 = new System.Windows.Forms.TextBox();
-            this.textBox158 = new System.Windows.Forms.TextBox();
-            this.textBox159 = new System.Windows.Forms.TextBox();
             this.shapeContainer21 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.panel17 = new System.Windows.Forms.Panel();
             this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.textBox160 = new System.Windows.Forms.TextBox();
             this.textBox161 = new System.Windows.Forms.TextBox();
             this.textBox162 = new System.Windows.Forms.TextBox();
-            this.textBox163 = new System.Windows.Forms.TextBox();
-            this.textBox164 = new System.Windows.Forms.TextBox();
-            this.textBox165 = new System.Windows.Forms.TextBox();
             this.textBox166 = new System.Windows.Forms.TextBox();
-            this.textBox167 = new System.Windows.Forms.TextBox();
             this.textBox168 = new System.Windows.Forms.TextBox();
             this.shapeContainer22 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage15 = new System.Windows.Forms.TabPage();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.textBox169 = new System.Windows.Forms.TextBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
             this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
             this.textBox170 = new System.Windows.Forms.TextBox();
             this.textBox171 = new System.Windows.Forms.TextBox();
-            this.textBox172 = new System.Windows.Forms.TextBox();
             this.textBox173 = new System.Windows.Forms.TextBox();
-            this.textBox174 = new System.Windows.Forms.TextBox();
             this.shapeContainer23 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape12 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.textBox175 = new System.Windows.Forms.TextBox();
-            this.textBox176 = new System.Windows.Forms.TextBox();
-            this.textBox177 = new System.Windows.Forms.TextBox();
-            this.textBox178 = new System.Windows.Forms.TextBox();
             this.shapeContainer24 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape11 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage_Inline = new System.Windows.Forms.TabPage();
@@ -382,6 +342,86 @@
             this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.shapeContainer19 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.lineShape19 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape20 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape21 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.textBox94 = new System.Windows.Forms.TextBox();
+            this.textBox95 = new System.Windows.Forms.TextBox();
+            this.textBox100 = new System.Windows.Forms.TextBox();
+            this.textBox101 = new System.Windows.Forms.TextBox();
+            this.comboBox23 = new System.Windows.Forms.ComboBox();
+            this.textBox116 = new System.Windows.Forms.TextBox();
+            this.textBox118 = new System.Windows.Forms.TextBox();
+            this.textBox133 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox134 = new System.Windows.Forms.TextBox();
+            this.textBox135 = new System.Windows.Forms.TextBox();
+            this.textBox136 = new System.Windows.Forms.TextBox();
+            this.textBox145 = new System.Windows.Forms.TextBox();
+            this.textBox146 = new System.Windows.Forms.TextBox();
+            this.textBox148 = new System.Windows.Forms.TextBox();
+            this.comboBox24 = new System.Windows.Forms.ComboBox();
+            this.textBox157 = new System.Windows.Forms.TextBox();
+            this.textBox158 = new System.Windows.Forms.TextBox();
+            this.textBox159 = new System.Windows.Forms.TextBox();
+            this.textBox163 = new System.Windows.Forms.TextBox();
+            this.textBox164 = new System.Windows.Forms.TextBox();
+            this.textBox165 = new System.Windows.Forms.TextBox();
+            this.textBox167 = new System.Windows.Forms.TextBox();
+            this.textBox175 = new System.Windows.Forms.TextBox();
+            this.textBox176 = new System.Windows.Forms.TextBox();
+            this.textBox174 = new System.Windows.Forms.TextBox();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.textBox172 = new System.Windows.Forms.TextBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.textBox177 = new System.Windows.Forms.TextBox();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.textBox178 = new System.Windows.Forms.TextBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.comboBox27 = new System.Windows.Forms.ComboBox();
+            this.textBox179 = new System.Windows.Forms.TextBox();
+            this.comboBox29 = new System.Windows.Forms.ComboBox();
+            this.textBox183 = new System.Windows.Forms.TextBox();
+            this.textBox184 = new System.Windows.Forms.TextBox();
+            this.textBox185 = new System.Windows.Forms.TextBox();
+            this.shapeContainer25 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape22 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.textBox180 = new System.Windows.Forms.TextBox();
+            this.textBox181 = new System.Windows.Forms.TextBox();
+            this.textBox182 = new System.Windows.Forms.TextBox();
             this.tabControl.SuspendLayout();
             this.tabPage_Routine.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -418,7 +458,6 @@
             this.tabPage_Physio.SuspendLayout();
             this.tabControl5.SuspendLayout();
             this.tabPage13.SuspendLayout();
-            this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
             this.tabPage14.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -430,6 +469,8 @@
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.seqPanel1.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel20.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -448,7 +489,7 @@
             this.tabControl.Multiline = true;
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(698, 369);
+            this.tabControl.Size = new System.Drawing.Size(698, 377);
             this.tabControl.TabIndex = 0;
             // 
             // tabPage_Routine
@@ -458,7 +499,7 @@
             this.tabPage_Routine.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Routine.Name = "tabPage_Routine";
             this.tabPage_Routine.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Routine.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Routine.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Routine.TabIndex = 0;
             this.tabPage_Routine.Text = "Routine";
             this.tabPage_Routine.UseVisualStyleBackColor = true;
@@ -468,24 +509,24 @@
             this.panel1.Controls.Add(this.textBox63);
             this.panel1.Controls.Add(this.textBox52);
             this.panel1.Controls.Add(this.textBox9);
-            this.panel1.Controls.Add(this.textBox50);
-            this.panel1.Controls.Add(this.textBox48);
-            this.panel1.Controls.Add(this.textBox35);
+            this.panel1.Controls.Add(this.textBox_rout25);
+            this.panel1.Controls.Add(this.textBox_rout24);
+            this.panel1.Controls.Add(this.textBox_rout23);
             this.panel1.Controls.Add(this.textBox_rout20);
             this.panel1.Controls.Add(this.textBox8);
             this.panel1.Controls.Add(this.textBox10);
             this.panel1.Controls.Add(this.textBox13);
-            this.panel1.Controls.Add(this.textBox16);
+            this.panel1.Controls.Add(this.textBox_rout28);
             this.panel1.Controls.Add(this.textBox19);
-            this.panel1.Controls.Add(this.textBox21);
+            this.panel1.Controls.Add(this.textBox_rout27);
             this.panel1.Controls.Add(this.textBox23);
-            this.panel1.Controls.Add(this.textBox24);
+            this.panel1.Controls.Add(this.textBox_rout26);
             this.panel1.Controls.Add(this.textBox25);
             this.panel1.Controls.Add(this.textBox26);
             this.panel1.Controls.Add(this.textBox28);
-            this.panel1.Controls.Add(this.textBox30);
+            this.panel1.Controls.Add(this.textBox_routL20);
             this.panel1.Controls.Add(this.textBox37);
-            this.panel1.Controls.Add(this.textBox39);
+            this.panel1.Controls.Add(this.textBox_rout22);
             this.panel1.Controls.Add(this.textBox41);
             this.panel1.Controls.Add(this.textBox_rout21);
             this.panel1.Controls.Add(this.shapeContainer6);
@@ -524,29 +565,30 @@
             this.textBox9.TabIndex = 41;
             this.textBox9.Text = "ms";
             // 
-            // textBox50
+            // textBox_rout25
             // 
-            this.textBox50.AccessibleName = "Value";
-            this.textBox50.Location = new System.Drawing.Point(175, 163);
-            this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(79, 20);
-            this.textBox50.TabIndex = 40;
+            this.textBox_rout25.AccessibleName = "Value";
+            this.textBox_rout25.Location = new System.Drawing.Point(175, 163);
+            this.textBox_rout25.Name = "textBox_rout25";
+            this.textBox_rout25.Size = new System.Drawing.Size(79, 20);
+            this.textBox_rout25.TabIndex = 40;
             // 
-            // textBox48
+            // textBox_rout24
             // 
-            this.textBox48.AccessibleName = "Value";
-            this.textBox48.Location = new System.Drawing.Point(175, 132);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(79, 20);
-            this.textBox48.TabIndex = 39;
+            this.textBox_rout24.AccessibleName = "Value";
+            this.textBox_rout24.Enabled = false;
+            this.textBox_rout24.Location = new System.Drawing.Point(175, 132);
+            this.textBox_rout24.Name = "textBox_rout24";
+            this.textBox_rout24.Size = new System.Drawing.Size(79, 20);
+            this.textBox_rout24.TabIndex = 39;
             // 
-            // textBox35
+            // textBox_rout23
             // 
-            this.textBox35.AccessibleName = "Value";
-            this.textBox35.Location = new System.Drawing.Point(175, 101);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(79, 20);
-            this.textBox35.TabIndex = 38;
+            this.textBox_rout23.AccessibleName = "Value";
+            this.textBox_rout23.Location = new System.Drawing.Point(175, 101);
+            this.textBox_rout23.Name = "textBox_rout23";
+            this.textBox_rout23.Size = new System.Drawing.Size(79, 20);
+            this.textBox_rout23.TabIndex = 38;
             // 
             // textBox_rout20
             // 
@@ -555,6 +597,7 @@
             this.textBox_rout20.Name = "textBox_rout20";
             this.textBox_rout20.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout20.TabIndex = 37;
+            this.textBox_rout20.TextChanged += new System.EventHandler(this.textBox_rout20_TextChanged);
             // 
             // textBox8
             // 
@@ -586,13 +629,15 @@
             this.textBox13.TabIndex = 27;
             this.textBox13.Text = "Coil elements";
             // 
-            // textBox16
+            // textBox_rout28
             // 
-            this.textBox16.AccessibleName = "Value";
-            this.textBox16.Location = new System.Drawing.Point(139, 256);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(115, 20);
-            this.textBox16.TabIndex = 26;
+            this.textBox_rout28.AccessibleName = "Value";
+            this.textBox_rout28.Enabled = false;
+            this.textBox_rout28.Location = new System.Drawing.Point(139, 256);
+            this.textBox_rout28.Name = "textBox_rout28";
+            this.textBox_rout28.Size = new System.Drawing.Size(115, 20);
+            this.textBox_rout28.TabIndex = 26;
+            this.textBox_rout28.Text = "BC";
             // 
             // textBox19
             // 
@@ -604,13 +649,15 @@
             this.textBox19.TabIndex = 25;
             this.textBox19.Text = "Filter";
             // 
-            // textBox21
+            // textBox_rout27
             // 
-            this.textBox21.AccessibleName = "Value";
-            this.textBox21.Location = new System.Drawing.Point(139, 225);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(115, 20);
-            this.textBox21.TabIndex = 24;
+            this.textBox_rout27.AccessibleName = "Value";
+            this.textBox_rout27.Enabled = false;
+            this.textBox_rout27.Location = new System.Drawing.Point(139, 225);
+            this.textBox_rout27.Name = "textBox_rout27";
+            this.textBox_rout27.Size = new System.Drawing.Size(115, 20);
+            this.textBox_rout27.TabIndex = 24;
+            this.textBox_rout27.Text = "None";
             // 
             // textBox23
             // 
@@ -622,13 +669,13 @@
             this.textBox23.TabIndex = 23;
             this.textBox23.Text = "Concatenations";
             // 
-            // textBox24
+            // textBox_rout26
             // 
-            this.textBox24.AccessibleName = "Value";
-            this.textBox24.Location = new System.Drawing.Point(175, 194);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(79, 20);
-            this.textBox24.TabIndex = 22;
+            this.textBox_rout26.AccessibleName = "Value";
+            this.textBox_rout26.Location = new System.Drawing.Point(175, 194);
+            this.textBox_rout26.Name = "textBox_rout26";
+            this.textBox_rout26.Size = new System.Drawing.Size(79, 20);
+            this.textBox_rout26.TabIndex = 22;
             // 
             // textBox25
             // 
@@ -660,15 +707,15 @@
             this.textBox28.TabIndex = 19;
             this.textBox28.Text = "Slice thickness";
             // 
-            // textBox30
+            // textBox_routL20
             // 
-            this.textBox30.AccessibleName = "txtLabel";
-            this.textBox30.Location = new System.Drawing.Point(6, 8);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(163, 20);
-            this.textBox30.TabIndex = 7;
-            this.textBox30.Text = "FOV read";
+            this.textBox_routL20.AccessibleName = "txtLabel";
+            this.textBox_routL20.Location = new System.Drawing.Point(6, 8);
+            this.textBox_routL20.Name = "textBox_routL20";
+            this.textBox_routL20.ReadOnly = true;
+            this.textBox_routL20.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL20.TabIndex = 7;
+            this.textBox_routL20.Text = "FOV read";
             // 
             // textBox37
             // 
@@ -680,13 +727,13 @@
             this.textBox37.TabIndex = 8;
             this.textBox37.Text = "FoV phase";
             // 
-            // textBox39
+            // textBox_rout22
             // 
-            this.textBox39.AccessibleName = "Value";
-            this.textBox39.Location = new System.Drawing.Point(175, 70);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(79, 20);
-            this.textBox39.TabIndex = 3;
+            this.textBox_rout22.AccessibleName = "Value";
+            this.textBox_rout22.Location = new System.Drawing.Point(175, 70);
+            this.textBox_rout22.Name = "textBox_rout22";
+            this.textBox_rout22.Size = new System.Drawing.Size(79, 20);
+            this.textBox_rout22.TabIndex = 3;
             // 
             // textBox41
             // 
@@ -705,6 +752,7 @@
             this.textBox_rout21.Name = "textBox_rout21";
             this.textBox_rout21.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout21.TabIndex = 2;
+            this.textBox_rout21.TextChanged += new System.EventHandler(this.textBox_rout21_TextChanged);
             // 
             // shapeContainer6
             // 
@@ -733,25 +781,25 @@
             this.routPanel1.Controls.Add(this.comboBox_rout15);
             this.routPanel1.Controls.Add(this.comboBox_rout14);
             this.routPanel1.Controls.Add(this.textBox42);
-            this.routPanel1.Controls.Add(this.textBox44);
+            this.routPanel1.Controls.Add(this.textBox_routU18);
             this.routPanel1.Controls.Add(this.textBox45);
-            this.routPanel1.Controls.Add(this.textBox40);
+            this.routPanel1.Controls.Add(this.textBox_routL19);
             this.routPanel1.Controls.Add(this.textBox_rout19);
-            this.routPanel1.Controls.Add(this.textBox38);
+            this.routPanel1.Controls.Add(this.textBox_routL18);
             this.routPanel1.Controls.Add(this.textBox_rout18);
-            this.routPanel1.Controls.Add(this.textBox36);
+            this.routPanel1.Controls.Add(this.textBox_routL17);
             this.routPanel1.Controls.Add(this.textBox_rout17);
-            this.routPanel1.Controls.Add(this.textBox34);
+            this.routPanel1.Controls.Add(this.textBox_routL16);
             this.routPanel1.Controls.Add(this.textBox_rout16);
-            this.routPanel1.Controls.Add(this.textBox31);
-            this.routPanel1.Controls.Add(this.textBox33);
-            this.routPanel1.Controls.Add(this.textBox32);
+            this.routPanel1.Controls.Add(this.textBox_routL15);
+            this.routPanel1.Controls.Add(this.textBox_routL14);
+            this.routPanel1.Controls.Add(this.textBox_routL12);
             this.routPanel1.Controls.Add(this.comboBox_rout10);
-            this.routPanel1.Controls.Add(this.textBox22);
+            this.routPanel1.Controls.Add(this.textBox_routL10);
             this.routPanel1.Controls.Add(this.textBox_rout13);
             this.routPanel1.Controls.Add(this.textBox_routL11);
             this.routPanel1.Controls.Add(this.textBox_rout12);
-            this.routPanel1.Controls.Add(this.textBox29);
+            this.routPanel1.Controls.Add(this.textBox_routL13);
             this.routPanel1.Controls.Add(this.textBox_rout11);
             this.routPanel1.Controls.Add(this.shapeContainer4);
             this.routPanel1.Location = new System.Drawing.Point(8, 6);
@@ -821,15 +869,15 @@
             this.textBox42.TabIndex = 34;
             this.textBox42.Text = "%";
             // 
-            // textBox44
+            // textBox_routU18
             // 
-            this.textBox44.AccessibleName = "Units";
-            this.textBox44.Location = new System.Drawing.Point(276, 262);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(31, 20);
-            this.textBox44.TabIndex = 33;
-            this.textBox44.Text = "%";
+            this.textBox_routU18.AccessibleName = "Units";
+            this.textBox_routU18.Location = new System.Drawing.Point(276, 262);
+            this.textBox_routU18.Name = "textBox_routU18";
+            this.textBox_routU18.ReadOnly = true;
+            this.textBox_routU18.Size = new System.Drawing.Size(14, 20);
+            this.textBox_routU18.TabIndex = 33;
+            this.textBox_routU18.Text = "%";
             // 
             // textBox45
             // 
@@ -841,15 +889,15 @@
             this.textBox45.TabIndex = 31;
             this.textBox45.Text = "%";
             // 
-            // textBox40
+            // textBox_routL19
             // 
-            this.textBox40.AccessibleName = "txtLabel";
-            this.textBox40.Location = new System.Drawing.Point(6, 287);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(163, 20);
-            this.textBox40.TabIndex = 29;
-            this.textBox40.Text = "Slices per slab";
+            this.textBox_routL19.AccessibleName = "txtLabel";
+            this.textBox_routL19.Location = new System.Drawing.Point(6, 287);
+            this.textBox_routL19.Name = "textBox_routL19";
+            this.textBox_routL19.ReadOnly = true;
+            this.textBox_routL19.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL19.TabIndex = 29;
+            this.textBox_routL19.Text = "Slices per slab";
             // 
             // textBox_rout19
             // 
@@ -859,15 +907,15 @@
             this.textBox_rout19.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout19.TabIndex = 28;
             // 
-            // textBox38
+            // textBox_routL18
             // 
-            this.textBox38.AccessibleName = "txtLabel";
-            this.textBox38.Location = new System.Drawing.Point(6, 256);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.ReadOnly = true;
-            this.textBox38.Size = new System.Drawing.Size(163, 20);
-            this.textBox38.TabIndex = 27;
-            this.textBox38.Text = "Slice oversampling";
+            this.textBox_routL18.AccessibleName = "txtLabel";
+            this.textBox_routL18.Location = new System.Drawing.Point(6, 256);
+            this.textBox_routL18.Name = "textBox_routL18";
+            this.textBox_routL18.ReadOnly = true;
+            this.textBox_routL18.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL18.TabIndex = 27;
+            this.textBox_routL18.Text = "Slice oversampling";
             // 
             // textBox_rout18
             // 
@@ -877,15 +925,15 @@
             this.textBox_rout18.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout18.TabIndex = 26;
             // 
-            // textBox36
+            // textBox_routL17
             // 
-            this.textBox36.AccessibleName = "txtLabel";
-            this.textBox36.Location = new System.Drawing.Point(6, 225);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(163, 20);
-            this.textBox36.TabIndex = 25;
-            this.textBox36.Text = "Phase oversampling";
+            this.textBox_routL17.AccessibleName = "txtLabel";
+            this.textBox_routL17.Location = new System.Drawing.Point(6, 225);
+            this.textBox_routL17.Name = "textBox_routL17";
+            this.textBox_routL17.ReadOnly = true;
+            this.textBox_routL17.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL17.TabIndex = 25;
+            this.textBox_routL17.Text = "Phase oversampling";
             // 
             // textBox_rout17
             // 
@@ -895,15 +943,15 @@
             this.textBox_rout17.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout17.TabIndex = 24;
             // 
-            // textBox34
+            // textBox_routL16
             // 
-            this.textBox34.AccessibleName = "txtLabel";
-            this.textBox34.Location = new System.Drawing.Point(6, 194);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(163, 20);
-            this.textBox34.TabIndex = 23;
-            this.textBox34.Text = "AutoAlign";
+            this.textBox_routL16.AccessibleName = "txtLabel";
+            this.textBox_routL16.Location = new System.Drawing.Point(6, 194);
+            this.textBox_routL16.Name = "textBox_routL16";
+            this.textBox_routL16.ReadOnly = true;
+            this.textBox_routL16.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL16.TabIndex = 23;
+            this.textBox_routL16.Text = "AutoAlign";
             // 
             // textBox_rout16
             // 
@@ -913,35 +961,35 @@
             this.textBox_rout16.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout16.TabIndex = 22;
             // 
-            // textBox31
+            // textBox_routL15
             // 
-            this.textBox31.AccessibleName = "txtLabel";
-            this.textBox31.Location = new System.Drawing.Point(6, 163);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(163, 20);
-            this.textBox31.TabIndex = 21;
-            this.textBox31.Text = "Phase enc. dir.";
+            this.textBox_routL15.AccessibleName = "txtLabel";
+            this.textBox_routL15.Location = new System.Drawing.Point(6, 163);
+            this.textBox_routL15.Name = "textBox_routL15";
+            this.textBox_routL15.ReadOnly = true;
+            this.textBox_routL15.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL15.TabIndex = 21;
+            this.textBox_routL15.Text = "Phase enc. dir.";
             // 
-            // textBox33
+            // textBox_routL14
             // 
-            this.textBox33.AccessibleName = "txtLabel";
-            this.textBox33.Location = new System.Drawing.Point(6, 132);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(132, 20);
-            this.textBox33.TabIndex = 20;
-            this.textBox33.Text = "Orientation";
+            this.textBox_routL14.AccessibleName = "txtLabel";
+            this.textBox_routL14.Location = new System.Drawing.Point(6, 132);
+            this.textBox_routL14.Name = "textBox_routL14";
+            this.textBox_routL14.ReadOnly = true;
+            this.textBox_routL14.Size = new System.Drawing.Size(132, 20);
+            this.textBox_routL14.TabIndex = 20;
+            this.textBox_routL14.Text = "Orientation";
             // 
-            // textBox32
+            // textBox_routL12
             // 
-            this.textBox32.AccessibleName = "txtLabel";
-            this.textBox32.Location = new System.Drawing.Point(6, 70);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(163, 20);
-            this.textBox32.TabIndex = 19;
-            this.textBox32.Text = "Dist. factor";
+            this.textBox_routL12.AccessibleName = "txtLabel";
+            this.textBox_routL12.Location = new System.Drawing.Point(6, 70);
+            this.textBox_routL12.Name = "textBox_routL12";
+            this.textBox_routL12.ReadOnly = true;
+            this.textBox_routL12.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL12.TabIndex = 19;
+            this.textBox_routL12.Text = "Dist. factor";
             // 
             // comboBox_rout10
             // 
@@ -955,15 +1003,15 @@
             this.comboBox_rout10.TabIndex = 18;
             this.comboBox_rout10.Text = "1";
             // 
-            // textBox22
+            // textBox_routL10
             // 
-            this.textBox22.AccessibleName = "txtLabel";
-            this.textBox22.Location = new System.Drawing.Point(6, 8);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(163, 20);
-            this.textBox22.TabIndex = 7;
-            this.textBox22.Text = "Slab group";
+            this.textBox_routL10.AccessibleName = "txtLabel";
+            this.textBox_routL10.Location = new System.Drawing.Point(6, 8);
+            this.textBox_routL10.Name = "textBox_routL10";
+            this.textBox_routL10.ReadOnly = true;
+            this.textBox_routL10.Size = new System.Drawing.Size(163, 20);
+            this.textBox_routL10.TabIndex = 7;
+            this.textBox_routL10.Text = "Slab group";
             // 
             // textBox_rout13
             // 
@@ -991,15 +1039,15 @@
             this.textBox_rout12.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout12.TabIndex = 3;
             // 
-            // textBox29
+            // textBox_routL13
             // 
-            this.textBox29.AccessibleName = "txtLabel";
-            this.textBox29.Location = new System.Drawing.Point(6, 101);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(132, 20);
-            this.textBox29.TabIndex = 9;
-            this.textBox29.Text = "Position";
+            this.textBox_routL13.AccessibleName = "txtLabel";
+            this.textBox_routL13.Location = new System.Drawing.Point(6, 101);
+            this.textBox_routL13.Name = "textBox_routL13";
+            this.textBox_routL13.ReadOnly = true;
+            this.textBox_routL13.Size = new System.Drawing.Size(132, 20);
+            this.textBox_routL13.TabIndex = 9;
+            this.textBox_routL13.Text = "Position";
             // 
             // textBox_rout11
             // 
@@ -1044,7 +1092,7 @@
             this.tabPage_Contrast.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Contrast.Name = "tabPage_Contrast";
             this.tabPage_Contrast.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Contrast.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Contrast.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Contrast.TabIndex = 1;
             this.tabPage_Contrast.Text = "Contrast";
             this.tabPage_Contrast.UseVisualStyleBackColor = true;
@@ -1057,7 +1105,7 @@
             this.tabControl3.Location = new System.Drawing.Point(8, 6);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(669, 339);
+            this.tabControl3.Size = new System.Drawing.Size(669, 329);
             this.tabControl3.TabIndex = 18;
             // 
             // tabPage7
@@ -1067,7 +1115,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(661, 306);
+            this.tabPage7.Size = new System.Drawing.Size(661, 296);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "Contrast";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1352,7 +1400,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 29);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(661, 306);
+            this.tabPage8.Size = new System.Drawing.Size(661, 296);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "Dynamic";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -1538,7 +1586,7 @@
             this.tabPage_Resolution.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Resolution.Name = "tabPage_Resolution";
             this.tabPage_Resolution.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Resolution.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Resolution.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Resolution.TabIndex = 2;
             this.tabPage_Resolution.Text = "Resolution";
             // 
@@ -2347,7 +2395,7 @@
             this.tabPage_Geometry.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Geometry.Name = "tabPage_Geometry";
             this.tabPage_Geometry.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Geometry.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Geometry.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Geometry.TabIndex = 7;
             this.tabPage_Geometry.Text = "Geometry";
             this.tabPage_Geometry.UseVisualStyleBackColor = true;
@@ -2384,8 +2432,8 @@
             this.panel8.Controls.Add(this.comboBox11);
             this.panel8.Controls.Add(this.textBox73);
             this.panel8.Controls.Add(this.textBox81);
-            this.panel8.Controls.Add(this.textBox94);
-            this.panel8.Controls.Add(this.textBox95);
+            this.panel8.Controls.Add(this.textBox_geo23);
+            this.panel8.Controls.Add(this.textBox_geo20);
             this.panel8.Controls.Add(this.textBox97);
             this.panel8.Controls.Add(this.textBox99);
             this.panel8.Controls.Add(this.textBox108);
@@ -2394,9 +2442,9 @@
             this.panel8.Controls.Add(this.textBox113);
             this.panel8.Controls.Add(this.textBox114);
             this.panel8.Controls.Add(this.textBox115);
-            this.panel8.Controls.Add(this.textBox116);
+            this.panel8.Controls.Add(this.textBox_geo22);
             this.panel8.Controls.Add(this.textBox117);
-            this.panel8.Controls.Add(this.textBox118);
+            this.panel8.Controls.Add(this.textBox_geo21);
             this.panel8.Controls.Add(this.shapeContainer13);
             this.panel8.Location = new System.Drawing.Point(322, 2);
             this.panel8.Name = "panel8";
@@ -2432,6 +2480,7 @@
             // comboBox11
             // 
             this.comboBox11.AccessibleName = "Value";
+            this.comboBox11.Enabled = false;
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Items.AddRange(new object[] {
             "Sagittal",
@@ -2441,7 +2490,7 @@
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(110, 21);
             this.comboBox11.TabIndex = 37;
-            this.comboBox11.Text = "Transversal";
+            this.comboBox11.Text = "Sequential";
             // 
             // textBox73
             // 
@@ -2463,21 +2512,21 @@
             this.textBox81.TabIndex = 41;
             this.textBox81.Text = "ms";
             // 
-            // textBox94
+            // textBox_geo23
             // 
-            this.textBox94.AccessibleName = "Value";
-            this.textBox94.Location = new System.Drawing.Point(175, 101);
-            this.textBox94.Name = "textBox94";
-            this.textBox94.Size = new System.Drawing.Size(79, 20);
-            this.textBox94.TabIndex = 38;
+            this.textBox_geo23.AccessibleName = "Value";
+            this.textBox_geo23.Location = new System.Drawing.Point(175, 101);
+            this.textBox_geo23.Name = "textBox_geo23";
+            this.textBox_geo23.Size = new System.Drawing.Size(79, 20);
+            this.textBox_geo23.TabIndex = 38;
             // 
-            // textBox95
+            // textBox_geo20
             // 
-            this.textBox95.AccessibleName = "Value";
-            this.textBox95.Location = new System.Drawing.Point(175, 8);
-            this.textBox95.Name = "textBox95";
-            this.textBox95.Size = new System.Drawing.Size(79, 20);
-            this.textBox95.TabIndex = 37;
+            this.textBox_geo20.AccessibleName = "Value";
+            this.textBox_geo20.Location = new System.Drawing.Point(175, 8);
+            this.textBox_geo20.Name = "textBox_geo20";
+            this.textBox_geo20.Size = new System.Drawing.Size(79, 20);
+            this.textBox_geo20.TabIndex = 37;
             // 
             // textBox97
             // 
@@ -2557,13 +2606,13 @@
             this.textBox115.TabIndex = 8;
             this.textBox115.Text = "FoV phase";
             // 
-            // textBox116
+            // textBox_geo22
             // 
-            this.textBox116.AccessibleName = "Value";
-            this.textBox116.Location = new System.Drawing.Point(175, 70);
-            this.textBox116.Name = "textBox116";
-            this.textBox116.Size = new System.Drawing.Size(79, 20);
-            this.textBox116.TabIndex = 3;
+            this.textBox_geo22.AccessibleName = "Value";
+            this.textBox_geo22.Location = new System.Drawing.Point(175, 70);
+            this.textBox_geo22.Name = "textBox_geo22";
+            this.textBox_geo22.Size = new System.Drawing.Size(79, 20);
+            this.textBox_geo22.TabIndex = 3;
             // 
             // textBox117
             // 
@@ -2575,13 +2624,13 @@
             this.textBox117.TabIndex = 9;
             this.textBox117.Text = "TR";
             // 
-            // textBox118
+            // textBox_geo21
             // 
-            this.textBox118.AccessibleName = "Value";
-            this.textBox118.Location = new System.Drawing.Point(175, 39);
-            this.textBox118.Name = "textBox118";
-            this.textBox118.Size = new System.Drawing.Size(79, 20);
-            this.textBox118.TabIndex = 2;
+            this.textBox_geo21.AccessibleName = "Value";
+            this.textBox_geo21.Location = new System.Drawing.Point(175, 39);
+            this.textBox_geo21.Name = "textBox_geo21";
+            this.textBox_geo21.Size = new System.Drawing.Size(79, 20);
+            this.textBox_geo21.TabIndex = 2;
             // 
             // shapeContainer13
             // 
@@ -2605,6 +2654,8 @@
             // 
             // panel11
             // 
+            this.panel11.Controls.Add(this.button3);
+            this.panel11.Controls.Add(this.button4);
             this.panel11.Controls.Add(this.comboBox8);
             this.panel11.Controls.Add(this.comboBox9);
             this.panel11.Controls.Add(this.textBox119);
@@ -2663,7 +2714,7 @@
             // textBox119
             // 
             this.textBox119.AccessibleName = "Units";
-            this.textBox119.Location = new System.Drawing.Point(262, 76);
+            this.textBox119.Location = new System.Drawing.Point(267, 76);
             this.textBox119.Name = "textBox119";
             this.textBox119.ReadOnly = true;
             this.textBox119.Size = new System.Drawing.Size(31, 20);
@@ -2673,7 +2724,7 @@
             // textBox120
             // 
             this.textBox120.AccessibleName = "Units";
-            this.textBox120.Location = new System.Drawing.Point(262, 225);
+            this.textBox120.Location = new System.Drawing.Point(267, 225);
             this.textBox120.Name = "textBox120";
             this.textBox120.ReadOnly = true;
             this.textBox120.Size = new System.Drawing.Size(31, 20);
@@ -2683,7 +2734,7 @@
             // textBox121
             // 
             this.textBox121.AccessibleName = "Units";
-            this.textBox121.Location = new System.Drawing.Point(262, 194);
+            this.textBox121.Location = new System.Drawing.Point(267, 194);
             this.textBox121.Name = "textBox121";
             this.textBox121.ReadOnly = true;
             this.textBox121.Size = new System.Drawing.Size(31, 20);
@@ -2782,7 +2833,7 @@
             "1"});
             this.comboBox10.Location = new System.Drawing.Point(175, 7);
             this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(50, 21);
+            this.comboBox10.Size = new System.Drawing.Size(32, 21);
             this.comboBox10.TabIndex = 18;
             this.comboBox10.Text = "1";
             // 
@@ -2846,6 +2897,8 @@
             this.shapeContainer16.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer16.Name = "shapeContainer16";
             this.shapeContainer16.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape20,
+            this.lineShape19,
             this.lineShape16});
             this.shapeContainer16.Size = new System.Drawing.Size(316, 273);
             this.shapeContainer16.TabIndex = 17;
@@ -2855,8 +2908,8 @@
             // 
             this.lineShape16.AccessibleName = "lineSeparator";
             this.lineShape16.Name = "lineShape1";
-            this.lineShape16.X1 = 257;
-            this.lineShape16.X2 = 258;
+            this.lineShape16.X1 = 263;
+            this.lineShape16.X2 = 264;
             this.lineShape16.Y1 = 20;
             this.lineShape16.Y2 = 268;
             // 
@@ -2941,98 +2994,31 @@
             // 
             // panel12
             // 
-            this.panel12.Controls.Add(this.checkBox16);
-            this.panel12.Controls.Add(this.checkBox17);
-            this.panel12.Controls.Add(this.checkBox18);
-            this.panel12.Controls.Add(this.comboBox14);
-            this.panel12.Controls.Add(this.textBox133);
+            this.panel12.Controls.Add(this.textBox136);
+            this.panel12.Controls.Add(this.textBox145);
+            this.panel12.Controls.Add(this.textBox146);
+            this.panel12.Controls.Add(this.textBox148);
             this.panel12.Controls.Add(this.textBox134);
             this.panel12.Controls.Add(this.textBox135);
-            this.panel12.Controls.Add(this.textBox136);
+            this.panel12.Controls.Add(this.button5);
+            this.panel12.Controls.Add(this.button6);
+            this.panel12.Controls.Add(this.comboBox14);
+            this.panel12.Controls.Add(this.textBox44);
+            this.panel12.Controls.Add(this.textBox48);
+            this.panel12.Controls.Add(this.textBox50);
+            this.panel12.Controls.Add(this.textBox94);
+            this.panel12.Controls.Add(this.textBox95);
+            this.panel12.Controls.Add(this.textBox100);
+            this.panel12.Controls.Add(this.textBox101);
+            this.panel12.Controls.Add(this.comboBox23);
+            this.panel12.Controls.Add(this.textBox116);
+            this.panel12.Controls.Add(this.textBox118);
+            this.panel12.Controls.Add(this.textBox133);
             this.panel12.Controls.Add(this.shapeContainer17);
             this.panel12.Location = new System.Drawing.Point(6, 6);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(313, 266);
             this.panel12.TabIndex = 18;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(239, 11);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(15, 14);
-            this.checkBox16.TabIndex = 46;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(239, 192);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(15, 14);
-            this.checkBox17.TabIndex = 45;
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // checkBox18
-            // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(239, 138);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(15, 14);
-            this.checkBox18.TabIndex = 44;
-            this.checkBox18.UseVisualStyleBackColor = true;
-            // 
-            // comboBox14
-            // 
-            this.comboBox14.AccessibleName = "Value";
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
-            "2D"});
-            this.comboBox14.Location = new System.Drawing.Point(175, 161);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(79, 21);
-            this.comboBox14.TabIndex = 43;
-            this.comboBox14.Text = "2D";
-            // 
-            // textBox133
-            // 
-            this.textBox133.AccessibleName = "txtLabel";
-            this.textBox133.Location = new System.Drawing.Point(7, 189);
-            this.textBox133.Name = "textBox133";
-            this.textBox133.ReadOnly = true;
-            this.textBox133.Size = new System.Drawing.Size(162, 20);
-            this.textBox133.TabIndex = 25;
-            this.textBox133.Text = "Unfiltered images";
-            // 
-            // textBox134
-            // 
-            this.textBox134.AccessibleName = "txtLabel";
-            this.textBox134.Location = new System.Drawing.Point(6, 161);
-            this.textBox134.Name = "textBox134";
-            this.textBox134.ReadOnly = true;
-            this.textBox134.Size = new System.Drawing.Size(163, 20);
-            this.textBox134.TabIndex = 21;
-            this.textBox134.Text = "Mode";
-            // 
-            // textBox135
-            // 
-            this.textBox135.AccessibleName = "txtLabel";
-            this.textBox135.Location = new System.Drawing.Point(6, 135);
-            this.textBox135.Name = "textBox135";
-            this.textBox135.ReadOnly = true;
-            this.textBox135.Size = new System.Drawing.Size(163, 20);
-            this.textBox135.TabIndex = 8;
-            this.textBox135.Text = "Distortion Corr.";
-            // 
-            // textBox136
-            // 
-            this.textBox136.AccessibleName = "txtLabel";
-            this.textBox136.Location = new System.Drawing.Point(6, 8);
-            this.textBox136.Name = "textBox136";
-            this.textBox136.ReadOnly = true;
-            this.textBox136.Size = new System.Drawing.Size(163, 20);
-            this.textBox136.TabIndex = 9;
-            this.textBox136.Text = "Image Filter";
             // 
             // shapeContainer17
             // 
@@ -3040,6 +3026,7 @@
             this.shapeContainer17.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer17.Name = "shapeContainer17";
             this.shapeContainer17.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape21,
             this.lineShape17});
             this.shapeContainer17.Size = new System.Drawing.Size(313, 266);
             this.shapeContainer17.TabIndex = 17;
@@ -3049,10 +3036,10 @@
             // 
             this.lineShape17.AccessibleName = "lineSeparator";
             this.lineShape17.Name = "lineShape1";
-            this.lineShape17.X1 = 257;
-            this.lineShape17.X2 = 259;
-            this.lineShape17.Y1 = 9;
-            this.lineShape17.Y2 = 254;
+            this.lineShape17.X1 = 264;
+            this.lineShape17.X2 = 264;
+            this.lineShape17.Y1 = 15;
+            this.lineShape17.Y2 = 260;
             // 
             // tabPage12
             // 
@@ -3069,7 +3056,7 @@
             this.tabPage_System.Location = new System.Drawing.Point(4, 29);
             this.tabPage_System.Name = "tabPage_System";
             this.tabPage_System.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_System.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_System.Size = new System.Drawing.Size(690, 344);
             this.tabPage_System.TabIndex = 3;
             this.tabPage_System.Text = "System";
             this.tabPage_System.UseVisualStyleBackColor = true;
@@ -3080,7 +3067,7 @@
             this.tabPage_Physio.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Physio.Name = "tabPage_Physio";
             this.tabPage_Physio.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Physio.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Physio.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Physio.TabIndex = 4;
             this.tabPage_Physio.Text = "Physio";
             this.tabPage_Physio.UseVisualStyleBackColor = true;
@@ -3091,10 +3078,10 @@
             this.tabControl5.Controls.Add(this.tabPage14);
             this.tabControl5.Controls.Add(this.tabPage15);
             this.tabControl5.ItemSize = new System.Drawing.Size(85, 25);
-            this.tabControl5.Location = new System.Drawing.Point(7, 10);
+            this.tabControl5.Location = new System.Drawing.Point(3, 3);
             this.tabControl5.Name = "tabControl5";
             this.tabControl5.SelectedIndex = 0;
-            this.tabControl5.Size = new System.Drawing.Size(647, 314);
+            this.tabControl5.Size = new System.Drawing.Size(677, 323);
             this.tabControl5.TabIndex = 15;
             // 
             // tabPage13
@@ -3104,87 +3091,17 @@
             this.tabPage13.Location = new System.Drawing.Point(4, 29);
             this.tabPage13.Name = "tabPage13";
             this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(639, 281);
+            this.tabPage13.Size = new System.Drawing.Size(669, 290);
             this.tabPage13.TabIndex = 0;
             this.tabPage13.Text = "Physio";
             this.tabPage13.UseVisualStyleBackColor = true;
             // 
-            // panel14
-            // 
-            this.panel14.Controls.Add(this.checkBox12);
-            this.panel14.Controls.Add(this.textBox100);
-            this.panel14.Controls.Add(this.comboBox13);
-            this.panel14.Controls.Add(this.textBox101);
-            this.panel14.Controls.Add(this.shapeContainer19);
-            this.panel14.Location = new System.Drawing.Point(328, 10);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(305, 271);
-            this.panel14.TabIndex = 20;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(279, 242);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 53;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // textBox100
-            // 
-            this.textBox100.AccessibleName = "txtLabel";
-            this.textBox100.Location = new System.Drawing.Point(46, 239);
-            this.textBox100.Name = "textBox100";
-            this.textBox100.ReadOnly = true;
-            this.textBox100.Size = new System.Drawing.Size(163, 20);
-            this.textBox100.TabIndex = 52;
-            this.textBox100.Text = "Interpolation";
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.AccessibleName = "resValue";
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
-            "Cartesian",
-            "Radial"});
-            this.comboBox13.Location = new System.Drawing.Point(186, 8);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(110, 21);
-            this.comboBox13.TabIndex = 18;
-            this.comboBox13.Text = "Cartesian";
-            // 
-            // textBox101
-            // 
-            this.textBox101.AccessibleName = "txtLabel";
-            this.textBox101.Location = new System.Drawing.Point(46, 8);
-            this.textBox101.Name = "textBox101";
-            this.textBox101.ReadOnly = true;
-            this.textBox101.Size = new System.Drawing.Size(132, 20);
-            this.textBox101.TabIndex = 7;
-            this.textBox101.Text = "Trajectory";
-            // 
-            // shapeContainer19
-            // 
-            this.shapeContainer19.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer19.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer19.Name = "shapeContainer19";
-            this.shapeContainer19.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape3});
-            this.shapeContainer19.Size = new System.Drawing.Size(305, 271);
-            this.shapeContainer19.TabIndex = 17;
-            this.shapeContainer19.TabStop = false;
-            // 
-            // lineShape3
-            // 
-            this.lineShape3.AccessibleName = "lineSeparator";
-            this.lineShape3.Name = "lineShape1";
-            this.lineShape3.X1 = 303;
-            this.lineShape3.X2 = 304;
-            this.lineShape3.Y1 = 2;
-            this.lineShape3.Y2 = 268;
-            // 
             // panel15
             // 
+            this.panel15.Controls.Add(this.textBox22);
+            this.panel15.Controls.Add(this.textBox24);
+            this.panel15.Controls.Add(this.textBox21);
+            this.panel15.Controls.Add(this.textBox16);
             this.panel15.Controls.Add(this.textBox103);
             this.panel15.Controls.Add(this.comboBox16);
             this.panel15.Controls.Add(this.textBox106);
@@ -3195,7 +3112,6 @@
             this.panel15.Controls.Add(this.textBox144);
             this.panel15.Controls.Add(this.comboBox17);
             this.panel15.Controls.Add(this.textBox147);
-            this.panel15.Controls.Add(this.textBox148);
             this.panel15.Controls.Add(this.textBox149);
             this.panel15.Controls.Add(this.textBox150);
             this.panel15.Controls.Add(this.textBox151);
@@ -3207,18 +3123,18 @@
             this.panel15.Controls.Add(this.shapeContainer20);
             this.panel15.Location = new System.Drawing.Point(6, 8);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(316, 271);
+            this.panel15.Size = new System.Drawing.Size(321, 279);
             this.panel15.TabIndex = 13;
             // 
             // textBox103
             // 
             this.textBox103.AccessibleName = "txtUnits";
-            this.textBox103.Location = new System.Drawing.Point(264, 173);
+            this.textBox103.Location = new System.Drawing.Point(264, 199);
             this.textBox103.Name = "textBox103";
             this.textBox103.ReadOnly = true;
             this.textBox103.Size = new System.Drawing.Size(31, 20);
             this.textBox103.TabIndex = 28;
-            this.textBox103.Text = "%";
+            this.textBox103.Text = "ms";
             // 
             // comboBox16
             // 
@@ -3238,7 +3154,7 @@
             // textBox106
             // 
             this.textBox106.AccessibleName = "txtLabel";
-            this.textBox106.Location = new System.Drawing.Point(6, 239);
+            this.textBox106.Location = new System.Drawing.Point(6, 253);
             this.textBox106.Name = "textBox106";
             this.textBox106.Size = new System.Drawing.Size(132, 20);
             this.textBox106.TabIndex = 26;
@@ -3247,7 +3163,7 @@
             // textBox112
             // 
             this.textBox112.AccessibleName = "txtLabel";
-            this.textBox112.Location = new System.Drawing.Point(6, 173);
+            this.textBox112.Location = new System.Drawing.Point(6, 199);
             this.textBox112.Name = "textBox112";
             this.textBox112.Size = new System.Drawing.Size(132, 20);
             this.textBox112.TabIndex = 25;
@@ -3256,7 +3172,7 @@
             // textBox128
             // 
             this.textBox128.AccessibleName = "Value";
-            this.textBox128.Location = new System.Drawing.Point(144, 173);
+            this.textBox128.Location = new System.Drawing.Point(144, 199);
             this.textBox128.Name = "textBox128";
             this.textBox128.Size = new System.Drawing.Size(110, 20);
             this.textBox128.TabIndex = 23;
@@ -3264,7 +3180,7 @@
             // textBox129
             // 
             this.textBox129.AccessibleName = "Value";
-            this.textBox129.Location = new System.Drawing.Point(144, 140);
+            this.textBox129.Location = new System.Drawing.Point(144, 149);
             this.textBox129.Name = "textBox129";
             this.textBox129.Size = new System.Drawing.Size(110, 20);
             this.textBox129.TabIndex = 22;
@@ -3272,15 +3188,16 @@
             // textBox143
             // 
             this.textBox143.AccessibleName = "Value";
-            this.textBox143.Location = new System.Drawing.Point(144, 107);
+            this.textBox143.Location = new System.Drawing.Point(144, 122);
             this.textBox143.Name = "textBox143";
             this.textBox143.Size = new System.Drawing.Size(110, 20);
             this.textBox143.TabIndex = 21;
+            this.textBox143.Text = "1";
             // 
             // textBox144
             // 
             this.textBox144.AccessibleName = "Value";
-            this.textBox144.Location = new System.Drawing.Point(144, 74);
+            this.textBox144.Location = new System.Drawing.Point(144, 95);
             this.textBox144.Name = "textBox144";
             this.textBox144.Size = new System.Drawing.Size(110, 20);
             this.textBox144.TabIndex = 20;
@@ -3296,7 +3213,7 @@
             "7/8",
             "Off",
             "Auto"});
-            this.comboBox17.Location = new System.Drawing.Point(144, 206);
+            this.comboBox17.Location = new System.Drawing.Point(144, 226);
             this.comboBox17.Name = "comboBox17";
             this.comboBox17.Size = new System.Drawing.Size(110, 21);
             this.comboBox17.TabIndex = 16;
@@ -3312,20 +3229,10 @@
             this.textBox147.TabIndex = 7;
             this.textBox147.Text = "1st SIgnal/Mode";
             // 
-            // textBox148
-            // 
-            this.textBox148.AccessibleName = "txtUnits";
-            this.textBox148.Location = new System.Drawing.Point(264, 8);
-            this.textBox148.Name = "textBox148";
-            this.textBox148.ReadOnly = true;
-            this.textBox148.Size = new System.Drawing.Size(31, 20);
-            this.textBox148.TabIndex = 12;
-            this.textBox148.Text = "mm";
-            // 
             // textBox149
             // 
             this.textBox149.AccessibleName = "txtLabel";
-            this.textBox149.Location = new System.Drawing.Point(6, 74);
+            this.textBox149.Location = new System.Drawing.Point(6, 95);
             this.textBox149.Name = "textBox149";
             this.textBox149.Size = new System.Drawing.Size(132, 20);
             this.textBox149.TabIndex = 15;
@@ -3334,22 +3241,22 @@
             // textBox150
             // 
             this.textBox150.AccessibleName = "txtUnits";
-            this.textBox150.Location = new System.Drawing.Point(264, 74);
+            this.textBox150.Location = new System.Drawing.Point(264, 95);
             this.textBox150.Name = "textBox150";
             this.textBox150.ReadOnly = true;
             this.textBox150.Size = new System.Drawing.Size(31, 20);
             this.textBox150.TabIndex = 13;
-            this.textBox150.Text = "mm";
+            this.textBox150.Text = "ms";
             // 
             // textBox151
             // 
             this.textBox151.AccessibleName = "txtUnits";
-            this.textBox151.Location = new System.Drawing.Point(264, 140);
+            this.textBox151.Location = new System.Drawing.Point(264, 149);
             this.textBox151.Name = "textBox151";
             this.textBox151.ReadOnly = true;
             this.textBox151.Size = new System.Drawing.Size(31, 20);
             this.textBox151.TabIndex = 14;
-            this.textBox151.Text = "%";
+            this.textBox151.Text = "ms";
             // 
             // textBox152
             // 
@@ -3368,12 +3275,12 @@
             this.textBox153.ReadOnly = true;
             this.textBox153.Size = new System.Drawing.Size(31, 20);
             this.textBox153.TabIndex = 13;
-            this.textBox153.Text = "%";
+            this.textBox153.Text = "ms";
             // 
             // textBox154
             // 
             this.textBox154.AccessibleName = "txtLabel";
-            this.textBox154.Location = new System.Drawing.Point(6, 107);
+            this.textBox154.Location = new System.Drawing.Point(6, 122);
             this.textBox154.Name = "textBox154";
             this.textBox154.Size = new System.Drawing.Size(132, 20);
             this.textBox154.TabIndex = 9;
@@ -3382,7 +3289,7 @@
             // textBox155
             // 
             this.textBox155.AccessibleName = "txtLabel";
-            this.textBox155.Location = new System.Drawing.Point(6, 206);
+            this.textBox155.Location = new System.Drawing.Point(6, 226);
             this.textBox155.Name = "textBox155";
             this.textBox155.Size = new System.Drawing.Size(132, 20);
             this.textBox155.TabIndex = 11;
@@ -3391,7 +3298,7 @@
             // textBox156
             // 
             this.textBox156.AccessibleName = "txtLabel";
-            this.textBox156.Location = new System.Drawing.Point(6, 140);
+            this.textBox156.Location = new System.Drawing.Point(6, 149);
             this.textBox156.Name = "textBox156";
             this.textBox156.Size = new System.Drawing.Size(132, 20);
             this.textBox156.TabIndex = 10;
@@ -3404,7 +3311,7 @@
             this.shapeContainer20.Name = "shapeContainer20";
             this.shapeContainer20.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
-            this.shapeContainer20.Size = new System.Drawing.Size(316, 271);
+            this.shapeContainer20.Size = new System.Drawing.Size(321, 279);
             this.shapeContainer20.TabIndex = 17;
             this.shapeContainer20.TabStop = false;
             // 
@@ -3423,104 +3330,57 @@
             this.tabPage14.Location = new System.Drawing.Point(4, 29);
             this.tabPage14.Name = "tabPage14";
             this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(639, 281);
+            this.tabPage14.Size = new System.Drawing.Size(669, 290);
             this.tabPage14.TabIndex = 1;
             this.tabPage14.Text = "Cardiac";
             this.tabPage14.UseVisualStyleBackColor = true;
             // 
             // panel16
             // 
+            this.panel16.Controls.Add(this.checkBox24);
+            this.panel16.Controls.Add(this.textBox40);
             this.panel16.Controls.Add(this.comboBox18);
-            this.panel16.Controls.Add(this.comboBox19);
-            this.panel16.Controls.Add(this.textBox157);
-            this.panel16.Controls.Add(this.textBox158);
-            this.panel16.Controls.Add(this.textBox159);
+            this.panel16.Controls.Add(this.textBox38);
+            this.panel16.Controls.Add(this.comboBox13);
+            this.panel16.Controls.Add(this.textBox36);
+            this.panel16.Controls.Add(this.textBox30);
+            this.panel16.Controls.Add(this.textBox31);
+            this.panel16.Controls.Add(this.textBox32);
+            this.panel16.Controls.Add(this.textBox33);
+            this.panel16.Controls.Add(this.textBox34);
+            this.panel16.Controls.Add(this.textBox35);
             this.panel16.Controls.Add(this.shapeContainer21);
-            this.panel16.Location = new System.Drawing.Point(308, 10);
+            this.panel16.Location = new System.Drawing.Point(325, 10);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(336, 271);
+            this.panel16.Size = new System.Drawing.Size(338, 271);
             this.panel16.TabIndex = 19;
-            // 
-            // comboBox18
-            // 
-            this.comboBox18.AccessibleName = "resValue";
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Items.AddRange(new object[] {
-            "Integrated",
-            "T-PAT"});
-            this.comboBox18.Location = new System.Drawing.Point(186, 42);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(110, 21);
-            this.comboBox18.TabIndex = 19;
-            this.comboBox18.Text = "Integrated";
-            // 
-            // comboBox19
-            // 
-            this.comboBox19.AccessibleName = "resValue";
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Items.AddRange(new object[] {
-            "Auto (Triple)",
-            "CP",
-            "Dual",
-            "Triple"});
-            this.comboBox19.Location = new System.Drawing.Point(186, 8);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(110, 21);
-            this.comboBox19.TabIndex = 18;
-            this.comboBox19.Text = "Auto (Triple)";
-            // 
-            // textBox157
-            // 
-            this.textBox157.AccessibleName = "txtLabel";
-            this.textBox157.Location = new System.Drawing.Point(46, 8);
-            this.textBox157.Name = "textBox157";
-            this.textBox157.ReadOnly = true;
-            this.textBox157.Size = new System.Drawing.Size(132, 20);
-            this.textBox157.TabIndex = 7;
-            this.textBox157.Text = "Matrix Coil Mode";
-            // 
-            // textBox158
-            // 
-            this.textBox158.AccessibleName = "txtLabel";
-            this.textBox158.Location = new System.Drawing.Point(46, 43);
-            this.textBox158.Name = "textBox158";
-            this.textBox158.Size = new System.Drawing.Size(132, 20);
-            this.textBox158.TabIndex = 8;
-            this.textBox158.Text = "Reference scan mode";
-            // 
-            // textBox159
-            // 
-            this.textBox159.AccessibleName = "resValue";
-            this.textBox159.Location = new System.Drawing.Point(186, 78);
-            this.textBox159.Name = "textBox159";
-            this.textBox159.Size = new System.Drawing.Size(110, 20);
-            this.textBox159.TabIndex = 3;
             // 
             // shapeContainer21
             // 
             this.shapeContainer21.Location = new System.Drawing.Point(0, 0);
             this.shapeContainer21.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer21.Name = "shapeContainer21";
-            this.shapeContainer21.Size = new System.Drawing.Size(336, 271);
+            this.shapeContainer21.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape3});
+            this.shapeContainer21.Size = new System.Drawing.Size(338, 271);
             this.shapeContainer21.TabIndex = 17;
             this.shapeContainer21.TabStop = false;
             // 
             // panel17
             // 
+            this.panel17.Controls.Add(this.comboBox19);
+            this.panel17.Controls.Add(this.checkBox12);
+            this.panel17.Controls.Add(this.textBox39);
             this.panel17.Controls.Add(this.comboBox20);
             this.panel17.Controls.Add(this.textBox160);
             this.panel17.Controls.Add(this.textBox161);
             this.panel17.Controls.Add(this.textBox162);
-            this.panel17.Controls.Add(this.textBox163);
-            this.panel17.Controls.Add(this.textBox164);
-            this.panel17.Controls.Add(this.textBox165);
             this.panel17.Controls.Add(this.textBox166);
-            this.panel17.Controls.Add(this.textBox167);
             this.panel17.Controls.Add(this.textBox168);
             this.panel17.Controls.Add(this.shapeContainer22);
             this.panel17.Location = new System.Drawing.Point(6, 10);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(296, 271);
+            this.panel17.Size = new System.Drawing.Size(313, 271);
             this.panel17.TabIndex = 14;
             // 
             // comboBox20
@@ -3545,7 +3405,7 @@
             this.textBox160.ReadOnly = true;
             this.textBox160.Size = new System.Drawing.Size(132, 20);
             this.textBox160.TabIndex = 7;
-            this.textBox160.Text = "PAT mode";
+            this.textBox160.Text = "Tagging";
             // 
             // textBox161
             // 
@@ -3563,31 +3423,6 @@
             this.textBox162.Size = new System.Drawing.Size(110, 20);
             this.textBox162.TabIndex = 5;
             // 
-            // textBox163
-            // 
-            this.textBox163.AccessibleName = "resValue";
-            this.textBox163.Location = new System.Drawing.Point(144, 113);
-            this.textBox163.Name = "textBox163";
-            this.textBox163.Size = new System.Drawing.Size(110, 20);
-            this.textBox163.TabIndex = 4;
-            // 
-            // textBox164
-            // 
-            this.textBox164.AccessibleName = "txtLabel";
-            this.textBox164.Location = new System.Drawing.Point(4, 43);
-            this.textBox164.Name = "textBox164";
-            this.textBox164.Size = new System.Drawing.Size(132, 20);
-            this.textBox164.TabIndex = 8;
-            this.textBox164.Text = "Accel. factor PE";
-            // 
-            // textBox165
-            // 
-            this.textBox165.AccessibleName = "resValue";
-            this.textBox165.Location = new System.Drawing.Point(144, 78);
-            this.textBox165.Name = "textBox165";
-            this.textBox165.Size = new System.Drawing.Size(110, 20);
-            this.textBox165.TabIndex = 3;
-            // 
             // textBox166
             // 
             this.textBox166.AccessibleName = "txtLabel";
@@ -3595,15 +3430,7 @@
             this.textBox166.Name = "textBox166";
             this.textBox166.Size = new System.Drawing.Size(132, 20);
             this.textBox166.TabIndex = 9;
-            this.textBox166.Text = "Ref. lines PE";
-            // 
-            // textBox167
-            // 
-            this.textBox167.AccessibleName = "resValue";
-            this.textBox167.Location = new System.Drawing.Point(144, 43);
-            this.textBox167.Name = "textBox167";
-            this.textBox167.Size = new System.Drawing.Size(110, 20);
-            this.textBox167.TabIndex = 2;
+            this.textBox166.Text = "Magn. preparation";
             // 
             // textBox168
             // 
@@ -3612,7 +3439,7 @@
             this.textBox168.Name = "textBox168";
             this.textBox168.Size = new System.Drawing.Size(132, 20);
             this.textBox168.TabIndex = 11;
-            this.textBox168.Text = "Accel. factor 3D";
+            this.textBox168.Text = "Fat suppr.";
             // 
             // shapeContainer22
             // 
@@ -3621,7 +3448,7 @@
             this.shapeContainer22.Name = "shapeContainer22";
             this.shapeContainer22.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape2});
-            this.shapeContainer22.Size = new System.Drawing.Size(296, 271);
+            this.shapeContainer22.Size = new System.Drawing.Size(313, 271);
             this.shapeContainer22.TabIndex = 17;
             this.shapeContainer22.TabStop = false;
             // 
@@ -3641,7 +3468,7 @@
             this.tabPage15.Location = new System.Drawing.Point(4, 29);
             this.tabPage15.Name = "tabPage15";
             this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(639, 281);
+            this.tabPage15.Size = new System.Drawing.Size(669, 290);
             this.tabPage15.TabIndex = 2;
             this.tabPage15.Text = "PACE";
             this.tabPage15.UseVisualStyleBackColor = true;
@@ -3649,68 +3476,29 @@
             // panel18
             // 
             this.panel18.Controls.Add(this.checkBox13);
-            this.panel18.Controls.Add(this.checkBox14);
+            this.panel18.Controls.Add(this.textBox172);
+            this.panel18.Controls.Add(this.comboBox22);
+            this.panel18.Controls.Add(this.textBox174);
             this.panel18.Controls.Add(this.textBox169);
-            this.panel18.Controls.Add(this.checkBox15);
-            this.panel18.Controls.Add(this.checkBox19);
             this.panel18.Controls.Add(this.comboBox21);
-            this.panel18.Controls.Add(this.checkBox20);
             this.panel18.Controls.Add(this.textBox170);
             this.panel18.Controls.Add(this.textBox171);
-            this.panel18.Controls.Add(this.textBox172);
             this.panel18.Controls.Add(this.textBox173);
-            this.panel18.Controls.Add(this.textBox174);
             this.panel18.Controls.Add(this.shapeContainer23);
-            this.panel18.Location = new System.Drawing.Point(320, 6);
+            this.panel18.Location = new System.Drawing.Point(335, 6);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(313, 266);
             this.panel18.TabIndex = 19;
             // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(239, 11);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(15, 14);
-            this.checkBox13.TabIndex = 51;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(239, 62);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(15, 14);
-            this.checkBox14.TabIndex = 50;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
             // textBox169
             // 
             this.textBox169.AccessibleName = "txtLabel";
-            this.textBox169.Location = new System.Drawing.Point(6, 189);
+            this.textBox169.Location = new System.Drawing.Point(13, 234);
             this.textBox169.Name = "textBox169";
             this.textBox169.ReadOnly = true;
             this.textBox169.Size = new System.Drawing.Size(163, 20);
             this.textBox169.TabIndex = 49;
-            this.textBox169.Text = "Elliptical filter";
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(239, 189);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(15, 14);
-            this.checkBox15.TabIndex = 48;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox19
-            // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(239, 164);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(15, 14);
-            this.checkBox19.TabIndex = 47;
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.textBox169.Text = "Concatenations";
             // 
             // comboBox21
             // 
@@ -3718,70 +3506,41 @@
             this.comboBox21.FormattingEnabled = true;
             this.comboBox21.Items.AddRange(new object[] {
             "Off"});
-            this.comboBox21.Location = new System.Drawing.Point(175, 225);
+            this.comboBox21.Location = new System.Drawing.Point(178, 155);
             this.comboBox21.Name = "comboBox21";
             this.comboBox21.Size = new System.Drawing.Size(79, 21);
             this.comboBox21.TabIndex = 46;
-            this.comboBox21.Text = "Off";
-            // 
-            // checkBox20
-            // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(239, 113);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(15, 14);
-            this.checkBox20.TabIndex = 44;
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.comboBox21.Text = "Crossed pair";
             // 
             // textBox170
             // 
             this.textBox170.AccessibleName = "txtLabel";
-            this.textBox170.Location = new System.Drawing.Point(6, 225);
+            this.textBox170.Location = new System.Drawing.Point(10, 155);
             this.textBox170.Name = "textBox170";
             this.textBox170.ReadOnly = true;
             this.textBox170.Size = new System.Drawing.Size(162, 20);
             this.textBox170.TabIndex = 25;
-            this.textBox170.Text = "POCS";
+            this.textBox170.Text = "RF pulse type";
             // 
             // textBox171
             // 
             this.textBox171.AccessibleName = "txtLabel";
-            this.textBox171.Location = new System.Drawing.Point(6, 161);
+            this.textBox171.Location = new System.Drawing.Point(11, 127);
             this.textBox171.Name = "textBox171";
             this.textBox171.ReadOnly = true;
             this.textBox171.Size = new System.Drawing.Size(163, 20);
             this.textBox171.TabIndex = 21;
-            this.textBox171.Text = "Raw filter";
-            // 
-            // textBox172
-            // 
-            this.textBox172.AccessibleName = "txtLabel";
-            this.textBox172.Location = new System.Drawing.Point(5, 59);
-            this.textBox172.Name = "textBox172";
-            this.textBox172.ReadOnly = true;
-            this.textBox172.Size = new System.Drawing.Size(163, 20);
-            this.textBox172.TabIndex = 20;
-            this.textBox172.Text = "Normalize";
+            this.textBox171.Text = "Chronologic position";
             // 
             // textBox173
             // 
             this.textBox173.AccessibleName = "txtLabel";
-            this.textBox173.Location = new System.Drawing.Point(5, 110);
+            this.textBox173.Location = new System.Drawing.Point(8, 99);
             this.textBox173.Name = "textBox173";
             this.textBox173.ReadOnly = true;
             this.textBox173.Size = new System.Drawing.Size(163, 20);
             this.textBox173.TabIndex = 8;
-            this.textBox173.Text = "B1 filter";
-            // 
-            // textBox174
-            // 
-            this.textBox174.AccessibleName = "txtLabel";
-            this.textBox174.Location = new System.Drawing.Point(6, 8);
-            this.textBox174.Name = "textBox174";
-            this.textBox174.ReadOnly = true;
-            this.textBox174.Size = new System.Drawing.Size(163, 20);
-            this.textBox174.TabIndex = 9;
-            this.textBox174.Text = "Prescan Normalize";
+            this.textBox173.Text = "Tracking factor";
             // 
             // shapeContainer23
             // 
@@ -3798,105 +3557,30 @@
             // 
             this.lineShape12.AccessibleName = "lineSeparator";
             this.lineShape12.Name = "lineShape1";
-            this.lineShape12.X1 = 257;
-            this.lineShape12.X2 = 259;
+            this.lineShape12.X1 = 260;
+            this.lineShape12.X2 = 262;
             this.lineShape12.Y1 = 9;
             this.lineShape12.Y2 = 254;
             // 
             // panel19
             // 
-            this.panel19.Controls.Add(this.checkBox21);
-            this.panel19.Controls.Add(this.checkBox22);
-            this.panel19.Controls.Add(this.checkBox23);
-            this.panel19.Controls.Add(this.comboBox22);
+            this.panel19.Controls.Add(this.checkBox14);
+            this.panel19.Controls.Add(this.textBox177);
+            this.panel19.Controls.Add(this.textBox158);
+            this.panel19.Controls.Add(this.textBox159);
+            this.panel19.Controls.Add(this.textBox163);
+            this.panel19.Controls.Add(this.textBox164);
+            this.panel19.Controls.Add(this.textBox165);
+            this.panel19.Controls.Add(this.textBox167);
             this.panel19.Controls.Add(this.textBox175);
             this.panel19.Controls.Add(this.textBox176);
-            this.panel19.Controls.Add(this.textBox177);
-            this.panel19.Controls.Add(this.textBox178);
+            this.panel19.Controls.Add(this.comboBox24);
+            this.panel19.Controls.Add(this.textBox157);
             this.panel19.Controls.Add(this.shapeContainer24);
             this.panel19.Location = new System.Drawing.Point(6, 6);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(313, 266);
             this.panel19.TabIndex = 18;
-            // 
-            // checkBox21
-            // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(239, 11);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(15, 14);
-            this.checkBox21.TabIndex = 46;
-            this.checkBox21.UseVisualStyleBackColor = true;
-            // 
-            // checkBox22
-            // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(239, 192);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(15, 14);
-            this.checkBox22.TabIndex = 45;
-            this.checkBox22.UseVisualStyleBackColor = true;
-            // 
-            // checkBox23
-            // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(239, 138);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(15, 14);
-            this.checkBox23.TabIndex = 44;
-            this.checkBox23.UseVisualStyleBackColor = true;
-            // 
-            // comboBox22
-            // 
-            this.comboBox22.AccessibleName = "Value";
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Items.AddRange(new object[] {
-            "2D"});
-            this.comboBox22.Location = new System.Drawing.Point(175, 161);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(79, 21);
-            this.comboBox22.TabIndex = 43;
-            this.comboBox22.Text = "2D";
-            // 
-            // textBox175
-            // 
-            this.textBox175.AccessibleName = "txtLabel";
-            this.textBox175.Location = new System.Drawing.Point(7, 189);
-            this.textBox175.Name = "textBox175";
-            this.textBox175.ReadOnly = true;
-            this.textBox175.Size = new System.Drawing.Size(162, 20);
-            this.textBox175.TabIndex = 25;
-            this.textBox175.Text = "Unfiltered images";
-            // 
-            // textBox176
-            // 
-            this.textBox176.AccessibleName = "txtLabel";
-            this.textBox176.Location = new System.Drawing.Point(6, 161);
-            this.textBox176.Name = "textBox176";
-            this.textBox176.ReadOnly = true;
-            this.textBox176.Size = new System.Drawing.Size(163, 20);
-            this.textBox176.TabIndex = 21;
-            this.textBox176.Text = "Mode";
-            // 
-            // textBox177
-            // 
-            this.textBox177.AccessibleName = "txtLabel";
-            this.textBox177.Location = new System.Drawing.Point(6, 135);
-            this.textBox177.Name = "textBox177";
-            this.textBox177.ReadOnly = true;
-            this.textBox177.Size = new System.Drawing.Size(163, 20);
-            this.textBox177.TabIndex = 8;
-            this.textBox177.Text = "Distortion Corr.";
-            // 
-            // textBox178
-            // 
-            this.textBox178.AccessibleName = "txtLabel";
-            this.textBox178.Location = new System.Drawing.Point(6, 8);
-            this.textBox178.Name = "textBox178";
-            this.textBox178.ReadOnly = true;
-            this.textBox178.Size = new System.Drawing.Size(163, 20);
-            this.textBox178.TabIndex = 9;
-            this.textBox178.Text = "Image Filter";
             // 
             // shapeContainer24
             // 
@@ -3913,8 +3597,8 @@
             // 
             this.lineShape11.AccessibleName = "lineSeparator";
             this.lineShape11.Name = "lineShape1";
-            this.lineShape11.X1 = 257;
-            this.lineShape11.X2 = 259;
+            this.lineShape11.X1 = 260;
+            this.lineShape11.X2 = 262;
             this.lineShape11.Y1 = 9;
             this.lineShape11.Y2 = 254;
             // 
@@ -3923,7 +3607,7 @@
             this.tabPage_Inline.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Inline.Name = "tabPage_Inline";
             this.tabPage_Inline.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Inline.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Inline.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Inline.TabIndex = 5;
             this.tabPage_Inline.Text = "Inline";
             this.tabPage_Inline.UseVisualStyleBackColor = true;
@@ -3934,7 +3618,7 @@
             this.tabPage_Sequence.Location = new System.Drawing.Point(4, 29);
             this.tabPage_Sequence.Name = "tabPage_Sequence";
             this.tabPage_Sequence.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Sequence.Size = new System.Drawing.Size(690, 336);
+            this.tabPage_Sequence.Size = new System.Drawing.Size(690, 344);
             this.tabPage_Sequence.TabIndex = 6;
             this.tabPage_Sequence.Text = "Sequence";
             this.tabPage_Sequence.UseVisualStyleBackColor = true;
@@ -3948,16 +3632,17 @@
             this.tabControl2.Location = new System.Drawing.Point(8, 10);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(640, 329);
+            this.tabControl2.Size = new System.Drawing.Size(676, 329);
             this.tabControl2.TabIndex = 15;
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.panel20);
             this.tabPage4.Controls.Add(this.seqPanel1);
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(632, 296);
+            this.tabPage4.Size = new System.Drawing.Size(668, 296);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "Part 1";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -3981,9 +3666,9 @@
             this.seqPanel1.Controls.Add(this.textBox51);
             this.seqPanel1.Controls.Add(this.textBox53);
             this.seqPanel1.Controls.Add(this.shapeContainer5);
-            this.seqPanel1.Location = new System.Drawing.Point(6, 3);
+            this.seqPanel1.Location = new System.Drawing.Point(6, 6);
             this.seqPanel1.Name = "seqPanel1";
-            this.seqPanel1.Size = new System.Drawing.Size(316, 271);
+            this.seqPanel1.Size = new System.Drawing.Size(323, 271);
             this.seqPanel1.TabIndex = 15;
             // 
             // comboBox_seq16
@@ -4102,7 +3787,7 @@
             this.comboBox_seq12.Name = "comboBox_seq12";
             this.comboBox_seq12.Size = new System.Drawing.Size(80, 21);
             this.comboBox_seq12.TabIndex = 18;
-            this.comboBox_seq12.Text = "2D";
+            this.comboBox_seq12.Text = "3D";
             // 
             // textBox43
             // 
@@ -4156,7 +3841,7 @@
             this.shapeContainer5.Name = "shapeContainer5";
             this.shapeContainer5.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape5});
-            this.shapeContainer5.Size = new System.Drawing.Size(316, 271);
+            this.shapeContainer5.Size = new System.Drawing.Size(323, 271);
             this.shapeContainer5.TabIndex = 17;
             this.shapeContainer5.TabStop = false;
             // 
@@ -4188,6 +3873,803 @@
             this.tabPage6.TabIndex = 2;
             this.tabPage6.Text = "Special";
             this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            this.textBox16.AccessibleName = "Value";
+            this.textBox16.Location = new System.Drawing.Point(144, 41);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(110, 20);
+            this.textBox16.TabIndex = 29;
+            this.textBox16.Text = "No Signal";
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.textBox27);
+            this.panel14.Controls.Add(this.textBox29);
+            this.panel14.Controls.Add(this.shapeContainer19);
+            this.panel14.Location = new System.Drawing.Point(341, 10);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(320, 271);
+            this.panel14.TabIndex = 20;
+            // 
+            // shapeContainer19
+            // 
+            this.shapeContainer19.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer19.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer19.Name = "shapeContainer19";
+            this.shapeContainer19.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.rectangleShape1});
+            this.shapeContainer19.Size = new System.Drawing.Size(320, 271);
+            this.shapeContainer19.TabIndex = 17;
+            this.shapeContainer19.TabStop = false;
+            // 
+            // rectangleShape1
+            // 
+            this.rectangleShape1.BackColor = System.Drawing.Color.Black;
+            this.rectangleShape1.FillGradientColor = System.Drawing.Color.Black;
+            this.rectangleShape1.FillStyle = Microsoft.VisualBasic.PowerPacks.FillStyle.Solid;
+            this.rectangleShape1.Location = new System.Drawing.Point(14, 7);
+            this.rectangleShape1.Name = "rectangleShape1";
+            this.rectangleShape1.Size = new System.Drawing.Size(300, 117);
+            // 
+            // textBox21
+            // 
+            this.textBox21.AccessibleName = "Value";
+            this.textBox21.Location = new System.Drawing.Point(144, 253);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(110, 20);
+            this.textBox21.TabIndex = 30;
+            // 
+            // textBox22
+            // 
+            this.textBox22.AccessibleName = "Value";
+            this.textBox22.Location = new System.Drawing.Point(144, 68);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(110, 20);
+            this.textBox22.TabIndex = 32;
+            this.textBox22.Text = "-not set-";
+            // 
+            // textBox24
+            // 
+            this.textBox24.AccessibleName = "txtLabel";
+            this.textBox24.Location = new System.Drawing.Point(6, 68);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(132, 20);
+            this.textBox24.TabIndex = 31;
+            this.textBox24.Text = "Captured cycle";
+            // 
+            // textBox27
+            // 
+            this.textBox27.AccessibleName = "txtLabel";
+            this.textBox27.Location = new System.Drawing.Point(65, 197);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(132, 20);
+            this.textBox27.TabIndex = 34;
+            this.textBox27.Text = "Phases";
+            // 
+            // textBox29
+            // 
+            this.textBox29.AccessibleName = "Value";
+            this.textBox29.Enabled = false;
+            this.textBox29.Location = new System.Drawing.Point(203, 197);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(110, 20);
+            this.textBox29.TabIndex = 33;
+            this.textBox29.Text = "1";
+            // 
+            // textBox30
+            // 
+            this.textBox30.AccessibleName = "Value";
+            this.textBox30.Location = new System.Drawing.Point(194, 61);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(110, 20);
+            this.textBox30.TabIndex = 28;
+            // 
+            // textBox31
+            // 
+            this.textBox31.AccessibleName = "Value";
+            this.textBox31.Location = new System.Drawing.Point(194, 35);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(110, 20);
+            this.textBox31.TabIndex = 27;
+            // 
+            // textBox32
+            // 
+            this.textBox32.AccessibleName = "Value";
+            this.textBox32.Location = new System.Drawing.Point(194, 8);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(110, 20);
+            this.textBox32.TabIndex = 26;
+            // 
+            // textBox33
+            // 
+            this.textBox33.AccessibleName = "txtLabel";
+            this.textBox33.Location = new System.Drawing.Point(56, 8);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.ReadOnly = true;
+            this.textBox33.Size = new System.Drawing.Size(132, 20);
+            this.textBox33.TabIndex = 23;
+            this.textBox33.Text = "FoV read";
+            // 
+            // textBox34
+            // 
+            this.textBox34.AccessibleName = "txtLabel";
+            this.textBox34.Location = new System.Drawing.Point(56, 35);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(132, 20);
+            this.textBox34.TabIndex = 24;
+            this.textBox34.Text = "FoV phase";
+            // 
+            // textBox35
+            // 
+            this.textBox35.AccessibleName = "txtLabel";
+            this.textBox35.Location = new System.Drawing.Point(56, 62);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(132, 20);
+            this.textBox35.TabIndex = 25;
+            this.textBox35.Text = "Phase resolution";
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.AccessibleName = "resValue";
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "None",
+            "GRAPPA",
+            "mSENSE"});
+            this.comboBox13.Location = new System.Drawing.Point(235, 88);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(69, 21);
+            this.comboBox13.TabIndex = 20;
+            this.comboBox13.Text = "Off";
+            // 
+            // textBox36
+            // 
+            this.textBox36.AccessibleName = "txtLabel";
+            this.textBox36.Location = new System.Drawing.Point(56, 89);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.ReadOnly = true;
+            this.textBox36.Size = new System.Drawing.Size(173, 20);
+            this.textBox36.TabIndex = 19;
+            this.textBox36.Text = "Cine";
+            // 
+            // comboBox18
+            // 
+            this.comboBox18.AccessibleName = "resValue";
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Items.AddRange(new object[] {
+            "Cartesian",
+            "Radial"});
+            this.comboBox18.Location = new System.Drawing.Point(194, 115);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(110, 21);
+            this.comboBox18.TabIndex = 30;
+            this.comboBox18.Text = "Cartesian";
+            // 
+            // textBox38
+            // 
+            this.textBox38.AccessibleName = "txtLabel";
+            this.textBox38.Location = new System.Drawing.Point(56, 116);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.ReadOnly = true;
+            this.textBox38.Size = new System.Drawing.Size(132, 20);
+            this.textBox38.TabIndex = 29;
+            this.textBox38.Text = "Trajectory";
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(237, 212);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(15, 14);
+            this.checkBox12.TabIndex = 55;
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // textBox39
+            // 
+            this.textBox39.AccessibleName = "txtLabel";
+            this.textBox39.Location = new System.Drawing.Point(4, 209);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.ReadOnly = true;
+            this.textBox39.Size = new System.Drawing.Size(163, 20);
+            this.textBox39.TabIndex = 54;
+            this.textBox39.Text = "Dark blood";
+            // 
+            // checkBox24
+            // 
+            this.checkBox24.AutoSize = true;
+            this.checkBox24.Location = new System.Drawing.Point(289, 241);
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.Size = new System.Drawing.Size(15, 14);
+            this.checkBox24.TabIndex = 55;
+            this.checkBox24.UseVisualStyleBackColor = true;
+            // 
+            // textBox40
+            // 
+            this.textBox40.AccessibleName = "txtLabel";
+            this.textBox40.Location = new System.Drawing.Point(56, 238);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.ReadOnly = true;
+            this.textBox40.Size = new System.Drawing.Size(163, 20);
+            this.textBox40.TabIndex = 54;
+            this.textBox40.Text = "Inline ventricular function";
+            // 
+            // comboBox19
+            // 
+            this.comboBox19.AccessibleName = "resValue";
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Items.AddRange(new object[] {
+            "None",
+            "GRAPPA",
+            "mSENSE"});
+            this.comboBox19.Location = new System.Drawing.Point(144, 113);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(110, 21);
+            this.comboBox19.TabIndex = 56;
+            this.comboBox19.Text = "Off";
+            // 
+            // lineShape3
+            // 
+            this.lineShape3.AccessibleName = "lineSeparator";
+            this.lineShape3.Name = "lineShape3";
+            this.lineShape3.X1 = 309;
+            this.lineShape3.X2 = 310;
+            this.lineShape3.Y1 = 4;
+            this.lineShape3.Y2 = 270;
+            // 
+            // button3
+            // 
+            this.button3.Enabled = false;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Location = new System.Drawing.Point(227, 7);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(22, 22);
+            this.button3.TabIndex = 40;
+            this.button3.Text = "-";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Enabled = false;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button4.Location = new System.Drawing.Point(207, 7);
+            this.button4.Margin = new System.Windows.Forms.Padding(0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(22, 22);
+            this.button4.TabIndex = 39;
+            this.button4.Text = "+";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // lineShape19
+            // 
+            this.lineShape19.Name = "lineShape19";
+            this.lineShape19.X1 = 152;
+            this.lineShape19.X2 = 165;
+            this.lineShape19.Y1 = 136;
+            this.lineShape19.Y2 = 136;
+            // 
+            // lineShape20
+            // 
+            this.lineShape20.Name = "lineShape20";
+            this.lineShape20.X1 = 250;
+            this.lineShape20.X2 = 263;
+            this.lineShape20.Y1 = 20;
+            this.lineShape20.Y2 = 20;
+            // 
+            // lineShape21
+            // 
+            this.lineShape21.Name = "lineShape21";
+            this.lineShape21.X1 = 250;
+            this.lineShape21.X2 = 263;
+            this.lineShape21.Y1 = 16;
+            this.lineShape21.Y2 = 16;
+            // 
+            // comboBox14
+            // 
+            this.comboBox14.AccessibleName = "Value";
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Sagittal",
+            "Coronal",
+            "Transversal"});
+            this.comboBox14.Location = new System.Drawing.Point(141, 64);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(110, 21);
+            this.comboBox14.TabIndex = 47;
+            this.comboBox14.Text = "Sagittal";
+            // 
+            // textBox44
+            // 
+            this.textBox44.AccessibleName = "txtLabel";
+            this.textBox44.Location = new System.Drawing.Point(3, 149);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.ReadOnly = true;
+            this.textBox44.Size = new System.Drawing.Size(163, 20);
+            this.textBox44.TabIndex = 46;
+            this.textBox44.Text = "Base size read";
+            // 
+            // textBox48
+            // 
+            this.textBox48.AccessibleName = "Value";
+            this.textBox48.Location = new System.Drawing.Point(172, 149);
+            this.textBox48.Name = "textBox48";
+            this.textBox48.Size = new System.Drawing.Size(79, 20);
+            this.textBox48.TabIndex = 45;
+            // 
+            // textBox50
+            // 
+            this.textBox50.AccessibleName = "txtLabel";
+            this.textBox50.Location = new System.Drawing.Point(3, 120);
+            this.textBox50.Name = "textBox50";
+            this.textBox50.ReadOnly = true;
+            this.textBox50.Size = new System.Drawing.Size(163, 20);
+            this.textBox50.TabIndex = 44;
+            this.textBox50.Text = "Base size phase";
+            // 
+            // textBox94
+            // 
+            this.textBox94.AccessibleName = "Value";
+            this.textBox94.Location = new System.Drawing.Point(172, 120);
+            this.textBox94.Name = "textBox94";
+            this.textBox94.Size = new System.Drawing.Size(79, 20);
+            this.textBox94.TabIndex = 43;
+            // 
+            // textBox95
+            // 
+            this.textBox95.AccessibleName = "txtLabel";
+            this.textBox95.Location = new System.Drawing.Point(3, 91);
+            this.textBox95.Name = "textBox95";
+            this.textBox95.ReadOnly = true;
+            this.textBox95.Size = new System.Drawing.Size(163, 20);
+            this.textBox95.TabIndex = 42;
+            this.textBox95.Text = "Rotation";
+            // 
+            // textBox100
+            // 
+            this.textBox100.AccessibleName = "Value";
+            this.textBox100.Location = new System.Drawing.Point(172, 91);
+            this.textBox100.Name = "textBox100";
+            this.textBox100.Size = new System.Drawing.Size(79, 20);
+            this.textBox100.TabIndex = 41;
+            // 
+            // textBox101
+            // 
+            this.textBox101.AccessibleName = "txtLabel";
+            this.textBox101.Location = new System.Drawing.Point(3, 64);
+            this.textBox101.Name = "textBox101";
+            this.textBox101.ReadOnly = true;
+            this.textBox101.Size = new System.Drawing.Size(132, 20);
+            this.textBox101.TabIndex = 40;
+            this.textBox101.Text = "Orientation";
+            // 
+            // comboBox23
+            // 
+            this.comboBox23.AccessibleName = "Value";
+            this.comboBox23.FormattingEnabled = true;
+            this.comboBox23.Items.AddRange(new object[] {
+            "1"});
+            this.comboBox23.Location = new System.Drawing.Point(172, 8);
+            this.comboBox23.Name = "comboBox23";
+            this.comboBox23.Size = new System.Drawing.Size(32, 21);
+            this.comboBox23.TabIndex = 39;
+            this.comboBox23.Text = "1";
+            // 
+            // textBox116
+            // 
+            this.textBox116.AccessibleName = "txtLabel";
+            this.textBox116.Location = new System.Drawing.Point(3, 9);
+            this.textBox116.Name = "textBox116";
+            this.textBox116.ReadOnly = true;
+            this.textBox116.Size = new System.Drawing.Size(163, 20);
+            this.textBox116.TabIndex = 37;
+            this.textBox116.Text = "Navigator";
+            // 
+            // textBox118
+            // 
+            this.textBox118.AccessibleName = "Value";
+            this.textBox118.Enabled = false;
+            this.textBox118.Location = new System.Drawing.Point(141, 35);
+            this.textBox118.Name = "textBox118";
+            this.textBox118.Size = new System.Drawing.Size(110, 20);
+            this.textBox118.TabIndex = 36;
+            this.textBox118.Text = "Isocenter";
+            // 
+            // textBox133
+            // 
+            this.textBox133.AccessibleName = "txtLabel";
+            this.textBox133.Location = new System.Drawing.Point(3, 35);
+            this.textBox133.Name = "textBox133";
+            this.textBox133.ReadOnly = true;
+            this.textBox133.Size = new System.Drawing.Size(132, 20);
+            this.textBox133.TabIndex = 38;
+            this.textBox133.Text = "Position";
+            // 
+            // button5
+            // 
+            this.button5.Enabled = false;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button5.Location = new System.Drawing.Point(229, 6);
+            this.button5.Margin = new System.Windows.Forms.Padding(0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(22, 22);
+            this.button5.TabIndex = 49;
+            this.button5.Text = "-";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Enabled = false;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button6.Location = new System.Drawing.Point(209, 6);
+            this.button6.Margin = new System.Windows.Forms.Padding(0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(22, 22);
+            this.button6.TabIndex = 48;
+            this.button6.Text = "+";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // textBox134
+            // 
+            this.textBox134.AccessibleName = "txtLabel";
+            this.textBox134.Location = new System.Drawing.Point(3, 175);
+            this.textBox134.Name = "textBox134";
+            this.textBox134.ReadOnly = true;
+            this.textBox134.Size = new System.Drawing.Size(163, 20);
+            this.textBox134.TabIndex = 51;
+            this.textBox134.Text = "Thickness";
+            // 
+            // textBox135
+            // 
+            this.textBox135.AccessibleName = "Value";
+            this.textBox135.Location = new System.Drawing.Point(172, 175);
+            this.textBox135.Name = "textBox135";
+            this.textBox135.Size = new System.Drawing.Size(79, 20);
+            this.textBox135.TabIndex = 50;
+            // 
+            // textBox136
+            // 
+            this.textBox136.AccessibleName = "Units";
+            this.textBox136.Location = new System.Drawing.Point(269, 91);
+            this.textBox136.Name = "textBox136";
+            this.textBox136.ReadOnly = true;
+            this.textBox136.Size = new System.Drawing.Size(31, 20);
+            this.textBox136.TabIndex = 55;
+            this.textBox136.Text = "deg";
+            // 
+            // textBox145
+            // 
+            this.textBox145.AccessibleName = "Units";
+            this.textBox145.Location = new System.Drawing.Point(269, 174);
+            this.textBox145.Name = "textBox145";
+            this.textBox145.ReadOnly = true;
+            this.textBox145.Size = new System.Drawing.Size(31, 20);
+            this.textBox145.TabIndex = 54;
+            this.textBox145.Text = "ms";
+            // 
+            // textBox146
+            // 
+            this.textBox146.AccessibleName = "Units";
+            this.textBox146.Location = new System.Drawing.Point(269, 120);
+            this.textBox146.Name = "textBox146";
+            this.textBox146.ReadOnly = true;
+            this.textBox146.Size = new System.Drawing.Size(31, 20);
+            this.textBox146.TabIndex = 53;
+            this.textBox146.Text = "mm";
+            // 
+            // textBox148
+            // 
+            this.textBox148.AccessibleName = "Units";
+            this.textBox148.Location = new System.Drawing.Point(269, 149);
+            this.textBox148.Name = "textBox148";
+            this.textBox148.ReadOnly = true;
+            this.textBox148.Size = new System.Drawing.Size(31, 20);
+            this.textBox148.TabIndex = 52;
+            this.textBox148.Text = "mm";
+            // 
+            // comboBox24
+            // 
+            this.comboBox24.AccessibleName = "resValue";
+            this.comboBox24.FormattingEnabled = true;
+            this.comboBox24.Items.AddRange(new object[] {
+            "Gate & Follow",
+            "Gate",
+            "Monitor Only",
+            "Off"});
+            this.comboBox24.Location = new System.Drawing.Point(146, 11);
+            this.comboBox24.Name = "comboBox24";
+            this.comboBox24.Size = new System.Drawing.Size(110, 21);
+            this.comboBox24.TabIndex = 47;
+            this.comboBox24.Text = "Off";
+            // 
+            // textBox157
+            // 
+            this.textBox157.AccessibleName = "txtLabel";
+            this.textBox157.Location = new System.Drawing.Point(6, 11);
+            this.textBox157.Name = "textBox157";
+            this.textBox157.ReadOnly = true;
+            this.textBox157.Size = new System.Drawing.Size(132, 20);
+            this.textBox157.TabIndex = 46;
+            this.textBox157.Text = "Resp. Control";
+            this.textBox157.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox158
+            // 
+            this.textBox158.AccessibleName = "txtLabel";
+            this.textBox158.Location = new System.Drawing.Point(6, 234);
+            this.textBox158.Name = "textBox158";
+            this.textBox158.ReadOnly = true;
+            this.textBox158.Size = new System.Drawing.Size(163, 20);
+            this.textBox158.TabIndex = 55;
+            this.textBox158.Text = "Search position (red)";
+            // 
+            // textBox159
+            // 
+            this.textBox159.AccessibleName = "Value";
+            this.textBox159.Location = new System.Drawing.Point(175, 234);
+            this.textBox159.Name = "textBox159";
+            this.textBox159.Size = new System.Drawing.Size(79, 20);
+            this.textBox159.TabIndex = 54;
+            // 
+            // textBox163
+            // 
+            this.textBox163.AccessibleName = "txtLabel";
+            this.textBox163.Location = new System.Drawing.Point(6, 203);
+            this.textBox163.Name = "textBox163";
+            this.textBox163.ReadOnly = true;
+            this.textBox163.Size = new System.Drawing.Size(163, 20);
+            this.textBox163.TabIndex = 53;
+            this.textBox163.Text = "Search window ±";
+            // 
+            // textBox164
+            // 
+            this.textBox164.AccessibleName = "Value";
+            this.textBox164.Location = new System.Drawing.Point(175, 203);
+            this.textBox164.Name = "textBox164";
+            this.textBox164.Size = new System.Drawing.Size(79, 20);
+            this.textBox164.TabIndex = 52;
+            // 
+            // textBox165
+            // 
+            this.textBox165.AccessibleName = "txtLabel";
+            this.textBox165.Location = new System.Drawing.Point(6, 172);
+            this.textBox165.Name = "textBox165";
+            this.textBox165.ReadOnly = true;
+            this.textBox165.Size = new System.Drawing.Size(163, 20);
+            this.textBox165.TabIndex = 51;
+            this.textBox165.Text = "Accept position (green)";
+            // 
+            // textBox167
+            // 
+            this.textBox167.AccessibleName = "Value";
+            this.textBox167.Location = new System.Drawing.Point(175, 172);
+            this.textBox167.Name = "textBox167";
+            this.textBox167.Size = new System.Drawing.Size(79, 20);
+            this.textBox167.TabIndex = 50;
+            // 
+            // textBox175
+            // 
+            this.textBox175.AccessibleName = "txtLabel";
+            this.textBox175.Location = new System.Drawing.Point(6, 141);
+            this.textBox175.Name = "textBox175";
+            this.textBox175.ReadOnly = true;
+            this.textBox175.Size = new System.Drawing.Size(163, 20);
+            this.textBox175.TabIndex = 49;
+            this.textBox175.Text = "Accept window ±";
+            // 
+            // textBox176
+            // 
+            this.textBox176.AccessibleName = "Value";
+            this.textBox176.Location = new System.Drawing.Point(175, 141);
+            this.textBox176.Name = "textBox176";
+            this.textBox176.Size = new System.Drawing.Size(79, 20);
+            this.textBox176.TabIndex = 48;
+            // 
+            // textBox174
+            // 
+            this.textBox174.AccessibleName = "Value";
+            this.textBox174.Location = new System.Drawing.Point(177, 99);
+            this.textBox174.Name = "textBox174";
+            this.textBox174.Size = new System.Drawing.Size(79, 20);
+            this.textBox174.TabIndex = 56;
+            this.textBox174.Text = "0.6";
+            // 
+            // comboBox22
+            // 
+            this.comboBox22.AccessibleName = "Value";
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Items.AddRange(new object[] {
+            "Before echo",
+            "Before & after echo"});
+            this.comboBox22.Location = new System.Drawing.Point(177, 127);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(79, 21);
+            this.comboBox22.TabIndex = 57;
+            this.comboBox22.Text = "Before echo";
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(241, 186);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(15, 14);
+            this.checkBox13.TabIndex = 59;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // textBox172
+            // 
+            this.textBox172.AccessibleName = "txtLabel";
+            this.textBox172.Location = new System.Drawing.Point(10, 183);
+            this.textBox172.Name = "textBox172";
+            this.textBox172.ReadOnly = true;
+            this.textBox172.Size = new System.Drawing.Size(163, 20);
+            this.textBox172.TabIndex = 58;
+            this.textBox172.Text = "Resp. Motion Adaptation";
+            // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(237, 40);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(15, 14);
+            this.checkBox14.TabIndex = 61;
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // textBox177
+            // 
+            this.textBox177.AccessibleName = "txtLabel";
+            this.textBox177.Location = new System.Drawing.Point(6, 37);
+            this.textBox177.Name = "textBox177";
+            this.textBox177.ReadOnly = true;
+            this.textBox177.Size = new System.Drawing.Size(163, 20);
+            this.textBox177.TabIndex = 60;
+            this.textBox177.Text = "Scout mode";
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.textBox182);
+            this.panel20.Controls.Add(this.textBox180);
+            this.panel20.Controls.Add(this.textBox181);
+            this.panel20.Controls.Add(this.textBox178);
+            this.panel20.Controls.Add(this.checkBox15);
+            this.panel20.Controls.Add(this.comboBox27);
+            this.panel20.Controls.Add(this.textBox179);
+            this.panel20.Controls.Add(this.comboBox29);
+            this.panel20.Controls.Add(this.textBox183);
+            this.panel20.Controls.Add(this.textBox184);
+            this.panel20.Controls.Add(this.textBox185);
+            this.panel20.Controls.Add(this.shapeContainer25);
+            this.panel20.Location = new System.Drawing.Point(332, 6);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(323, 271);
+            this.panel20.TabIndex = 16;
+            // 
+            // textBox178
+            // 
+            this.textBox178.AccessibleName = "txtLabel";
+            this.textBox178.Location = new System.Drawing.Point(6, 41);
+            this.textBox178.Name = "textBox178";
+            this.textBox178.Size = new System.Drawing.Size(159, 20);
+            this.textBox178.TabIndex = 27;
+            this.textBox178.Text = "Bandwidth";
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(237, 81);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(15, 14);
+            this.checkBox15.TabIndex = 26;
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // comboBox27
+            // 
+            this.comboBox27.AccessibleName = "resValue";
+            this.comboBox27.FormattingEnabled = true;
+            this.comboBox27.Items.AddRange(new object[] {
+            "Gre",
+            "Trufi"});
+            this.comboBox27.Location = new System.Drawing.Point(174, 239);
+            this.comboBox27.Name = "comboBox27";
+            this.comboBox27.Size = new System.Drawing.Size(80, 21);
+            this.comboBox27.TabIndex = 24;
+            this.comboBox27.Text = "Trufi";
+            // 
+            // textBox179
+            // 
+            this.textBox179.AccessibleName = "txtLabel";
+            this.textBox179.Location = new System.Drawing.Point(6, 239);
+            this.textBox179.Name = "textBox179";
+            this.textBox179.Size = new System.Drawing.Size(161, 20);
+            this.textBox179.TabIndex = 21;
+            this.textBox179.Text = "Sequence type";
+            // 
+            // comboBox29
+            // 
+            this.comboBox29.AccessibleName = "resValue";
+            this.comboBox29.FormattingEnabled = true;
+            this.comboBox29.Items.AddRange(new object[] {
+            "Min. TE",
+            "Min. TR",
+            "Min. TE and TR"});
+            this.comboBox29.Location = new System.Drawing.Point(174, 140);
+            this.comboBox29.Name = "comboBox29";
+            this.comboBox29.Size = new System.Drawing.Size(80, 21);
+            this.comboBox29.TabIndex = 18;
+            this.comboBox29.Text = "Min. TE";
+            // 
+            // textBox183
+            // 
+            this.textBox183.AccessibleName = "resValue";
+            this.textBox183.Location = new System.Drawing.Point(174, 42);
+            this.textBox183.Name = "textBox183";
+            this.textBox183.Size = new System.Drawing.Size(80, 20);
+            this.textBox183.TabIndex = 4;
+            // 
+            // textBox184
+            // 
+            this.textBox184.AccessibleName = "txtLabel";
+            this.textBox184.Location = new System.Drawing.Point(4, 140);
+            this.textBox184.Name = "textBox184";
+            this.textBox184.Size = new System.Drawing.Size(161, 20);
+            this.textBox184.TabIndex = 8;
+            this.textBox184.Text = "Optmization";
+            // 
+            // textBox185
+            // 
+            this.textBox185.AccessibleName = "txtLabel";
+            this.textBox185.Location = new System.Drawing.Point(6, 166);
+            this.textBox185.Name = "textBox185";
+            this.textBox185.Size = new System.Drawing.Size(161, 20);
+            this.textBox185.TabIndex = 9;
+            this.textBox185.Text = "Allowed delay";
+            // 
+            // shapeContainer25
+            // 
+            this.shapeContainer25.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer25.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer25.Name = "shapeContainer25";
+            this.shapeContainer25.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.lineShape22});
+            this.shapeContainer25.Size = new System.Drawing.Size(323, 271);
+            this.shapeContainer25.TabIndex = 17;
+            this.shapeContainer25.TabStop = false;
+            // 
+            // lineShape22
+            // 
+            this.lineShape22.AccessibleName = "lineSeparator";
+            this.lineShape22.Name = "lineShape1";
+            this.lineShape22.X1 = 261;
+            this.lineShape22.X2 = 262;
+            this.lineShape22.Y1 = 2;
+            this.lineShape22.Y2 = 268;
+            // 
+            // textBox180
+            // 
+            this.textBox180.AccessibleName = "txtLabel";
+            this.textBox180.Location = new System.Drawing.Point(6, 213);
+            this.textBox180.Name = "textBox180";
+            this.textBox180.Size = new System.Drawing.Size(161, 20);
+            this.textBox180.TabIndex = 29;
+            this.textBox180.Text = "Echo spacing";
+            // 
+            // textBox181
+            // 
+            this.textBox181.AccessibleName = "resValue";
+            this.textBox181.Location = new System.Drawing.Point(174, 213);
+            this.textBox181.Name = "textBox181";
+            this.textBox181.Size = new System.Drawing.Size(80, 20);
+            this.textBox181.TabIndex = 28;
+            // 
+            // textBox182
+            // 
+            this.textBox182.AccessibleName = "resValue";
+            this.textBox182.Location = new System.Drawing.Point(173, 166);
+            this.textBox182.Name = "textBox182";
+            this.textBox182.Size = new System.Drawing.Size(80, 20);
+            this.textBox182.TabIndex = 30;
+            this.textBox182.Text = "0";
             // 
             // Form1
             // 
@@ -4250,8 +4732,6 @@
             this.tabPage_Physio.ResumeLayout(false);
             this.tabControl5.ResumeLayout(false);
             this.tabPage13.ResumeLayout(false);
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.tabPage14.ResumeLayout(false);
@@ -4269,6 +4749,10 @@
             this.tabPage4.ResumeLayout(false);
             this.seqPanel1.ResumeLayout(false);
             this.seqPanel1.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4308,7 +4792,6 @@
         private System.Windows.Forms.TextBox textBox15;
         private System.Windows.Forms.TextBox textBox17;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer3;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
         private System.Windows.Forms.Panel resPanel3;
         private System.Windows.Forms.ComboBox comboBox_res20;
         private System.Windows.Forms.TextBox textBox6;
@@ -4359,24 +4842,24 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox textBox_rout28;
         private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox_rout27;
         private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox_rout26;
         private System.Windows.Forms.TextBox textBox25;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox_routL20;
         private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox textBox_rout22;
         private System.Windows.Forms.TextBox textBox41;
         private System.Windows.Forms.TextBox textBox_rout21;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer6;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
-        private System.Windows.Forms.TextBox textBox50;
-        private System.Windows.Forms.TextBox textBox48;
-        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox textBox_rout25;
+        private System.Windows.Forms.TextBox textBox_rout24;
+        private System.Windows.Forms.TextBox textBox_rout23;
         private System.Windows.Forms.TextBox textBox_rout20;
         private System.Windows.Forms.TextBox textBox63;
         private System.Windows.Forms.TextBox textBox52;
@@ -4457,25 +4940,25 @@
         private System.Windows.Forms.ComboBox comboBox_rout15;
         private System.Windows.Forms.ComboBox comboBox_rout14;
         private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox textBox_routU18;
         private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox textBox_routL19;
         private System.Windows.Forms.TextBox textBox_rout19;
-        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.TextBox textBox_routL18;
         private System.Windows.Forms.TextBox textBox_rout18;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox textBox_routL17;
         private System.Windows.Forms.TextBox textBox_rout17;
-        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox textBox_routL16;
         private System.Windows.Forms.TextBox textBox_rout16;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox_routL15;
+        private System.Windows.Forms.TextBox textBox_routL14;
+        private System.Windows.Forms.TextBox textBox_routL12;
         private System.Windows.Forms.ComboBox comboBox_rout10;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox_routL10;
         private System.Windows.Forms.TextBox textBox_rout13;
         private System.Windows.Forms.TextBox textBox_routL11;
         private System.Windows.Forms.TextBox textBox_rout12;
-        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox_routL13;
         private System.Windows.Forms.TextBox textBox_rout11;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer4;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
@@ -4514,22 +4997,14 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape15;
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.TextBox textBox133;
-        private System.Windows.Forms.TextBox textBox134;
-        private System.Windows.Forms.TextBox textBox135;
-        private System.Windows.Forms.TextBox textBox136;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer17;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape17;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TextBox textBox73;
         private System.Windows.Forms.TextBox textBox81;
-        private System.Windows.Forms.TextBox textBox94;
-        private System.Windows.Forms.TextBox textBox95;
+        private System.Windows.Forms.TextBox textBox_geo23;
+        private System.Windows.Forms.TextBox textBox_geo20;
         private System.Windows.Forms.TextBox textBox97;
         private System.Windows.Forms.TextBox textBox99;
         private System.Windows.Forms.TextBox textBox108;
@@ -4538,9 +5013,9 @@
         private System.Windows.Forms.TextBox textBox113;
         private System.Windows.Forms.TextBox textBox114;
         private System.Windows.Forms.TextBox textBox115;
-        private System.Windows.Forms.TextBox textBox116;
+        private System.Windows.Forms.TextBox textBox_geo22;
         private System.Windows.Forms.TextBox textBox117;
-        private System.Windows.Forms.TextBox textBox118;
+        private System.Windows.Forms.TextBox textBox_geo21;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer13;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape13;
         private System.Windows.Forms.TextBox textBox75;
@@ -4554,12 +5029,6 @@
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer18;
         private System.Windows.Forms.TabControl tabControl5;
         private System.Windows.Forms.TabPage tabPage13;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.TextBox textBox100;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.TextBox textBox101;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer19;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.TextBox textBox103;
         private System.Windows.Forms.ComboBox comboBox16;
@@ -4571,7 +5040,6 @@
         private System.Windows.Forms.TextBox textBox144;
         private System.Windows.Forms.ComboBox comboBox17;
         private System.Windows.Forms.TextBox textBox147;
-        private System.Windows.Forms.TextBox textBox148;
         private System.Windows.Forms.TextBox textBox149;
         private System.Windows.Forms.TextBox textBox150;
         private System.Windows.Forms.TextBox textBox151;
@@ -4583,52 +5051,108 @@
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer20;
         private System.Windows.Forms.TabPage tabPage14;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.TextBox textBox157;
-        private System.Windows.Forms.TextBox textBox158;
-        private System.Windows.Forms.TextBox textBox159;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer21;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.ComboBox comboBox20;
         private System.Windows.Forms.TextBox textBox160;
         private System.Windows.Forms.TextBox textBox161;
         private System.Windows.Forms.TextBox textBox162;
-        private System.Windows.Forms.TextBox textBox163;
-        private System.Windows.Forms.TextBox textBox164;
-        private System.Windows.Forms.TextBox textBox165;
         private System.Windows.Forms.TextBox textBox166;
-        private System.Windows.Forms.TextBox textBox167;
         private System.Windows.Forms.TextBox textBox168;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer22;
         private System.Windows.Forms.TabPage tabPage15;
         private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.TextBox textBox169;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox19;
         private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.CheckBox checkBox20;
         private System.Windows.Forms.TextBox textBox170;
         private System.Windows.Forms.TextBox textBox171;
-        private System.Windows.Forms.TextBox textBox172;
         private System.Windows.Forms.TextBox textBox173;
-        private System.Windows.Forms.TextBox textBox174;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer23;
         private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.ComboBox comboBox22;
-        private System.Windows.Forms.TextBox textBox175;
-        private System.Windows.Forms.TextBox textBox176;
-        private System.Windows.Forms.TextBox textBox177;
-        private System.Windows.Forms.TextBox textBox178;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer24;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape18;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Panel panel14;
+        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer19;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape1;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.TextBox textBox36;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape20;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape19;
+        private System.Windows.Forms.TextBox textBox136;
+        private System.Windows.Forms.TextBox textBox145;
+        private System.Windows.Forms.TextBox textBox146;
+        private System.Windows.Forms.TextBox textBox148;
+        private System.Windows.Forms.TextBox textBox134;
+        private System.Windows.Forms.TextBox textBox135;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox textBox48;
+        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.TextBox textBox94;
+        private System.Windows.Forms.TextBox textBox95;
+        private System.Windows.Forms.TextBox textBox100;
+        private System.Windows.Forms.TextBox textBox101;
+        private System.Windows.Forms.ComboBox comboBox23;
+        private System.Windows.Forms.TextBox textBox116;
+        private System.Windows.Forms.TextBox textBox118;
+        private System.Windows.Forms.TextBox textBox133;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape21;
+        private System.Windows.Forms.TextBox textBox158;
+        private System.Windows.Forms.TextBox textBox159;
+        private System.Windows.Forms.TextBox textBox163;
+        private System.Windows.Forms.TextBox textBox164;
+        private System.Windows.Forms.TextBox textBox165;
+        private System.Windows.Forms.TextBox textBox167;
+        private System.Windows.Forms.TextBox textBox175;
+        private System.Windows.Forms.TextBox textBox176;
+        private System.Windows.Forms.ComboBox comboBox24;
+        private System.Windows.Forms.TextBox textBox157;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.TextBox textBox172;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.TextBox textBox174;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.TextBox textBox177;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.TextBox textBox182;
+        private System.Windows.Forms.TextBox textBox180;
+        private System.Windows.Forms.TextBox textBox181;
+        private System.Windows.Forms.TextBox textBox178;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.ComboBox comboBox27;
+        private System.Windows.Forms.TextBox textBox179;
+        private System.Windows.Forms.ComboBox comboBox29;
+        private System.Windows.Forms.TextBox textBox183;
+        private System.Windows.Forms.TextBox textBox184;
+        private System.Windows.Forms.TextBox textBox185;
+        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer25;
+        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape22;
     }
 }
 

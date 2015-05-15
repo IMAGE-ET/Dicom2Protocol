@@ -43,6 +43,7 @@ namespace dcm2prot
 
             // Set all textboxes
             List<Control> TxtBoxes = new List<Control>();
+            // Find all textboxes that have the name "textBox"
             FindControls(this, TxtBoxes, "textBox");
 
             foreach (TextBox tbox in TxtBoxes)
@@ -53,8 +54,8 @@ namespace dcm2prot
 
                 if (!txtBoxName.Contains("Value"))
                 {
-                    tbox.BorderStyle = BorderStyle.None;
 
+                    tbox.BorderStyle = BorderStyle.None;
                     tbox.BackColor = Color.LightGray;
 
                     if (txtBoxName.StartsWith("txtLab"))
@@ -160,10 +161,20 @@ namespace dcm2prot
             else
             {
                 this.textBox_routL11.Text = "Slices";
+                this.textBox_routL18.Visible = false;
+                this.textBox_routL19.Visible = false;
+                this.textBox_routU18.Visible = false;
                 this.textBox_rout18.Visible = false;
                 this.textBox_rout19.Visible = false;
             }
 
+            this.textBox_rout20.Text = cDcm.cSliceArray.asSlice_dReadoutFOV[0].ToString();
+            this.textBox_rout21.Text = (cDcm.cSliceArray.asSlice_dPhaseFOV[0]*100/cDcm.cSliceArray.asSlice_dReadoutFOV[0]).ToString();
+            this.textBox_rout22.Text = cDcm.cSliceArray.asSlice_dThickness[0].ToString();
+            this.textBox_rout23.Text = cDcm.cMiscDicomFields.alTR[0].ToString();
+            this.textBox_rout24.Text = cDcm.cMiscDicomFields.alTE[0].ToString();
+            this.textBox_rout25.Text = cDcm.cMiscDicomFields.lAverages.ToString();
+            // Not sure about concatenations, Filter, or Coil elements
 
         }
 
@@ -239,6 +250,23 @@ namespace dcm2prot
 
 
             //Console.WriteLine("Finished");
+
+        }
+
+        // To bind all other textboxes to each other
+        private void textBox_rout20_TextChanged(object sender, EventArgs e)
+        {
+            // Set all other textboxes
+            this.textBox_res10.Text = this.textBox_rout20.Text;
+            this.textBox_geo20.Text = this.textBox_rout20.Text;
+
+        }
+
+        private void textBox_rout21_TextChanged(object sender, EventArgs e)
+        {
+            // Set all other textboxes
+            this.textBox_res11.Text = this.textBox_rout21.Text;
+            this.textBox_geo21.Text = this.textBox_rout21.Text;
 
         }
 

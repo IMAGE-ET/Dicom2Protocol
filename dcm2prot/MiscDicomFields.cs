@@ -17,8 +17,8 @@ namespace dcm2prot
         public int ucScanRegionPosValid     { get; set; }
         public int ucTablePositioningMode   { get; set; }
         public int ucEnableNoiseAdjust      { get; set; }             
-        public long[] alTR                    { get; set; }
-        public long[] alTI                    { get; set; }
+        public long[] alTR                  { get; set; }
+        public long[] alTI                  { get; set; }
         public long lContrasts              { get; set; }
         public long[] alTE                  { get; set; }
         public double acFlowComp            { get; set; }
@@ -53,6 +53,7 @@ namespace dcm2prot
         public long lBreathholds            { get; set; }
         public int ucAutoAlignInit          { get; set; }
 
+        // Constructor
         public MiscDicomFields()
         {
             // Initialize arrays

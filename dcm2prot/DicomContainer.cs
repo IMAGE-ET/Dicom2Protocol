@@ -64,6 +64,7 @@ namespace dcm2prot
                 tmp = line;
 
 
+                // Determine which class, property, and the property value for each line
                 getClassAndPropertyAndPropertyValues(line);
 
                 switch (className)
@@ -79,6 +80,7 @@ namespace dcm2prot
                     case "sAdjData":
                         break;
                     case "sSliceArray":
+                        setDcmPropertyValue(cSliceArray);
                         break;
                     case "sGroupArray":
                         break;
@@ -127,7 +129,7 @@ namespace dcm2prot
                     case "sParametricMapping":
                         break;
                     case null:
-                        // setDcmPropertyValue(cMiscDicomFields);
+                        setDcmPropertyValue(cMiscDicomFields);
                         break;
                     default:
                         break;
@@ -228,7 +230,8 @@ namespace dcm2prot
         }
         
         public void setDcmPropertyValue(object obj)
-        {           
+        {
+            Console.WriteLine(propertyName + " " + propertyValue);
             
             // First check if property is valid
             if ( obj.GetType().GetProperty(propertyName) != null )
@@ -243,10 +246,15 @@ namespace dcm2prot
                 }
                 else if (propInfo.PropertyType.IsArray)
                 {
+
                     Array arr = (Array) propInfo.GetValue(obj, null);
 
-                    arr.SetValue(Convert.ToInt32(propertyValue), iArrayIndex);
+                    // Converty into the appropriate type
+                    var val = Convert.ChangeType(propertyValue, arr.GetType().GetElementType());
+                    
+                    arr.SetValue(val, iArrayIndex);
                     propInfo.SetValue(obj, arr, null);
+
                 }
                 else
                 {
@@ -301,7 +309,7 @@ namespace dcm2prot
             int cnt = 0;
             iArrayIndex = 0;
 
-
+            // Some dicom parameters such as the slice array (for multiple slabs) or TR/TE have array values.
             while ((!isSet) && (cnt < str.Length))
             {
                
