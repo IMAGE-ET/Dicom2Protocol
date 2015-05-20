@@ -256,7 +256,7 @@ namespace dcm2prot
         // To bind all other textboxes to each other
         private void textBox_rout20_TextChanged(object sender, EventArgs e)
         {
-            // Set all other textboxes
+            // Set all other textboxes FoV
             this.textBox_res10.Text = this.textBox_rout20.Text;
             this.textBox_geo20.Text = this.textBox_rout20.Text;
 
