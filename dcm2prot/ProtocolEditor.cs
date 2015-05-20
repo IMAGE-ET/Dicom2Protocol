@@ -155,28 +155,64 @@ namespace dcm2prot
         {
             if (cDcm.cKSpace.ucDimension == 2)
             {
-
+                // Dimension = 3D;
+                this.textBox_rout19.Text = cDcm.cKSpace.lImagesPerSlab.ToString();
 
             }
             else
             {
+                // Dimension = 2D; Turn off all 3D textboxes
                 this.textBox_routL11.Text = "Slices";
                 this.textBox_routL18.Visible = false;
                 this.textBox_routL19.Visible = false;
                 this.textBox_routU18.Visible = false;
                 this.textBox_rout18.Visible = false;
                 this.textBox_rout19.Visible = false;
+
+                this.textBox_rout11.Text = cDcm.cGroupArray.asGroup_nSize[0].ToString();
+                this.textBox_rout12.Text = (cDcm.cGroupArray.asGroup_dDistFact[0] * 100).ToString();
+
+
             }
+
+            if (cDcm.cSliceArray.asSlice_sNormal_dSag[0] == 1)
+            {
+                this.comboBox_rout14.SelectedIndex = 0;
+
+            }
+            else if (cDcm.cSliceArray.asSlice_sNormal_dCor[0] == 1)
+            {
+                this.comboBox_rout14.SelectedIndex = 1;
+            }
+            else if (cDcm.cSliceArray.asSlice_sNormal_dTra[0] == 1) 
+            {
+
+                this.comboBox_rout14.SelectedIndex = 2;
+
+            } else {
+
+                Console.WriteLine("ProtocolEditor::FillRoutineTab -> Error. Cannot find orientation of slice");
+
+            }
+            
 
             this.textBox_rout20.Text = cDcm.cSliceArray.asSlice_dReadoutFOV[0].ToString();
             this.textBox_rout21.Text = (cDcm.cSliceArray.asSlice_dPhaseFOV[0]*100/cDcm.cSliceArray.asSlice_dReadoutFOV[0]).ToString();
             this.textBox_rout22.Text = cDcm.cSliceArray.asSlice_dThickness[0].ToString();
-            this.textBox_rout23.Text = cDcm.cMiscDicomFields.alTR[0].ToString();
-            this.textBox_rout24.Text = cDcm.cMiscDicomFields.alTE[0].ToString();
+            this.textBox_rout23.Text = (cDcm.cMiscDicomFields.alTR[0]/1000).ToString();
+            this.textBox_rout24.Text = ((Convert.ToDouble(cDcm.cMiscDicomFields.alTE[0]))/1000).ToString();
             this.textBox_rout25.Text = cDcm.cMiscDicomFields.lAverages.ToString();
             // Not sure about concatenations, Filter, or Coil elements
 
         }
+
+        void FillContrastTab()
+        {
+
+
+
+        }
+
 
         void FillResolutionTab()
         {
@@ -256,19 +292,44 @@ namespace dcm2prot
         // To bind all other textboxes to each other
         private void textBox_rout20_TextChanged(object sender, EventArgs e)
         {
-            // Set all other textboxes FoV
+            // Set other textboxes FoV read
             this.textBox_res10.Text = this.textBox_rout20.Text;
             this.textBox_geo20.Text = this.textBox_rout20.Text;
+            this.textBox_card20.Text = this.textBox_rout20.Text;
 
         }
 
         private void textBox_rout21_TextChanged(object sender, EventArgs e)
         {
-            // Set all other textboxes
+            // Bind other textboxes FoV phase
             this.textBox_res11.Text = this.textBox_rout21.Text;
             this.textBox_geo21.Text = this.textBox_rout21.Text;
+            this.textBox_rout21.Text = this.textBox_rout21.Text;
 
         }
+
+        private void textBox_rout22_TextChanged(object sender, EventArgs e)
+        {
+            // Bind other textboxes Slice Thickness
+            this.textBox_res12.Text = this.textBox_rout22.Text;
+            this.textBox_geo22.Text = this.textBox_rout22.Text;
+        }
+
+        private void textBox_rout23_TextChanged(object sender, EventArgs e)
+        {
+            // Bind other textboxes TR
+            this.textBox_con10.Text = this.textBox_rout23.Text;
+            this.textBox_geo23.Text = this.textBox_rout23.Text;
+        }
+
+        private void textBox_rout24_TextChanged(object sender, EventArgs e)
+        {
+            // Bind other textboxes TE
+            this.textBox_con11.Text = this.textBox_rout24.Text;
+
+        }
+
+
 
     }
 }

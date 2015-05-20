@@ -25,6 +25,7 @@ namespace dcm2prot
         public sFastImaging cFastImaging;
         public sAngio cAngio;
         public sSliceArray cSliceArray;
+        public sGroupArray cGroupArray;
         
 
         public DicomContainer(string input)
@@ -40,6 +41,7 @@ namespace dcm2prot
             cPrepPulses = new sPrepPulses();
             cSliceArray = new sSliceArray();
             cAngio = new sAngio();
+            cGroupArray = new sGroupArray();
 
             parseKSpace();
         }
@@ -83,6 +85,7 @@ namespace dcm2prot
                         setDcmPropertyValue(cSliceArray);
                         break;
                     case "sGroupArray":
+                        setDcmPropertyValue(cGroupArray);
                         break;
                     case "sNavigatorArray":
                         break;
@@ -93,6 +96,7 @@ namespace dcm2prot
                     case "sBladePara":
                         break;
                     case "sPrepPulses":
+                        setDcmPropertyValue(cPrepPulses);
                         break;
                     case "sLineTag":
                         break;
@@ -104,6 +108,7 @@ namespace dcm2prot
                     case "sFastImaging":
                         break;
                     case "sPhysioImaging":
+                        setDcmPropertyValue(cPhysioImaging);
                         break;
                     case "sDiffusion":
                         break;
@@ -188,8 +193,7 @@ namespace dcm2prot
                     propertyName += "_";
                     propertyName += sProperty[i + 2];
                 }
-
-
+                
             }
 
             // Remove all white space.
@@ -231,7 +235,7 @@ namespace dcm2prot
         
         public void setDcmPropertyValue(object obj)
         {
-            Console.WriteLine(propertyName + " " + propertyValue);
+            Console.WriteLine(propertyName + " " + propertyValue + " " + iArrayIndex);
             
             // First check if property is valid
             if ( obj.GetType().GetProperty(propertyName) != null )

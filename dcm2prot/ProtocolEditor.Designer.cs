@@ -581,6 +581,7 @@
             this.textBox_rout24.Name = "textBox_rout24";
             this.textBox_rout24.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout24.TabIndex = 39;
+            this.textBox_rout24.TextChanged += new System.EventHandler(this.textBox_rout24_TextChanged);
             // 
             // textBox_rout23
             // 
@@ -589,6 +590,7 @@
             this.textBox_rout23.Name = "textBox_rout23";
             this.textBox_rout23.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout23.TabIndex = 38;
+            this.textBox_rout23.TextChanged += new System.EventHandler(this.textBox_rout23_TextChanged);
             // 
             // textBox_rout20
             // 
@@ -734,6 +736,7 @@
             this.textBox_rout22.Name = "textBox_rout22";
             this.textBox_rout22.Size = new System.Drawing.Size(79, 20);
             this.textBox_rout22.TabIndex = 3;
+            this.textBox_rout22.TextChanged += new System.EventHandler(this.textBox_rout22_TextChanged);
             // 
             // textBox41
             // 
@@ -1233,9 +1236,11 @@
             this.comboBox_con14.AccessibleName = "Value";
             this.comboBox_con14.FormattingEnabled = true;
             this.comboBox_con14.Items.AddRange(new object[] {
-            "Sagittal",
-            "Coronal",
-            "Transversal"});
+            "None",
+            "Non-sel. IR",
+            "Slice-sel. SR",
+            "Non-sel. SR",
+            "Non-sel. SR perf"});
             this.comboBox_con14.Location = new System.Drawing.Point(144, 132);
             this.comboBox_con14.Name = "comboBox_con14";
             this.comboBox_con14.Size = new System.Drawing.Size(110, 21);

@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="DicomContainer.cs" />
     <Compile Include="MiscDicomFields.cs" />
+    <Compile Include="sGroupArray.cs" />
     <Compile Include="sPat.cs" />
     <Compile Include="ProtocolEditor.cs">
       <SubType>Form</SubType>
