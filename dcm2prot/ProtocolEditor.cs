@@ -148,6 +148,7 @@ namespace dcm2prot
 
 
             FillRoutineTab();
+            FillContrastTab();
             FillResolutionTab();
         }
 
@@ -168,6 +169,10 @@ namespace dcm2prot
                 this.textBox_routU18.Visible = false;
                 this.textBox_rout18.Visible = false;
                 this.textBox_rout19.Visible = false;
+                this.textBox_resL15.Visible = false;
+                this.textBox_res15.Visible = false;
+                this.textBox_resL17.Visible = false;
+                this.comboBox_res17.Visible = false;
 
                 this.textBox_rout11.Text = cDcm.cGroupArray.asGroup_nSize[0].ToString();
                 this.textBox_rout12.Text = (cDcm.cGroupArray.asGroup_dDistFact[0] * 100).ToString();
@@ -192,7 +197,6 @@ namespace dcm2prot
             } else {
 
                 Console.WriteLine("ProtocolEditor::FillRoutineTab -> Error. Cannot find orientation of slice");
-
             }
             
 
@@ -208,8 +212,42 @@ namespace dcm2prot
 
         void FillContrastTab()
         {
+            // Inversion pulse
+            if (cDcm.cPrepPulses.ucInversion == 2)
+            {
+                // No Inversion
+                this.textBox_con15.Visible = false;
+                this.textBox_conL15.Visible = false;
+                this.comboBox_con14.SelectedIndex = 0;
+            }
+            else if (cDcm.cPrepPulses.ucInversion == 1)
+            {
+                // Non-selective inversion pulse
+                this.comboBox_con14.SelectedIndex = 1;
+                this.textBox_con15.Text = (cDcm.cMiscDicomFields.alTI[0] / 1000).ToString();
+            }
+            else
+            {
+                Console.WriteLine("ProtocolEditor::FillContrastTab()-> Error. Unknown ucInversion type:" + cDcm.cPrepPulses.ucInversion);
+            }
 
+            // Fat Saturation
+            if (cDcm.cPrepPulses.ucFatSat == 0)
+            {
+                // Fat Sat ON
+                this.comboBox_con20.SelectedIndex = 1;
+            }
+            else if (cDcm.cPrepPulses.ucFatSat == 2)
+            {
+                // Fat Sat OFF
+                this.comboBox_con20.SelectedIndex = 0;
+            }
+            else
+            {
+                Console.WriteLine("ProtocolEditor::FillContrastTab()-> Error. Unknown ucFatSat type:" + cDcm.cPrepPulses.ucFatSat);
+            }
 
+            this.textBox_con16.Text = cDcm.cMiscDicomFields.adFlipAngleDegree[0].ToString();
 
         }
 
@@ -233,6 +271,13 @@ namespace dcm2prot
                 
             }
             
+        }
+
+        void FillPhysioTab()
+        {
+
+
+
         }
 
 
@@ -289,7 +334,8 @@ namespace dcm2prot
 
         }
 
-        // To bind all other textboxes to each other
+        // To bind all other textboxes to each other. I thought about chainig all the equals signs (a=b=c) but 
+        // then it gets really long.
         private void textBox_rout20_TextChanged(object sender, EventArgs e)
         {
             // Set other textboxes FoV read
@@ -320,12 +366,14 @@ namespace dcm2prot
             // Bind other textboxes TR
             this.textBox_con10.Text = this.textBox_rout23.Text;
             this.textBox_geo23.Text = this.textBox_rout23.Text;
+            this.textBox_phys17.Text = this.textBox_rout23.Text;
         }
 
         private void textBox_rout24_TextChanged(object sender, EventArgs e)
         {
             // Bind other textboxes TE
             this.textBox_con11.Text = this.textBox_rout24.Text;
+            
 
         }
 

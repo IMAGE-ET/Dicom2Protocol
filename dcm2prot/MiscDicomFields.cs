@@ -34,7 +34,7 @@ namespace dcm2prot
         public int ucDixonSaveOriginal      { get; set; }
         public long lAverages               { get; set; }
         public double dAveragesDouble       { get; set; }
-        public double adFlipAngleDegree     { get; set; }
+        public double[] adFlipAngleDegree     { get; set; }
         public long lScanTimeSec            { get; set; }
         public long lTotalScanTimeSec       { get; set; }
         public double dRefSNR               { get; set; }
@@ -60,6 +60,7 @@ namespace dcm2prot
             alTR = new long [100];
             alTE = new long [100];
             alTI = new long [100];
+            adFlipAngleDegree = new double[100];
 
         }
 
